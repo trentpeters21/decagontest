@@ -5,6 +5,9 @@ on:
     - cron: '0 14 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write  # This allows the workflow to push changes
+
 jobs:
   scrape-and-update:
     runs-on: ubuntu-latest
@@ -12,6 +15,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
       
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -53,11 +58,20 @@ jobs:
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "Corporate Actions Bot"
+        
+        # Add the file
         git add corporate_actions.json
         
+        # Check if there are changes to commit
         if ! git diff --staged --quiet; then
-          git commit -m "Update corporate actions - $(date '+%Y-%m-%d %H:%M UTC')"
+          echo "Changes detected, committing..."
+          git commit -m "🤖 Update corporate actions - $(date '+%Y-%m-%d %H:%M UTC')
+
+📊 Status: ${{ steps.scrape.outputs.scrape_status }}
+📈 Actions: ${{ steps.scrape.outputs.actions_count }}
+🔧 Method: ${{ steps.scrape.outputs.method_used }}"
           git push
+          echo "Changes committed and pushed successfully"
         else
           echo "No changes to commit"
         fi
@@ -65,11 +79,11 @@ jobs:
     - name: Create job summary
       if: always()
       run: |
-        echo "## Scraper Results" >> $GITHUB_STEP_SUMMARY
+        echo "## 🎉 Scraper Results" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         if [ -f "corporate_actions.json" ]; then
-          echo "Status: ${{ steps.scrape.outputs.scrape_status }}" >> $GITHUB_STEP_SUMMARY
-          echo "Actions Found: ${{ steps.scrape.outputs.actions_count }}" >> $GITHUB_STEP_SUMMARY
-          echo "Method Used: ${{ steps.scrape.outputs.method_used }}" >> $GITHUB_STEP_SUMMARY
+          echo "✅ **Status**: ${{ steps.scrape.outputs.scrape_status }}" >> $GITHUB_STEP_SUMMARY
+          echo "📈 **Actions Found**: ${{ steps.scrape.outputs.actions_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "🔧 **Method Used**: ${{ steps.scrape.outputs.method_used }}" >> $GITHUB_STEP_SUMMARY
         fi
-        echo "Run Time: $(date)" >> $GITHUB_STEP_SUMMARY
+        echo "📅 **Run Time**: $(date)" >> $GITHUB_STEP_SUMMARY
