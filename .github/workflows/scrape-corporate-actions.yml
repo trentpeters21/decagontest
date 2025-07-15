@@ -1,0 +1,141 @@
+name: 📊 Daily Corporate Actions Scraper
+
+on:
+  # Run daily at 2 PM UTC (adjust as needed)
+  schedule:
+    - cron: '0 14 * * *'
+  
+  # Allow manual triggering
+  workflow_dispatch:
+    inputs:
+      debug:
+        description: 'Enable debug output'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 🛠️ Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: 🐍 Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: 📦 Install dependencies
+      run: |
+        pip install --upgrade pip
+        pip install requests beautifulsoup4
+        
+    - name: 🕷️ Run corporate actions scraper
+      id: scrape
+      run: |
+        echo "Starting scraper..."
+        python scrape_corporate_actions.py
+        
+        # Check if file was created and has content
+        if [ -f "corporate_actions.json" ]; then
+          ACTIONS_COUNT=$(python -c "import json; data=json.load(open('corporate_actions.json')); print(data['metadata']['total_actions'])" 2>/dev/null || echo "0")
+          echo "actions_count=$ACTIONS_COUNT" >> $GITHUB_OUTPUT
+          echo "scrape_success=true" >> $GITHUB_OUTPUT
+        else
+          echo "scrape_success=false" >> $GITHUB_OUTPUT
+          echo "actions_count=0" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: 🔍 Check for changes
+      id: changes
+      run: |
+        git add corporate_actions.json
+        if git diff --staged --quiet; then
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+          echo "No changes detected in corporate_actions.json"
+        else
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+          echo "Changes detected in corporate_actions.json"
+        fi
+        
+    - name: 📝 Commit and push changes
+      if: steps.changes.outputs.has_changes == 'true' && steps.scrape.outputs.scrape_success == 'true'
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "Corporate Actions Bot"
+        
+        # Create commit message with stats
+        COMMIT_MSG="🤖 Update corporate actions data - $(date '+%Y-%m-%d %H:%M UTC')
+        
+        📊 Actions found: ${{ steps.scrape.outputs.actions_count }}
+        🔄 Auto-updated by GitHub Actions"
+        
+        git commit -m "$COMMIT_MSG"
+        git push
+        
+    - name: 📊 Create job summary
+      if: always()
+      run: |
+        echo "## 📊 Corporate Actions Scraper Results" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        if [ "${{ steps.scrape.outputs.scrape_success }}" == "true" ]; then
+          echo "✅ **Scraping Status**: Success" >> $GITHUB_STEP_SUMMARY
+          echo "📈 **Actions Found**: ${{ steps.scrape.outputs.actions_count }}" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "❌ **Scraping Status**: Failed" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        echo "📅 **Run Time**: $(date)" >> $GITHUB_STEP_SUMMARY
+        echo "🔄 **Changes**: ${{ steps.changes.outputs.has_changes }}" >> $GITHUB_STEP_SUMMARY
+        
+        if [ -f "corporate_actions.json" ]; then
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📋 Sample Actions" >> $GITHUB_STEP_SUMMARY
+          python -c "
+import json
+try:
+    with open('corporate_actions.json') as f:
+        data = json.load(f)
+    actions = data.get('corporate_actions', [])[:3]  # First 3 actions
+    for i, action in enumerate(actions, 1):
+        print(f'{i}. **{action[\"company\"]}** ({action[\"ticker\"]}) - {action[\"action_type\"]}')
+except:
+    print('Unable to parse sample actions')
+          " >> $GITHUB_STEP_SUMMARY
+        fi
+        
+    - name: 🚨 Create issue on failure
+      if: failure()
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const title = '🚨 Corporate Actions Scraper Failed';
+          const body = `
+          ## Scraper Failure Report
+          
+          **Date**: ${new Date().toISOString()}
+          **Workflow**: ${context.workflow}
+          **Run ID**: ${context.runId}
+          
+          ### Details
+          The daily corporate actions scraping job has failed. Please investigate:
+          
+          1. Check if the Wealthsimple page structure has changed
+          2. Verify network connectivity
+          3. Review the workflow logs for specific errors
+          
+          [View Workflow Run](${context.payload.repository.html_url}/actions/runs/${context.runId})
+          `;
+          
+          github.rest.issues.create({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            title: title,
+            body: body,
+            labels: ['bug', 'automation']
+          });
