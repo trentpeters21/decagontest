@@ -5,7 +5,6 @@ import re
 from datetime import datetime, timezone
 import time
 import random
-import os
 
 def scrape_wealthsimple_corporate_actions():
     """
@@ -18,7 +17,7 @@ def scrape_wealthsimple_corporate_actions():
         # Target URL
         url = "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker"
         
-        # Try multiple approaches including Selenium
+        # Try multiple approaches
         approaches = [
             ("Standard requests", try_standard_requests),
             ("Cloudscraper", try_cloudscraper),
@@ -46,11 +45,10 @@ def scrape_wealthsimple_corporate_actions():
 
 def try_standard_requests(url):
     """
-    Try standard requests with improved headers and session handling
+    Try standard requests with improved headers
     """
     session = requests.Session()
     
-    # Enhanced headers to mimic real browser
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
@@ -64,19 +62,12 @@ def try_standard_requests(url):
         'Sec-Fetch-Site': 'none',
         'Sec-Fetch-User': '?1',
         'Cache-Control': 'max-age=0',
-        'Pragma': 'no-cache'
     }
     
     session.headers.update(headers)
+    time.sleep(random.uniform(1, 3))
     
-    # Random delay to avoid being flagged as bot
-    time.sleep(random.uniform(2, 5))
-    
-    print("📡 Making request with standard approach...")
     response = session.get(url, timeout=30)
-    
-    print(f"📊 Response status: {response.status_code}")
-    print(f"📏 Response length: {len(response.text)} characters")
     
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -92,29 +83,8 @@ def try_cloudscraper(url):
     """
     try:
         import cloudscraper
-        
-        print("🌩️ Initializing cloudscraper...")
-        scraper = cloudscraper.create_scraper(
-            delay=10,
-            browser={
-                'browser': 'chrome',
-                'platform': 'darwin',  # macOS
-                'desktop': True
-            }
-        )
-        
-        # Add some additional headers
-        scraper.headers.update({
-            'Accept-Language': 'en-US,en;q=0.9',
-            'Cache-Control': 'no-cache',
-            'Pragma': 'no-cache'
-        })
-        
-        print("📡 Making request with cloudscraper...")
-        response = scraper.get(url, timeout=30)
-        
-        print(f"📊 Cloudscraper response status: {response.status_code}")
-        print(f"📏 Response length: {len(response.text)} characters")
+        scraper = cloudscraper.create_scraper(delay=10, browser='chrome')
+        response = scraper.get(url)
         
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
@@ -122,130 +92,50 @@ def try_cloudscraper(url):
             return create_success_response(actions, url, "cloudscraper")
         else:
             raise Exception(f"HTTP {response.status_code}")
-            
     except ImportError:
-        raise Exception("cloudscraper not installed - install with: pip install cloudscraper")
+        raise Exception("cloudscraper not installed")
     except Exception as e:
         raise Exception(f"Cloudscraper failed: {str(e)}")
 
 def try_selenium(url):
     """
-    Try using Selenium with headless Chrome (GitHub Actions compatible)
+    Try using Selenium with a headless browser
     """
     try:
         from selenium import webdriver
         from selenium.webdriver.chrome.options import Options
-        from selenium.webdriver.chrome.service import Service
         from selenium.webdriver.common.by import By
         from selenium.webdriver.support.ui import WebDriverWait
         from selenium.webdriver.support import expected_conditions as EC
-        from selenium.common.exceptions import TimeoutException, WebDriverException
-        
-        print("🌐 Initializing Selenium Chrome driver...")
         
         chrome_options = Options()
-        
-        # Essential headless options
-        chrome_options.add_argument("--headless=new")  # Use new headless mode
+        chrome_options.add_argument("--headless")
         chrome_options.add_argument("--no-sandbox")
         chrome_options.add_argument("--disable-dev-shm-usage")
         chrome_options.add_argument("--disable-gpu")
-        chrome_options.add_argument("--disable-web-security")
-        chrome_options.add_argument("--disable-features=VizDisplayCompositor")
-        
-        # Window and display settings
         chrome_options.add_argument("--window-size=1920,1080")
-        chrome_options.add_argument("--start-maximized")
-        chrome_options.add_argument("--disable-extensions")
-        chrome_options.add_argument("--disable-plugins")
-        chrome_options.add_argument("--disable-images")
-        chrome_options.add_argument("--disable-javascript")  # Try without JS first
+        chrome_options.add_argument("--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
         
-        # Performance optimizations
-        chrome_options.add_argument("--memory-pressure-off")
-        chrome_options.add_argument("--max_old_space_size=4096")
-        chrome_options.add_argument("--disable-background-timer-throttling")
-        chrome_options.add_argument("--disable-renderer-backgrounding")
-        chrome_options.add_argument("--disable-backgrounding-occluded-windows")
-        
-        # User agent
-        chrome_options.add_argument("--user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
-        
-        # Additional stability options for GitHub Actions
-        chrome_options.add_argument("--disable-logging")
-        chrome_options.add_argument("--disable-background-networking")
-        chrome_options.add_argument("--disable-default-apps")
-        chrome_options.add_argument("--disable-sync")
-        chrome_options.add_argument("--disable-translate")
-        chrome_options.add_argument("--hide-scrollbars")
-        chrome_options.add_argument("--metrics-recording-only")
-        chrome_options.add_argument("--mute-audio")
-        chrome_options.add_argument("--no-first-run")
-        chrome_options.add_argument("--safebrowsing-disable-auto-update")
-        chrome_options.add_argument("--ignore-ssl-errors")
-        chrome_options.add_argument("--ignore-certificate-errors")
-        
-        # Set up Chrome service
-        service = None
-        
-        # Try to detect if we're in GitHub Actions
-        if os.environ.get('GITHUB_ACTIONS'):
-            print("🔧 Detected GitHub Actions environment")
-            # In GitHub Actions, Chrome and ChromeDriver should be available in PATH
-            service = Service()  # Will use chromedriver in PATH
-        else:
-            print("🔧 Detected local environment")
-            # For local development, you might need to specify the path
-            try:
-                service = Service()  # Try default first
-            except Exception:
-                # If default fails, you might need to specify the path
-                service = Service('/usr/local/bin/chromedriver')
-        
-        # Initialize the driver
-        driver = webdriver.Chrome(service=service, options=chrome_options)
+        driver = webdriver.Chrome(options=chrome_options)
         
         try:
-            print(f"📡 Navigating to {url}...")
             driver.get(url)
+            WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
             
-            # Wait for basic page load
-            print("⏳ Waiting for page to load...")
-            WebDriverWait(driver, 15).until(
-                EC.presence_of_element_located((By.TAG_NAME, "body"))
-            )
+            # Wait a bit more for dynamic content
+            time.sleep(5)
             
-            # Additional wait for dynamic content
-            print("⏳ Waiting for dynamic content...")
-            time.sleep(8)
-            
-            # Try to wait for specific content that indicates the page is loaded
-            try:
-                WebDriverWait(driver, 10).until(
-                    EC.presence_of_element_located((By.TAG_NAME, "h3"))
-                )
-                print("✅ Found h3 elements, page seems loaded")
-            except TimeoutException:
-                print("⚠️  Timeout waiting for h3 elements, proceeding anyway...")
-            
-            # Get page source
             page_source = driver.page_source
-            print(f"📄 Retrieved page source ({len(page_source)} characters)")
-            
-            # Parse with BeautifulSoup
             soup = BeautifulSoup(page_source, 'html.parser')
             actions = extract_corporate_actions(soup)
             
             return create_success_response(actions, url, "selenium")
             
         finally:
-            print("🔒 Closing Chrome driver...")
             driver.quit()
             
     except ImportError:
-        raise Exception("selenium not installed - install with: pip install selenium")
-    except WebDriverException as e:
-        raise Exception(f"WebDriver error: {str(e)}")
+        raise Exception("selenium not installed")
     except Exception as e:
         raise Exception(f"Selenium failed: {str(e)}")
 
@@ -259,10 +149,9 @@ def create_success_response(actions, url, method):
             "total_actions": len(actions),
             "scraped_at": datetime.now(timezone.utc).isoformat(),
             "source_url": url,
-            "scraper_version": "1.4",
+            "scraper_version": "1.2",
             "status": "success" if actions else "no_data_found",
-            "method_used": method,
-            "github_actions_compatible": True
+            "method_used": method
         }
     }
     
@@ -271,7 +160,7 @@ def create_success_response(actions, url, method):
     with open(output_filename, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)
     
-    print(f"✅ Successfully scraped {len(actions)} corporate actions using {method}")
+    print(f"✅ Successfully scraped {len(actions)} corporate actions")
     print(f"💾 Data saved to: {output_filename}")
     
     # Print first few actions for verification
@@ -279,8 +168,6 @@ def create_success_response(actions, url, method):
         print(f"\n📋 Sample of scraped actions:")
         for i, action in enumerate(actions[:3]):
             print(f"  {i+1}. {action['company']} ({action['ticker']}) - {action['action_type']}")
-    else:
-        print("⚠️  No corporate actions found - page structure may have changed")
     
     return output_data
 
@@ -294,10 +181,9 @@ def create_error_response(error_message):
             "total_actions": 0,
             "scraped_at": datetime.now(timezone.utc).isoformat(),
             "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
-            "scraper_version": "1.4",
+            "scraper_version": "1.2",
             "status": "error",
-            "error_message": error_message,
-            "github_actions_compatible": True
+            "error_message": error_message
         }
     }
     
@@ -311,32 +197,22 @@ def create_mock_data():
     """
     Create mock corporate actions data for testing when scraping fails
     """
-    current_date = datetime.now().strftime("%Y-%m-%d")
-    
     mock_actions = [
         {
-            "date": "2025-01-15",
+            "date": "2024-01-15",
             "company": "Example Corp",
             "ticker": "EXAM",
             "action_type": "Stock Split",
             "ratio": "2:1",
-            "action_details": "Example Corp (EXAM) performed a 2 for 1 stock split. Holders will now hold 2 shares for every 1 share previously held."
+            "action_details": "Example Corp (EXAM) performed a 2:1 stock split"
         },
         {
-            "date": "2025-01-10",
-            "company": "Test Industries Ltd",
+            "date": "2024-01-10",
+            "company": "Test Industries",
             "ticker": "TEST",
             "action_type": "Consolidation",
             "ratio": "1:8",
-            "action_details": "Test Industries Ltd (TEST) performed a 1 for 8 consolidation. Holders will now hold 1 share for every 8 shares previously held."
-        },
-        {
-            "date": "2025-01-08",
-            "company": "Mock Financial Inc",
-            "ticker": "MOCK",
-            "action_type": "Merger",
-            "ratio": "",
-            "action_details": "Mock Financial Inc (MOCK) performed a merger. Details of the event are still to be determined."
+            "action_details": "Test Industries (TEST) performed a 1:8 consolidation"
         }
     ]
     
@@ -346,18 +222,15 @@ def create_mock_data():
             "total_actions": len(mock_actions),
             "scraped_at": datetime.now(timezone.utc).isoformat(),
             "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
-            "scraper_version": "1.4",
+            "scraper_version": "1.2",
             "status": "mock_data",
-            "method_used": "fallback_mock_data",
-            "note": "This is mock data created because all scraping methods failed",
-            "github_actions_compatible": True
+            "note": "This is mock data created because scraping failed"
         }
     }
     
     with open('corporate_actions.json', 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)
     
-    print(f"🎭 Created mock data with {len(mock_actions)} sample actions")
     return output_data
 
 def extract_corporate_actions(soup):
@@ -366,24 +239,15 @@ def extract_corporate_actions(soup):
     """
     actions = []
     
-    print("🔍 Analyzing page structure...")
+    print("🔍 Looking for date headers...")
     
-    # Debug info about page structure
-    page_title = soup.title.string if soup.title else "No title found"
-    print(f"📄 Page title: {page_title}")
-    
+    # Find all h3 headers that might contain dates
     headers = soup.find_all('h3')
-    print(f"📋 Found {len(headers)} h3 headers")
-    
-    lists = soup.find_all(['ul', 'ol'])
-    print(f"📝 Found {len(lists)} lists")
-    
-    # Look for date headers
-    date_headers_found = 0
+    print(f"Found {len(headers)} h3 headers")
     
     for i, header in enumerate(headers):
         header_text = header.get_text().strip()
-        print(f"  Header {i+1}: {header_text[:60]}{'...' if len(header_text) > 60 else ''}")
+        print(f"  Header {i+1}: {header_text[:50]}...")
         
         # Check if this header contains a date
         date_match = re.search(
@@ -393,7 +257,6 @@ def extract_corporate_actions(soup):
         )
         
         if date_match:
-            date_headers_found += 1
             date_str = date_match.group(0)
             normalized_date = normalize_date(date_str)
             print(f"    ✅ Found date: {date_str} -> {normalized_date}")
@@ -404,7 +267,7 @@ def extract_corporate_actions(soup):
             # If not immediately after, look within next few siblings
             if not next_list:
                 sibling = header.next_sibling
-                for _ in range(10):  # Check next 10 siblings
+                for _ in range(5):  # Check next 5 siblings
                     if sibling and hasattr(sibling, 'find'):
                         next_list = sibling.find(['ul', 'ol'])
                         if next_list:
@@ -417,31 +280,20 @@ def extract_corporate_actions(soup):
             
             if next_list:
                 list_items = next_list.find_all('li')
-                print(f"    📝 Found {len(list_items)} list items for this date")
+                print(f"    📝 Found {len(list_items)} list items")
                 
-                for j, li in enumerate(list_items):
+                for li in list_items:
                     action_text = li.get_text().strip()
                     
                     if len(action_text) > 30:  # Only process substantial entries
                         action = parse_single_action(action_text, normalized_date)
                         if action:
                             actions.append(action)
-                            print(f"      ✓ Action {j+1}: {action['company']} ({action['ticker']}) - {action['action_type']}")
-                        else:
-                            print(f"      ❌ Failed to parse: {action_text[:50]}...")
+                            print(f"      ✓ {action['company']} ({action['ticker']}) - {action['action_type']}")
             else:
                 print(f"    ❌ No list found after date header")
     
-    print(f"\n📊 Summary:")
-    print(f"  - Date headers found: {date_headers_found}")
-    print(f"  - Total actions extracted: {len(actions)}")
-    
-    # If no actions found, provide debug info
-    if not actions:
-        print("\n🔍 Debug: No actions found. Sample page content:")
-        sample_text = soup.get_text()[:1000] if soup.get_text() else "No text content"
-        print(f"First 1000 characters: {sample_text}")
-    
+    print(f"\n📊 Total actions extracted: {len(actions)}")
     return actions
 
 def parse_single_action(text, date):
@@ -590,33 +442,19 @@ def normalize_date(date_str):
     return date_str  # Return original if parsing fails
 
 if __name__ == "__main__":
-    print("🤖 Wealthsimple Corporate Actions Scraper v1.4 (with Selenium)")
-    print("=" * 65)
+    print("🤖 Wealthsimple Corporate Actions Scraper")
+    print("=" * 50)
     
     try:
         result = scrape_wealthsimple_corporate_actions()
         
-        if result:
-            status = result['metadata']['status']
-            count = result['metadata']['total_actions']
-            method = result['metadata'].get('method_used', 'unknown')
-            
-            if status == 'success':
-                print(f"\n🎉 SUCCESS!")
-                print(f"📊 Scraped {count} corporate actions using {method}")
-                print(f"💾 Data saved to corporate_actions.json")
-            elif status == 'mock_data':
-                print(f"\n🎭 FALLBACK TO MOCK DATA")
-                print(f"📊 Created {count} sample actions")
-                print(f"💾 Mock data saved to corporate_actions.json")
-            else:
-                print(f"\n⚠️  PARTIAL SUCCESS")
-                print(f"📊 Status: {status}")
-                print(f"📈 Actions found: {count}")
+        if result and result['metadata']['status'] == 'success':
+            print(f"\n🎉 SUCCESS!")
+            print(f"📊 Scraped {result['metadata']['total_actions']} corporate actions")
+            print(f"💾 Data saved to corporate_actions.json")
         else:
-            print(f"\n💥 COMPLETE FAILURE - No data created")
-            exit(1)
+            print(f"\n⚠️  WARNING: Scraping completed but no data found")
             
     except Exception as e:
-        print(f"\n💥 FATAL ERROR: {str(e)}")
+        print(f"\n💥 FAILED: {str(e)}")
         exit(1)
