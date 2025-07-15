@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # This allows the workflow to push changes
+  contents: write
 
 jobs:
   scrape-and-update:
@@ -59,17 +59,11 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "Corporate Actions Bot"
         
-        # Add the file
         git add corporate_actions.json
         
-        # Check if there are changes to commit
         if ! git diff --staged --quiet; then
           echo "Changes detected, committing..."
-          git commit -m "🤖 Update corporate actions - $(date '+%Y-%m-%d %H:%M UTC')
-
-📊 Status: ${{ steps.scrape.outputs.scrape_status }}
-📈 Actions: ${{ steps.scrape.outputs.actions_count }}
-🔧 Method: ${{ steps.scrape.outputs.method_used }}"
+          git commit -m "Update corporate actions data - $(date '+%Y-%m-%d %H:%M UTC')"
           git push
           echo "Changes committed and pushed successfully"
         else
@@ -79,11 +73,11 @@ jobs:
     - name: Create job summary
       if: always()
       run: |
-        echo "## 🎉 Scraper Results" >> $GITHUB_STEP_SUMMARY
+        echo "## Scraper Results" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         if [ -f "corporate_actions.json" ]; then
-          echo "✅ **Status**: ${{ steps.scrape.outputs.scrape_status }}" >> $GITHUB_STEP_SUMMARY
-          echo "📈 **Actions Found**: ${{ steps.scrape.outputs.actions_count }}" >> $GITHUB_STEP_SUMMARY
-          echo "🔧 **Method Used**: ${{ steps.scrape.outputs.method_used }}" >> $GITHUB_STEP_SUMMARY
+          echo "Status: ${{ steps.scrape.outputs.scrape_status }}" >> $GITHUB_STEP_SUMMARY
+          echo "Actions Found: ${{ steps.scrape.outputs.actions_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "Method Used: ${{ steps.scrape.outputs.method_used }}" >> $GITHUB_STEP_SUMMARY
         fi
-        echo "📅 **Run Time**: $(date)" >> $GITHUB_STEP_SUMMARY
+        echo "Run Time: $(date)" >> $GITHUB_STEP_SUMMARY
