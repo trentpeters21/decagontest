@@ -1,39 +1,39 @@
-name: 📊 Daily Corporate Actions Scraper with Selenium
+name: Daily Corporate Actions Scraper with Selenium
 
 on:
   schedule:
-    - cron: '0 14 * * *'  # 2 PM UTC daily
-  workflow_dispatch:      # Allows manual triggering
+    - cron: '0 14 * * *'
+  workflow_dispatch:
 
 jobs:
   scrape-and-update:
     runs-on: ubuntu-latest
     
     steps:
-    - name: 🛠️ Checkout repository
+    - name: Checkout repository
       uses: actions/checkout@v4
       
-    - name: 🐍 Set up Python
+    - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
     
-    - name: 🌐 Set up Chrome
+    - name: Set up Chrome
       uses: browser-actions/setup-chrome@latest
       with:
         chrome-version: stable
         
-    - name: 📦 Install Python dependencies
+    - name: Install Python dependencies
       run: |
         pip install --upgrade pip
         pip install requests beautifulsoup4 cloudscraper selenium
         
-    - name: 🔧 Verify Chrome installation
+    - name: Verify Chrome installation
       run: |
         google-chrome --version
         chromedriver --version
         
-    - name: 🕷️ Run enhanced scraper with Selenium
+    - name: Run enhanced scraper with Selenium
       id: scrape
       run: |
         echo "Starting enhanced scraper with Selenium support..."
@@ -49,54 +49,27 @@ jobs:
           echo "method_used=$METHOD" >> $GITHUB_OUTPUT
         fi
         
-    - name: 📝 Commit changes
+    - name: Commit changes
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "Corporate Actions Bot"
         git add corporate_actions.json
         
         if ! git diff --staged --quiet; then
-          git commit -m "🤖 Update corporate actions - $(date '+%Y-%m-%d %H:%M UTC')
-
-📊 Status: ${{ steps.scrape.outputs.scrape_status }}
-📈 Actions: ${{ steps.scrape.outputs.actions_count }}
-🔧 Method: ${{ steps.scrape.outputs.method_used }}"
+          git commit -m "Update corporate actions - $(date '+%Y-%m-%d %H:%M UTC')"
           git push
         else
           echo "No changes to commit"
         fi
         
-    - name: 📊 Create job summary
+    - name: Create job summary
       if: always()
       run: |
-        echo "## 📊 Scraper Results (with Selenium)" >> $GITHUB_STEP_SUMMARY
+        echo "## Scraper Results" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
-        echo "✅ **Status**: ${{ steps.scrape.outputs.scrape_status }}" >> $GITHUB_STEP_SUMMARY
-        echo "📈 **Actions Found**: ${{ steps.scrape.outputs.actions_count }}" >> $GITHUB_STEP_SUMMARY
-        echo "🔧 **Method Used**: ${{ steps.scrape.outputs.method_used }}" >> $GITHUB_STEP_SUMMARY
-        echo "📅 **Run Time**: $(date)" >> $GITHUB_STEP_SUMMARY
-        
-    - name: 🚨 Create issue on failure
-      if: failure()
-      uses: actions/github-script@v7
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        script: |
-          github.rest.issues.create({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            title: '🚨 Corporate Actions Scraper Failed',
-            body: `## Scraper Failure Report
-            
-**Date**: ${new Date().toISOString()}
-**Workflow Run**: [${context.runNumber}](${context.payload.repository.html_url}/actions/runs/${context.runId})
-
-The daily corporate actions scraping job has failed. Please investigate:
-
-1. Check if the Wealthsimple page structure has changed
-2. Verify network connectivity and rate limiting
-3. Review the workflow logs for specific errors
-
-[View Full Logs](${context.payload.repository.html_url}/actions/runs/${context.runId})`,
-            labels: ['bug', 'automation', 'scraper-failure']
-          });
+        if [ -f "corporate_actions.json" ]; then
+          echo "Status: ${{ steps.scrape.outputs.scrape_status }}" >> $GITHUB_STEP_SUMMARY
+          echo "Actions Found: ${{ steps.scrape.outputs.actions_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "Method Used: ${{ steps.scrape.outputs.method_used }}" >> $GITHUB_STEP_SUMMARY
+        fi
+        echo "Run Time: $(date)" >> $GITHUB_STEP_SUMMARY
