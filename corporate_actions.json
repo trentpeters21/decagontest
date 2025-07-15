@@ -25,6 +25,14 @@
       "action_details": "Liberty Broadband Corporation (LBRDA) performed a spinoff. Holders will receive 0.2 shares of GCI Liberty Inc. (Series A) (GLBA.V) per 1 LBRDA share held as of record date of July 15, 2025."
     },
     {
+      "date": "2025-07-15",
+      "company": "Bannix Acquisition Corp",
+      "ticker": "BNIX",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Bannix Acquisition Corp (BNIX) performed a merger. Holders will receive 1 shares of VisionWave Holdings Inc. (VWAV) per share held."
+    },
+    {
       "date": "2025-07-14",
       "company": "Fusion Fuel Green Ltd",
       "ticker": "HTOO",
@@ -14298,8 +14306,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1787,
-    "scraped_at": "2025-07-15T03:23:36.462483+00:00",
+    "total_actions": 1788,
+    "scraped_at": "2025-07-15T14:17:41.817376+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
