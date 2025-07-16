@@ -1,6 +1,54 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-07-16",
+      "company": "Departure Bay Capital Corp",
+      "ticker": "DBC.P",
+      "action_type": "Consolidation",
+      "ratio": "1 for 3",
+      "action_details": "Departure Bay Capital Corp (DBC.P) performed a name change and a 1 for 3 consolidation. Holders will now hold 1 share of Cheelcare Inc. (CHER) for every 3 shares previously held."
+    },
+    {
+      "date": "2025-07-16",
+      "company": "Logan Ridge Finance Corporation",
+      "ticker": "LRFC",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Logan Ridge Finance Corporation (LRFC) performed a merger. Holders will receive 1.5 shares of Portman Ridge Finance Corp (PTMN) plus per share held."
+    },
+    {
+      "date": "2025-07-16",
+      "company": "Colombier Acquisition Corp II",
+      "ticker": "CLBR",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Colombier Acquisition Corp II (CLBR) performed a merger. Holders will receive 1 shares of GrabAGun Digital Holdings Inc. (PEW) plus per share held."
+    },
+    {
+      "date": "2025-07-16",
+      "company": "Colombier Acquisition Corp II Unit",
+      "ticker": "CLBR.U",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Colombier Acquisition Corp II Unit (CLBR.U) performed a merger. Details of the event are still to be determined."
+    },
+    {
+      "date": "2025-07-16",
+      "company": "Pineapple Financial Inc",
+      "ticker": "PAPLF",
+      "action_type": "Consolidation",
+      "ratio": "1 for 20",
+      "action_details": "Pineapple Financial Inc (PAPLF) performed a 1 for 20 consolidation. Holders will now hold 1 share of Pineapple Financial Inc (PAPLF) for every 20 shares previously held."
+    },
+    {
+      "date": "2025-07-16",
+      "company": "Baijiayun Group Limited",
+      "ticker": "RTCJF",
+      "action_type": "Consolidation",
+      "ratio": "1 for 20",
+      "action_details": "Baijiayun Group Limited (RTCJF) performed a 1 for 20 consolidation. Holders will now hold 1 share of Baijiayun Group Limited (RTCJF) for every 20 shares previously held."
+    },
+    {
       "date": "2025-07-15",
       "company": "United",
       "ticker": "UNC",
@@ -118,7 +166,7 @@
       "ticker": "OGN",
       "action_type": "Merger",
       "ratio": "",
-      "action_details": "Orogen Royalties Inc. (OGN) performed a merger. Details of the event are still to be determined."
+      "action_details": "Orogen Royalties Inc. (OGN) performed a merger. Holders will receive 0.02901339 share of Triple Flag Precious Metals Corp (TFPM) and 0.25 share of new Orogen Royalties plus 0.746866 CAD cash per share held."
     },
     {
       "date": "2025-07-10",
@@ -14306,8 +14354,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1788,
-    "scraped_at": "2025-07-15T14:17:41.817376+00:00",
+    "total_actions": 1794,
+    "scraped_at": "2025-07-16T14:17:19.712572+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
