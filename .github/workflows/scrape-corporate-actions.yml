@@ -3,6 +3,7 @@ name: Daily Corporate Actions Scraper with Selenium
 on:
   schedule:
     - cron: '0 14 * * *'
+    - cron: '0 21 * * *'
   workflow_dispatch:
 
 permissions:
