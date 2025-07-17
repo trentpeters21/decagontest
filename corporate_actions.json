@@ -1,6 +1,38 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-07-18",
+      "company": "MicroAlgo Inc",
+      "ticker": "MLGO",
+      "action_type": "Consolidation",
+      "ratio": "1 for 30",
+      "action_details": "MicroAlgo Inc. (MLGO) performed a 1 for 30 consolidation. Holders will now hold 1 share of MicroAlgo Inc. (MLGO) for every 30 shares previously held."
+    },
+    {
+      "date": "2025-07-18",
+      "company": "Protium Clean Energy Corp",
+      "ticker": "GRUV",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Protium Clean Energy Corp (GRUV) performed a 1 for 10 consolidation. Holders will now hold 1 share of Protium Clean Energy Corp (GRUV) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-07-18",
+      "company": "Smart Powerr Corp",
+      "ticker": "CREG",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Smart Powerr Corp (CREG) performed a 1 for 10 consolidation. Holders will now hold 1 share of Smart Powerr Corp (CREG) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-07-18",
+      "company": "Ansys Inc",
+      "ticker": "ANSS",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Ansys Inc. (ANSS) performed a merger. Holders will receive 0.3399 shares of Synopsys Inc. (SNPS) plus 199.91 USD per share held."
+    },
+    {
       "date": "2025-07-17",
       "company": "ChampionX Corporation",
       "ticker": "CHX",
@@ -41,6 +73,14 @@
       "action_details": "Beyond Medical Technologies Inc. (DOCT) performed a 1 for 1 name and CUSIP change to Republic Technologies Inc (DOCT)."
     },
     {
+      "date": "2025-07-17",
+      "company": "iCAD",
+      "ticker": "ICAD",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "iCAD (ICAD) performed a merger. Holders will receive 0.067700 shares of RadNet (RDNT) per share held."
+    },
+    {
       "date": "2025-07-16",
       "company": "Departure Bay Capital Corp",
       "ticker": "DBC.P",
@@ -62,7 +102,7 @@
       "ticker": "CLBR",
       "action_type": "Merger",
       "ratio": "",
-      "action_details": "Colombier Acquisition Corp II (CLBR) performed a merger. Holders will receive 1 shares of GrabAGun Digital Holdings Inc. (PEW) plus per share held."
+      "action_details": "Colombier Acquisition Corp II (CLBR) performed a merger. Holders will receive 1 shares of GrabAGun Digital Holdings Inc. (PEW) per share held."
     },
     {
       "date": "2025-07-16",
@@ -87,6 +127,14 @@
       "action_type": "Consolidation",
       "ratio": "1 for 20",
       "action_details": "Baijiayun Group Limited (RTCJF) performed a 1 for 20 consolidation. Holders will now hold 1 share of Baijiayun Group Limited (RTCJF) for every 20 shares previously held."
+    },
+    {
+      "date": "2025-07-16",
+      "company": "Dynamic Active Energy Evolution ETF",
+      "ticker": "DXET",
+      "action_type": "Redemption",
+      "ratio": "",
+      "action_details": "Dynamic Active Energy Evolution ETF (DXET) performed a mandatory redemption. Details of the event are still to be determined."
     },
     {
       "date": "2025-07-15",
@@ -14394,8 +14442,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1799,
-    "scraped_at": "2025-07-17T14:17:04.057127+00:00",
+    "total_actions": 1805,
+    "scraped_at": "2025-07-17T21:20:05.325405+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
