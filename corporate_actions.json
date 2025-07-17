@@ -1,6 +1,46 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-07-17",
+      "company": "ChampionX Corporation",
+      "ticker": "CHX",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "ChampionX Corporation (CHX) performed a merger. Holders will receive 0.735 shares of Schlumberger Ltd. (SLB) plus per share held."
+    },
+    {
+      "date": "2025-07-17",
+      "company": "Amaroq Minerals Ltd",
+      "ticker": "AMRQ",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Amaroq Minerals Ltd (AMRQ) performed a 1 for 1 name and CUSIP change to Amaroq Ltd. (AMRQ)."
+    },
+    {
+      "date": "2025-07-17",
+      "company": "Enovix Corporation",
+      "ticker": "ENVX",
+      "action_type": "Spinoff",
+      "ratio": "",
+      "action_details": "Enovix Corporation (ENVX) performed a spinoff. Holders will receive 0.1428571429 warrants of Enovix Corporation for share held as of record date of July 17, 2025."
+    },
+    {
+      "date": "2025-07-17",
+      "company": "First Trust Brazil AlphaDEX Fund",
+      "ticker": "FBZ",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "First Trust Brazil AlphaDEX Fund (FBZ) performed a liquidation. Details of the event are still to be determined."
+    },
+    {
+      "date": "2025-07-17",
+      "company": "Beyond Medical Technologies Inc",
+      "ticker": "DOCT",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Beyond Medical Technologies Inc. (DOCT) performed a 1 for 1 name and CUSIP change to Republic Technologies Inc (DOCT)."
+    },
+    {
       "date": "2025-07-16",
       "company": "Departure Bay Capital Corp",
       "ticker": "DBC.P",
@@ -286,7 +326,7 @@
       "ticker": "ARKG",
       "action_type": "Redemption",
       "ratio": "",
-      "action_details": "BMO ARK Genomic Revolution Fund (ARKG) performed a mandatory redemption. Details of the event are still to be announced."
+      "action_details": "BMO ARK Genomic Revolution Fund (ARKG) performed a mandatory redemption. Holders will receive 11.0039063 CAD per share held."
     },
     {
       "date": "2025-07-08",
@@ -294,7 +334,7 @@
       "ticker": "ARKK",
       "action_type": "Redemption",
       "ratio": "",
-      "action_details": "BMO ARK Innovation Fund (ARKK) performed a mandatory redemption. Details of the event are still to be announced."
+      "action_details": "BMO ARK Innovation Fund (ARKK) performed a mandatory redemption. Holders will receive 28.6981484444440 CAD per share held."
     },
     {
       "date": "2025-07-08",
@@ -302,7 +342,7 @@
       "ticker": "ARKW",
       "action_type": "Redemption",
       "ratio": "",
-      "action_details": "BMO ARK Next Generation Internet Fund (ARKW) a performed mandatory redemption. Details of the event are still to be announced."
+      "action_details": "BMO ARK Next Generation Internet Fund (ARKW) performed a mandatory redemption. Holders will receive 47.2334988 CAD per share held."
     },
     {
       "date": "2025-07-07",
@@ -14354,8 +14394,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1794,
-    "scraped_at": "2025-07-16T14:17:19.712572+00:00",
+    "total_actions": 1799,
+    "scraped_at": "2025-07-17T14:17:04.057127+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
