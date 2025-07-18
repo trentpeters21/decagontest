@@ -1,6 +1,46 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-07-21",
+      "company": "CVW CleanTech Inc",
+      "ticker": "CVW",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "CVW CleanTech Inc. (CVW) performed a 1 for 1 name and CUSIP change to CVW Sustainable Royalties Inc. (CVW)."
+    },
+    {
+      "date": "2025-07-21",
+      "company": "Top Wealth Group Holding Limited",
+      "ticker": "TWG",
+      "action_type": "Consolidation",
+      "ratio": "1 for 90",
+      "action_details": "Top Wealth Group Holding Limited (TWG) performed a 1 for 90 consolidation. Holders will now hold 1 share of Top Wealth Group Holding Limited (TWG) for every 90 shares previously held."
+    },
+    {
+      "date": "2025-07-21",
+      "company": "Globavend Holdings Limited",
+      "ticker": "GVH",
+      "action_type": "Consolidation",
+      "ratio": "1 for 200",
+      "action_details": "Globavend Holdings Limited (GVH) performed a 1 for 200 consolidation. Holders will now hold 1 share of Globavend Holdings Limited (GVH) for every 200 shares previously held."
+    },
+    {
+      "date": "2025-07-21",
+      "company": "INVO Fertility Inc",
+      "ticker": "IVF",
+      "action_type": "Consolidation",
+      "ratio": "1 for 3",
+      "action_details": "INVO Fertility Inc. (IVF) performed a 1 for 3 consolidation. Holders will now hold 1 share of INVO Fertility Inc. (IVF) for every 3 shares previously held."
+    },
+    {
+      "date": "2025-07-21",
+      "company": "Roberto Resources Inc",
+      "ticker": "RBTO",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Roberto Resources Inc. (RBTO) performed a 1 for 1 name and CUSIP change to Pacifica Silver Corp. (PSIL)."
+    },
+    {
       "date": "2025-07-18",
       "company": "MicroAlgo Inc",
       "ticker": "MLGO",
@@ -62,7 +102,7 @@
       "ticker": "FBZ",
       "action_type": "Liquidation",
       "ratio": "",
-      "action_details": "First Trust Brazil AlphaDEX Fund (FBZ) performed a liquidation. Details of the event are still to be determined."
+      "action_details": "First Trust Brazil AlphaDEX Fund (FBZ) performed a liquidation. Holders will receive 11.51052 USD per share held."
     },
     {
       "date": "2025-07-17",
@@ -14442,12 +14482,12 @@
     }
   ],
   "metadata": {
-    "total_actions": 1805,
-    "scraped_at": "2025-07-18T14:18:00.233709+00:00",
+    "total_actions": 1810,
+    "scraped_at": "2025-07-18T21:20:33.735473+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
-    "method_used": "cloudscraper",
+    "method_used": "selenium",
     "github_actions_compatible": true
   }
 }
