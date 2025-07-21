@@ -1,6 +1,54 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-07-22",
+      "company": "Cascadia Blockchain Group Corp",
+      "ticker": "CK",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Cascadia Blockchain Group Corp (CK) performed a 1 for 1 name and CUSIP change to World Blockchain Corp. (CK)."
+    },
+    {
+      "date": "2025-07-22",
+      "company": "Storm Exploration Inc",
+      "ticker": "STRM",
+      "action_type": "Consolidation",
+      "ratio": "1 for 4",
+      "action_details": "Storm Exploration Inc (STRM) performed a 1 for 4 consolidation. Holders will now hold 1 share of Storm Exploration Inc (STRM) for every 4 shares previously held."
+    },
+    {
+      "date": "2025-07-22",
+      "company": "Consumer Pharmaceuticals Inc",
+      "ticker": "CNSP",
+      "action_type": "Consolidation",
+      "ratio": "1 for 12",
+      "action_details": "Consumer Pharmaceuticals Inc. (CNSP) performed a 1 for 12 consolidation. Holders will now hold 1 share of Consumer Pharmaceuticals Inc. (CNSP) for every 12 shares previously held."
+    },
+    {
+      "date": "2025-07-22",
+      "company": "Premium Catering Holdings Limited",
+      "ticker": "PC",
+      "action_type": "Consolidation",
+      "ratio": "1 for 9",
+      "action_details": "Premium Catering Holdings Limited (PC) performed a 1 for 9 consolidation. Holders will now hold 1 share of Premium Catering Holdings Limited (PC) for every 9 shares previously held."
+    },
+    {
+      "date": "2025-07-22",
+      "company": "Generation Bio Co",
+      "ticker": "GBIO",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Generation Bio Co (GBIO) performed a 1 for 10 consolidation. Holders will now hold 1 share of Generation Bio Co (GBIO) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-07-22",
+      "company": "Till Capital Corp",
+      "ticker": "TIL",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Till Capital Corp (TIL) performed a merger. Holders will receive 16.36 shares of Silver Storm Mining Limited (SVRS) , 4.09 Silver Storm warrants and 16.36 Silver Storm CVRs for every 1 shares previously held."
+    },
+    {
       "date": "2025-07-21",
       "company": "CVW CleanTech Inc",
       "ticker": "CVW",
@@ -39,6 +87,30 @@
       "action_type": "Other",
       "ratio": "1 for 1",
       "action_details": "Roberto Resources Inc. (RBTO) performed a 1 for 1 name and CUSIP change to Pacifica Silver Corp. (PSIL)."
+    },
+    {
+      "date": "2025-07-21",
+      "company": "Lake Shore Bancorp",
+      "ticker": "LSBK",
+      "action_type": "Reorganization",
+      "ratio": "",
+      "action_details": "Lake Shore Bancorp (LSBK) performed a reorganization. Holders will receive new 1.35490 shares of Lake Shore Bancorp (LSBK) per 1 old shares held."
+    },
+    {
+      "date": "2025-07-21",
+      "company": "Hess",
+      "ticker": "HES",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Hess (HES) performed a merger. Holders will receive 1.025000 shares of Chevron Corp. (CVX) per share held."
+    },
+    {
+      "date": "2025-07-21",
+      "company": "Blueprint Medicines Corp",
+      "ticker": "BPMC",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Blueprint Medicines Corp (BPMC) performed a merger. Holders will receive 1 CVR of Contra Blueprint Medic plus 129.0 USD per share held."
     },
     {
       "date": "2025-07-18",
@@ -14482,8 +14554,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1810,
-    "scraped_at": "2025-07-21T14:20:16.163024+00:00",
+    "total_actions": 1819,
+    "scraped_at": "2025-07-21T21:20:25.081195+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
