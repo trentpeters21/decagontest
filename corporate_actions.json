@@ -49,6 +49,14 @@
       "action_details": "Till Capital Corp (TIL) performed a merger. Holders will receive 16.36 shares of Silver Storm Mining Limited (SVRS) , 4.09 Silver Storm warrants and 16.36 Silver Storm CVRs for every 1 shares previously held."
     },
     {
+      "date": "2025-07-22",
+      "company": "Faro Technologies Inc",
+      "ticker": "FARO",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Faro Technologies Inc. (FARO) performed a merger. Holders will receive 44 USD per share held."
+    },
+    {
       "date": "2025-07-21",
       "company": "CVW CleanTech Inc",
       "ticker": "CVW",
@@ -14554,8 +14562,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1819,
-    "scraped_at": "2025-07-21T21:20:25.081195+00:00",
+    "total_actions": 1820,
+    "scraped_at": "2025-07-22T14:19:12.071009+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
