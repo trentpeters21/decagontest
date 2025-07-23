@@ -9,6 +9,14 @@
       "action_details": "Innergex Renewable Energy Inc. (INE) performed a merger. Holders will receive 13.75 CAD per share held."
     },
     {
+      "date": "2025-07-23",
+      "company": "Timothy Plan - Plan Market Neutral ETF",
+      "ticker": "TPMN",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "Timothy Plan - Plan Market Neutral ETF (TPMN) performed a liquidation. Details of the event are still to be determined."
+    },
+    {
       "date": "2025-07-22",
       "company": "Cascadia Blockchain Group Corp",
       "ticker": "CK",
@@ -14570,8 +14578,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1821,
-    "scraped_at": "2025-07-22T21:20:56.249204+00:00",
+    "total_actions": 1822,
+    "scraped_at": "2025-07-23T14:20:11.744325+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
