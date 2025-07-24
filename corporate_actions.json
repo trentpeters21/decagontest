@@ -1,6 +1,30 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-07-25",
+      "company": "Imunon, Inc",
+      "ticker": "IMNN",
+      "action_type": "Consolidation",
+      "ratio": "1 for 15",
+      "action_details": "Imunon, Inc. (IMNN) performed a 1 for 15 consolidation. Holders will now hold 1 share of Imunon, Inc. (IMNN) for every 15 shares previously held."
+    },
+    {
+      "date": "2025-07-25",
+      "company": "Verrica Pharmaceuticals Inc",
+      "ticker": "VRCA",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Verrica Pharmaceuticals Inc. (VRCA) performed a 1 for 10 consolidation. Holders will now hold 1 share of Verrica Pharmaceuticals Inc. (VRCA) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-07-25",
+      "company": "ESSA Bancorp Inc",
+      "ticker": "ESSA",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "ESSA Bancorp Inc (ESSA) performed a merger. Holders will receive 0.8547 share of CNB Financial Corp (PA). per share held."
+    },
+    {
       "date": "2025-07-24",
       "company": "Elevation Oncology Inc",
       "ticker": "ELEV",
@@ -14586,12 +14610,12 @@
     }
   ],
   "metadata": {
-    "total_actions": 1823,
-    "scraped_at": "2025-07-24T14:20:06.919705+00:00",
+    "total_actions": 1826,
+    "scraped_at": "2025-07-24T21:20:43.480246+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
-    "method_used": "selenium",
+    "method_used": "cloudscraper",
     "github_actions_compatible": true
   }
 }
