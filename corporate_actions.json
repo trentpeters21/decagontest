@@ -1,6 +1,14 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-07-24",
+      "company": "Elevation Oncology Inc",
+      "ticker": "ELEV",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Elevation Oncology Inc. (ELEV) performed a merger. Holders will receive 1 CVR of Contra Elevation Oncology Inc. plus 0.36 USD per share held."
+    },
+    {
       "date": "2025-07-23",
       "company": "Innergex Renewable Energy Inc",
       "ticker": "INE",
@@ -14578,8 +14586,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1822,
-    "scraped_at": "2025-07-23T21:20:53.259741+00:00",
+    "total_actions": 1823,
+    "scraped_at": "2025-07-24T14:20:06.919705+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
