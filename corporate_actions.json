@@ -1,6 +1,70 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-07-28",
+      "company": "Agriforce Growing Systems Limited",
+      "ticker": "AGRI",
+      "action_type": "Consolidation",
+      "ratio": "1 for 9",
+      "action_details": "Agriforce Growing Systems Limited (AGRI) performed a 1 for 9 consolidation. Holders will now hold 1 share of Agriforce Growing Systems Limited (AGRI) for every 9 shares previously held."
+    },
+    {
+      "date": "2025-07-28",
+      "company": "FOXO Technologies Inc",
+      "ticker": "FOXO",
+      "action_type": "Consolidation",
+      "ratio": "1 for 1.99",
+      "action_details": "FOXO Technologies Inc. (FOXO) performed a 1 for 1.99 consolidation. Holders will now hold 1 share of FOXO Technologies Inc. (FOXO) for every 1.99 shares previously held."
+    },
+    {
+      "date": "2025-07-28",
+      "company": "Ikena Oncology Inc",
+      "ticker": "IKNA",
+      "action_type": "Consolidation",
+      "ratio": "1 for 12",
+      "action_details": "Ikena Oncology Inc (IKNA) performed a 1 for 12 consolidation. Holders will now hold 1 share of Ikena Oncology Inc (IKNA) for every 12 shares previously held."
+    },
+    {
+      "date": "2025-07-28",
+      "company": "Mersana Therapeutics Inc",
+      "ticker": "MRSN",
+      "action_type": "Consolidation",
+      "ratio": "1 for 25",
+      "action_details": "Mersana Therapeutics Inc. (MRSN) performed a 1 for 25 consolidation. Holders will now hold 1 share of Mersana Therapeutics Inc. (MRSN) for every 25 shares previously held."
+    },
+    {
+      "date": "2025-07-28",
+      "company": "SolarBank Corporation",
+      "ticker": "SUNN",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "SolarBank Corporation (SUNN) performed a 1 for 1 name and CUSIP change to PowerBank Corporation (SUNN)."
+    },
+    {
+      "date": "2025-07-28",
+      "company": "ChargePoint Holdings Inc",
+      "ticker": "CHPT",
+      "action_type": "Consolidation",
+      "ratio": "1 for 20",
+      "action_details": "ChargePoint Holdings Inc (Class A) (CHPT) performed a 1 for 20 consolidation. Holders will now hold 1 share of ChargePoint Holdings Inc (Class A) (CHPT) for every 20 shares previously held."
+    },
+    {
+      "date": "2025-07-28",
+      "company": "Western Forest Products Inc",
+      "ticker": "WEF",
+      "action_type": "Consolidation",
+      "ratio": "1 for 30",
+      "action_details": "Western Forest Products Inc. (WEF) performed a 1 for 30 consolidation. Holders will now hold 1 share of Western Forest Products Inc. (WEF) for every 30 shares previously held."
+    },
+    {
+      "date": "2025-07-28",
+      "company": "Ohmyhome Limited",
+      "ticker": "OMH",
+      "action_type": "Other",
+      "ratio": "",
+      "action_details": "Ohmyhome Limited (OMH) performed reclassification. Holders will receive 1 new share of Ohmyhome Limited class A shares (OMH) per share held."
+    },
+    {
       "date": "2025-07-25",
       "company": "Imunon, Inc",
       "ticker": "IMNN",
@@ -14610,12 +14674,12 @@
     }
   ],
   "metadata": {
-    "total_actions": 1826,
-    "scraped_at": "2025-07-25T14:17:04.503084+00:00",
+    "total_actions": 1834,
+    "scraped_at": "2025-07-25T21:20:22.992289+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
-    "method_used": "cloudscraper",
+    "method_used": "selenium",
     "github_actions_compatible": true
   }
 }
