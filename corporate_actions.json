@@ -65,6 +65,22 @@
       "action_details": "Ohmyhome Limited (OMH) performed reclassification. Holders will receive 1 new share of Ohmyhome Limited class A shares (OMH) per share held."
     },
     {
+      "date": "2025-07-28",
+      "company": "Velo3D Inc",
+      "ticker": "VLDX",
+      "action_type": "Consolidation",
+      "ratio": "1 for 15",
+      "action_details": "Velo3D Inc. (VLDX) performed a 1 for 15 consolidation. Holders will now hold 1 share of Velo3D Inc. (VLDXD) for every 15 shares previously held."
+    },
+    {
+      "date": "2025-07-28",
+      "company": "Verve Therapeutics Inc",
+      "ticker": "VERV",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Verve Therapeutics Inc (VERV) performed a merger. Holders will receive 1 CVR of Contra Verve Therapeutics Inc plus 10.5 USD per share held."
+    },
+    {
       "date": "2025-07-25",
       "company": "Imunon, Inc",
       "ticker": "IMNN",
@@ -14674,8 +14690,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1834,
-    "scraped_at": "2025-07-27T21:19:54.555263+00:00",
+    "total_actions": 1836,
+    "scraped_at": "2025-07-28T14:21:10.666475+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
