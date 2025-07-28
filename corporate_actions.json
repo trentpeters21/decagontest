@@ -1,6 +1,30 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-07-29",
+      "company": "Senmiao Technology Limited",
+      "ticker": "AIHS",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Senmiao Technology Limited (AIHS) performed a 1 for 10 consolidation. Holders will now hold 1 share of Senmiao Technology Limited (AIHS) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-07-29",
+      "company": "Silexion Therapeutics Corp",
+      "ticker": "SLXN",
+      "action_type": "Consolidation",
+      "ratio": "1 for 15",
+      "action_details": "Silexion Therapeutics Corp. (SLXN) performed a 1 for 15 consolidation. Holders will now hold 1 share of Silexion Therapeutics Corp. (SLXN) for every 15 shares previously held."
+    },
+    {
+      "date": "2025-07-29",
+      "company": "Penns Woods Bancorp",
+      "ticker": "PWOD",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Penns Woods Bancorp (PWOD) performed a merger. Holders will receive 2.385 share of Northwest Bancshares (NWBI) per share held."
+    },
+    {
       "date": "2025-07-28",
       "company": "Agriforce Growing Systems Limited",
       "ticker": "AGRI",
@@ -79,6 +103,14 @@
       "action_type": "Merger",
       "ratio": "",
       "action_details": "Verve Therapeutics Inc (VERV) performed a merger. Holders will receive 1 CVR of Contra Verve Therapeutics Inc plus 10.5 USD per share held."
+    },
+    {
+      "date": "2025-07-28",
+      "company": "Triumph Group Inc",
+      "ticker": "TGI",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Triumph Group Inc. (TGI) performed a merger. Holders will receive 26 USD per share held."
     },
     {
       "date": "2025-07-25",
@@ -14690,8 +14722,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1836,
-    "scraped_at": "2025-07-28T14:21:10.666475+00:00",
+    "total_actions": 1840,
+    "scraped_at": "2025-07-28T21:20:09.717340+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
