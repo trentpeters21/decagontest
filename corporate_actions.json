@@ -1,6 +1,30 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-07-30",
+      "company": "NaaS Technology Inc",
+      "ticker": "NAAS",
+      "action_type": "Consolidation",
+      "ratio": "1 for 4",
+      "action_details": "NaaS Technology Inc. (NAAS) performed a 1 for 4 consolidation. Holders will now hold 1 share of NaaS Technology Inc. (NAAS) for every 4 shares previously held."
+    },
+    {
+      "date": "2025-07-30",
+      "company": "Metalite Resources Inc",
+      "ticker": "METL",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Metalite Resources Inc (METL) performed a 1 for 10 consolidation. Holders will now hold 1 share of Metalite Resources Inc (METL) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-07-30",
+      "company": "BYD Co",
+      "ticker": "BYDD",
+      "action_type": "Stock Split",
+      "ratio": "6 for 1",
+      "action_details": "BYD Co (BYDD) performed a 6 for 1 stock split. Holders will now hold 6 shares of BYD Co (BYDD) per 1 share previously held."
+    },
+    {
       "date": "2025-07-29",
       "company": "Senmiao Technology Limited",
       "ticker": "AIHS",
@@ -119,6 +143,22 @@
       "action_type": "Merger",
       "ratio": "",
       "action_details": "Triumph Group Inc. (TGI) performed a merger. Holders will receive 26 USD per share held."
+    },
+    {
+      "date": "2025-07-28",
+      "company": "Goldman Sachs ETF Trust - Future Planet Equity ETF",
+      "ticker": "GSFP",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "Goldman Sachs ETF Trust - Future Planet Equity ETF (GSFP) performed a liquidation. Holders will receive 33.8654 USD per share held."
+    },
+    {
+      "date": "2025-07-28",
+      "company": "Goldman Sachs ETF Trust - Future Consumer Equity ETF",
+      "ticker": "GBUY",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "Goldman Sachs ETF Trust - Future Consumer Equity ETF (GBUY) performed a liquidation. Holders will receive 37.8665 USD per share held."
     },
     {
       "date": "2025-07-25",
@@ -14730,8 +14770,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1841,
-    "scraped_at": "2025-07-29T14:22:31.964103+00:00",
+    "total_actions": 1846,
+    "scraped_at": "2025-07-29T21:20:58.755731+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
