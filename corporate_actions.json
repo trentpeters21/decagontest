@@ -25,6 +25,14 @@
       "action_details": "Penns Woods Bancorp (PWOD) performed a merger. Holders will receive 2.385 share of Northwest Bancshares (NWBI) per share held."
     },
     {
+      "date": "2025-07-29",
+      "company": "Sigmatron International Inc",
+      "ticker": "SGMA",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Sigmatron International Inc. (SGMA) performed a merger. Holders will receive 3.02 USD per share held."
+    },
+    {
       "date": "2025-07-28",
       "company": "Agriforce Growing Systems Limited",
       "ticker": "AGRI",
@@ -14722,8 +14730,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1840,
-    "scraped_at": "2025-07-28T21:20:09.717340+00:00",
+    "total_actions": 1841,
+    "scraped_at": "2025-07-29T14:22:31.964103+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
