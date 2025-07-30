@@ -1,6 +1,38 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-07-31",
+      "company": "Great Northern Energy Metals Inc",
+      "ticker": "GNEM",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Great Northern Energy Metals Inc. (GNEM) performed a 1 for 1 name and CUSIP change to American Atomics Inc. (NUKE)."
+    },
+    {
+      "date": "2025-07-31",
+      "company": "Biodexa Pharmaceuticals plc",
+      "ticker": "BDRX",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Biodexa Pharmaceuticals plc (BDRX) performed a 1 for 10 consolidation. Holders will now hold 1 ADR of Biodexa Pharmaceuticals plc (BDRX) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-07-31",
+      "company": "FGI Industries Ltd",
+      "ticker": "FGI",
+      "action_type": "Consolidation",
+      "ratio": "1 for 5",
+      "action_details": "FGI Industries Ltd (FGI) performed a 1 for 5 consolidation. Holders will now hold 1 share of FGI Industries Ltd (FGI) for every 5 shares previously held."
+    },
+    {
+      "date": "2025-07-31",
+      "company": "Yoshiharu Global Company",
+      "ticker": "YOSH",
+      "action_type": "Stock Split",
+      "ratio": "4 for 1",
+      "action_details": "Yoshiharu Global Company (YOSH) performed a 4 for 1 stock split. Holders will now hold 4 shares of Yoshiharu Global Company (YOSH) per 1 share previously held."
+    },
+    {
       "date": "2025-07-30",
       "company": "NaaS Technology Inc",
       "ticker": "NAAS",
@@ -185,6 +217,22 @@
       "action_details": "ESSA Bancorp Inc (ESSA) performed a merger. Holders will receive 0.8547 share of CNB Financial Corp (PA). per share held."
     },
     {
+      "date": "2025-07-25",
+      "company": "Direxion Shares ETF Trust - Daily Travel & Vacation Bull 2X Shares",
+      "ticker": "OOTO",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "Direxion Shares ETF Trust - Daily Travel & Vacation Bull 2X Shares (OOTO) performed a liquidation. Holders will receive 18.84849 USD per share held."
+    },
+    {
+      "date": "2025-07-25",
+      "company": "Direxion Shares ETF Trust - Direxion Daily Cloud Computing Bull 2X Shares",
+      "ticker": "CLDL",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "Direxion Shares ETF Trust - Direxion Daily Cloud Computing Bull 2X Shares (CLDL) performed a liquidation. Holders will receive 14.13214 USD per share held."
+    },
+    {
       "date": "2025-07-24",
       "company": "Elevation Oncology Inc",
       "ticker": "ELEV",
@@ -206,7 +254,7 @@
       "ticker": "TPMN",
       "action_type": "Liquidation",
       "ratio": "",
-      "action_details": "Timothy Plan - Plan Market Neutral ETF (TPMN) performed a liquidation. Details of the event are still to be determined."
+      "action_details": "Timothy Plan - Plan Market Neutral ETF (TPMN) performed a liquidation. Holders will receive 24.32247767 USD per share held."
     },
     {
       "date": "2025-07-22",
@@ -14770,8 +14818,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1846,
-    "scraped_at": "2025-07-30T14:18:56.018557+00:00",
+    "total_actions": 1852,
+    "scraped_at": "2025-07-30T21:21:12.344943+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
