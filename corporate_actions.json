@@ -1,6 +1,30 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-08-01",
+      "company": "Healthcare Triangle Inc",
+      "ticker": "HCTI",
+      "action_type": "Consolidation",
+      "ratio": "1 for 249",
+      "action_details": "Healthcare Triangle Inc (HCTI) performed a 1 for 249 consolidation. Holders will now hold 1 share of Healthcare Triangle Inc (HCTI) for every 249 shares previously held."
+    },
+    {
+      "date": "2025-08-01",
+      "company": "Dermata Therapeutics Inc",
+      "ticker": "DRMA",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Dermata Therapeutics Inc. (DRMA) performed a 1 for 10 consolidation. Holders will now hold 1 share of Dermata Therapeutics Inc. (DRMA) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-08-01",
+      "company": "Anfield Energy",
+      "ticker": "AEC",
+      "action_type": "Consolidation",
+      "ratio": "1 for 75",
+      "action_details": "Anfield Energy (AEC) performed a 1 for 75 consolidation. Holders will now hold 1 share of Anfield Energy (AEC) for every 75 shares previously held."
+    },
+    {
       "date": "2025-07-31",
       "company": "Great Northern Energy Metals Inc",
       "ticker": "GNEM",
@@ -14818,8 +14842,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1852,
-    "scraped_at": "2025-07-31T14:20:07.644657+00:00",
+    "total_actions": 1855,
+    "scraped_at": "2025-07-31T21:21:04.308487+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
