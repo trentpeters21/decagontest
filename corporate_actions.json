@@ -25,6 +25,22 @@
       "action_details": "Anfield Energy (AEC) performed a 1 for 75 consolidation. Holders will now hold 1 share of Anfield Energy (AEC) for every 75 shares previously held."
     },
     {
+      "date": "2025-08-01",
+      "company": "Phoenix Motor Inc",
+      "ticker": "PEVM",
+      "action_type": "Consolidation",
+      "ratio": "1 for 5",
+      "action_details": "Phoenix Motor Inc. (PEVM) performed a 1 for 5 consolidation. Holders will now hold 1 share of Phoenix Motor Inc. (PEVM) for every 5 shares previously held."
+    },
+    {
+      "date": "2025-08-01",
+      "company": "NEOS ETF Trust - Fis Knights Of Columbus Global Belief ETF",
+      "ticker": "KOCG",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "NEOS ETF Trust - Fis Knights Of Columbus Global Belief ETF (KOCG) performed a liquidation. Holders will receive 31.08775893 USD per share held."
+    },
+    {
       "date": "2025-07-31",
       "company": "Great Northern Energy Metals Inc",
       "ticker": "GNEM",
@@ -14842,8 +14858,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1855,
-    "scraped_at": "2025-07-31T21:21:04.308487+00:00",
+    "total_actions": 1857,
+    "scraped_at": "2025-08-01T14:20:06.897480+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
