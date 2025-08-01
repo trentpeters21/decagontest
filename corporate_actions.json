@@ -1,6 +1,54 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-08-04",
+      "company": "Anghami Inc",
+      "ticker": "ANGH",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Anghami Inc (ANGH) performed a 1 for 10 consolidation. Holders will now hold 1 share of Anghami Inc (ANGH) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-08-04",
+      "company": "Aqua Metals Inc",
+      "ticker": "AQMS",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Aqua Metals Inc. (AQMS) performed a 1 for 10 consolidation. Holders will now hold 1 share of Aqua Metals Inc. (AQMS) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-08-04",
+      "company": "NewGenIvf Group Ltd",
+      "ticker": "NIVF",
+      "action_type": "Consolidation",
+      "ratio": "1 for 5",
+      "action_details": "NewGenIvf Group Ltd (Class A) (NIVF) performed a 1 for 5 consolidation. Holders will now hold 1 share of NewGenIvf Group Ltd (Class A) (NIVF) for every 5 shares previously held."
+    },
+    {
+      "date": "2025-08-04",
+      "company": "Bollinger Innovations Inc",
+      "ticker": "BINI",
+      "action_type": "Consolidation",
+      "ratio": "1 for 250",
+      "action_details": "Bollinger Innovations Inc. (BINI) performed a 1 for 250 consolidation. Holders will now hold 1 share of Bollinger Innovations Inc. (BINI) for every 250 shares previously held."
+    },
+    {
+      "date": "2025-08-04",
+      "company": "Flora Growth Corp",
+      "ticker": "FLGC",
+      "action_type": "Consolidation",
+      "ratio": "1 for 39",
+      "action_details": "Flora Growth Corp (FLGC) performed a 1 for 39 consolidation. Holders will now hold 1 share of Flora Growth Corp (FLGC) for every 39 shares previously held."
+    },
+    {
+      "date": "2025-08-04",
+      "company": "Uniti Group",
+      "ticker": "UNIT",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Uniti Group (UNIT) performed a merger. Holders will receive 0.6029 share of new Uniti Group (UNIT) per share held."
+    },
+    {
       "date": "2025-08-01",
       "company": "Healthcare Triangle Inc",
       "ticker": "HCTI",
@@ -39,6 +87,14 @@
       "action_type": "Liquidation",
       "ratio": "",
       "action_details": "NEOS ETF Trust - Fis Knights Of Columbus Global Belief ETF (KOCG) performed a liquidation. Holders will receive 31.08775893 USD per share held."
+    },
+    {
+      "date": "2025-08-01",
+      "company": "Rugby Resources Ltd",
+      "ticker": "RUG",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Rugby Resources Ltd (RUG) performed a merger. Holders will receive 0.15625 share of Pampa Metals Corporation (PM) and 0.10 share Aegis Resources /CM per share held."
     },
     {
       "date": "2025-07-31",
@@ -14858,8 +14914,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1857,
-    "scraped_at": "2025-08-01T14:20:06.897480+00:00",
+    "total_actions": 1864,
+    "scraped_at": "2025-08-01T21:20:36.696104+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
