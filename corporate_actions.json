@@ -1,6 +1,86 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-08-05",
+      "company": "Midasco Capital",
+      "ticker": "MGC.H",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Midasco Capital (MGC.H) performed a 1 for 1 name and CUSIP change to Spartan Metals Corp. (W)."
+    },
+    {
+      "date": "2025-08-05",
+      "company": "Pampa Metals Corporation",
+      "ticker": "PM",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Pampa Metals Corporation (PM) performed a 1 for 1 name and CUSIP change to Andina Copper Corporation (ANDC)."
+    },
+    {
+      "date": "2025-08-05",
+      "company": "Mitsubishi Heavy Industries Limited",
+      "ticker": "MHVIY",
+      "action_type": "Stock Split",
+      "ratio": "2 for 1",
+      "action_details": "Mitsubishi Heavy Industries Limited (MHVIY) performed a 2 for 1 stock split. Holders will now hold 2 shares of Mitsubishi Heavy Industries Limited (MHVIY) per 1 share previously held."
+    },
+    {
+      "date": "2025-08-05",
+      "company": "Acurx Pharmaceuticals Inc",
+      "ticker": "ACXP",
+      "action_type": "Consolidation",
+      "ratio": "1 for 20",
+      "action_details": "Acurx Pharmaceuticals Inc (ACXP) performed a 1 for 20 consolidation. Holders will now hold 1 share of Acurx Pharmaceuticals Inc (ACXP) for every 20 shares previously held."
+    },
+    {
+      "date": "2025-08-05",
+      "company": "Ostin Technology Group Company Limited",
+      "ticker": "OST",
+      "action_type": "Consolidation",
+      "ratio": "1 for 25",
+      "action_details": "Ostin Technology Group Company Limited (OST) performed a 1 for 25 consolidation. Holders will now hold 1 share of Ostin Technology Group Company Limited (OST) for every 25 shares previously held."
+    },
+    {
+      "date": "2025-08-05",
+      "company": "Kingsview Minerals Limited",
+      "ticker": "KVM",
+      "action_type": "Consolidation",
+      "ratio": "1 for 2",
+      "action_details": "Kingsview Minerals Limited (KVM) performed a 1 for 2 consolidation. Holders will now hold 1 share of Kingsview Minerals Limited (KVM) for every 2 shares previously held."
+    },
+    {
+      "date": "2025-08-05",
+      "company": "Sol Strategies Inc",
+      "ticker": "HODL",
+      "action_type": "Consolidation",
+      "ratio": "1 for 8",
+      "action_details": "Sol Strategies Inc. (HODL) performed a 1 for 8 consolidation. Holders will now hold 1 share of Sol Strategies Inc. (HODL) for every 8 shares previously held."
+    },
+    {
+      "date": "2025-08-05",
+      "company": "Mackenzie Rlty Capital Inc",
+      "ticker": "MKZR",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Mackenzie Rlty Capital Inc. (MKZR) performed a 1 for 10 consolidation. Holders will now hold 1 share of Mackenzie Rlty Capital Inc. (MKZR) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-08-05",
+      "company": "Rover Critical Minerals Corp",
+      "ticker": "ROVR",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Rover Critical Minerals Corp. (ROVR) performed a 1 for 1 name and CUSIP change to Stockworks Gold Inc. (STW)."
+    },
+    {
+      "date": "2025-08-05",
+      "company": "Sonoran Desert Copper Corp",
+      "ticker": "SDCU",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Sonoran Desert Copper Corp (SDCU) performed a 1 for 1 name and CUSIP change to Brasnova Energy Materials Inc. (BEM)."
+    },
+    {
       "date": "2025-08-04",
       "company": "Anghami Inc",
       "ticker": "ANGH",
@@ -47,6 +127,14 @@
       "action_type": "Merger",
       "ratio": "",
       "action_details": "Uniti Group (UNIT) performed a merger. Holders will receive 0.6029 share of new Uniti Group (UNIT) per share held."
+    },
+    {
+      "date": "2025-08-04",
+      "company": "E2open Parent Holdings Inc",
+      "ticker": "ETWO",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "E2open Parent Holdings Inc (Class A) (ETWO) performed a merger. Holders will receive 3.30 USD per share held."
     },
     {
       "date": "2025-08-01",
@@ -14119,807 +14207,15 @@
       "action_type": "Merger",
       "ratio": "",
       "action_details": "Vericity Inc (VERY) performed a merger. Holders will receive 11.43 USD per share held."
-    },
-    {
-      "date": "2024-06-28",
-      "company": "Spey Resources Corp",
-      "ticker": "SPEY",
-      "action_type": "Consolidation",
-      "ratio": "1 for 10",
-      "action_details": "Spey Resources Corp (SPEY) performed a 1 for 10 consolidation. Holders will now hold 1 share of Spey Resources Corp (SPEY) for every 10 shares previously held."
-    },
-    {
-      "date": "2024-06-28",
-      "company": "Wheeler Real Estate Investment Trust Inc",
-      "ticker": "WHLR",
-      "action_type": "Consolidation",
-      "ratio": "1 for 5",
-      "action_details": "Wheeler Real Estate Investment Trust Inc. (WHLR) performed a 1 for 5 consolidation. Holders will now hold 1 share of Wheeler Real Estate Investment Trust Inc. (WHLR) for every 5 shares previously held."
-    },
-    {
-      "date": "2024-06-28",
-      "company": "Nuwellis Inc",
-      "ticker": "NUWE",
-      "action_type": "Consolidation",
-      "ratio": "1 for 35",
-      "action_details": "Nuwellis Inc (NUWE) performed a 1 for 35 consolidation. Holders will now hold 1 share of Nuwellis Inc (NUWE) for every 35 shares previously held."
-    },
-    {
-      "date": "2024-06-28",
-      "company": "Eddy Smart Home Solutions Limited",
-      "ticker": "EDY",
-      "action_type": "Consolidation",
-      "ratio": "1 for 100",
-      "action_details": "Eddy Smart Home Solutions Limited (EDY) performed a 1 for 100 consolidation. Holders will now hold 1 share of Eddy Smart Home Solutions Limited (EDY) for every 100 shares previously held."
-    },
-    {
-      "date": "2024-06-28",
-      "company": "INSPRTION ENER RG",
-      "ticker": "ISP",
-      "action_type": "Consolidation",
-      "ratio": "1 for 5",
-      "action_details": "INSPRTION ENER RG (ISP) performed a 1 for 5 consolidation. Holders will now hold 1 share of INSPRTION ENER RG (ISP) for every 5 shares previously held."
-    },
-    {
-      "date": "2024-06-28",
-      "company": "Hercules Silver Corp",
-      "ticker": "BIG",
-      "action_type": "Other",
-      "ratio": "",
-      "action_details": "Hercules Silver Corp (BIG) performed a name and CUSIP change to Hercules Metals Corp. (BIG)"
-    },
-    {
-      "date": "2024-06-28",
-      "company": "American Future Fuel Corp",
-      "ticker": "AMPS",
-      "action_type": "Merger",
-      "ratio": "",
-      "action_details": "American Future Fuel Corp (AMPS) performed a merger. Holders will receive 0.17 share of Premier American Uranium Inc. (PUR) per share held."
-    },
-    {
-      "date": "2024-06-28",
-      "company": "HireRight Holdings Corp",
-      "ticker": "HRT",
-      "action_type": "Merger",
-      "ratio": "",
-      "action_details": "HireRight Holdings Corp (Class A) (HRT) performed a merger. Holders will receive 14.35 USD per share held."
-    },
-    {
-      "date": "2024-06-27",
-      "company": "Rigel Pharmaceuticals",
-      "ticker": "RIGL",
-      "action_type": "Consolidation",
-      "ratio": "1 for 10",
-      "action_details": "Rigel Pharmaceuticals (RIGL) performed a 1 for 10 consolidation. Holders will now hold 1 share of Rigel Pharmaceuticals (RIGL) for every 10 shares previously held."
-    },
-    {
-      "date": "2024-06-27",
-      "company": "Connexa Sports Technologies Inc",
-      "ticker": "YYAI",
-      "action_type": "Consolidation",
-      "ratio": "1 for 20",
-      "action_details": "Connexa Sports Technologies Inc. (YYAI) performed a 1 for 20 consolidation. Holders will now hold 1 share of Connexa Sports Technologies Inc. (YYAI) for every 20 shares previously held."
-    },
-    {
-      "date": "2024-06-27",
-      "company": "Western Atlas Resources Inc",
-      "ticker": "WA",
-      "action_type": "Other",
-      "ratio": "",
-      "action_details": "Western Atlas Resources Inc. (WA) performed a name and CUSIP change to Seasif Exploration Inc. (SAF)."
-    },
-    {
-      "date": "2024-06-27",
-      "company": "General Assembly Holdings Limited",
-      "ticker": "GA",
-      "action_type": "Other",
-      "ratio": "",
-      "action_details": "General Assembly Holdings Limited (GA) performed a name and CUSIP change to CanPR Technology Inc. (WPR)."
-    },
-    {
-      "date": "2024-06-27",
-      "company": "Fortuna Silver Mines Inc",
-      "ticker": "FVI",
-      "action_type": "Other",
-      "ratio": "",
-      "action_details": "Fortuna Silver Mines Inc. (FVI) performed a name and CUSIP change to Fortuna Mining Corp (FVI)."
-    },
-    {
-      "date": "2024-06-27",
-      "company": "Model N Inc",
-      "ticker": "MODN",
-      "action_type": "Merger",
-      "ratio": "",
-      "action_details": "Model N Inc (MODN) performed a merger. Holders will receive 30 USD per share held."
-    },
-    {
-      "date": "2024-06-26",
-      "company": "Staffing 360 Solutions Inc",
-      "ticker": "STAF",
-      "action_type": "Consolidation",
-      "ratio": "1 for 10",
-      "action_details": "Staffing 360 Solutions Inc (STAF) performed a 1 for 10 consolidation. Holders will now hold 1 share of Staffing 360 Solutions Inc (STAF) for every 10 shares previously held."
-    },
-    {
-      "date": "2024-06-26",
-      "company": "Singular Genomics Systems Inc",
-      "ticker": "OMIC",
-      "action_type": "Consolidation",
-      "ratio": "1 for 30",
-      "action_details": "Singular Genomics Systems Inc (OMIC) performed a 1 for 30 consolidation. Holders will now hold 1 share of Singular Genomics Systems Inc (OMIC) for every 30 shares previously held."
-    },
-    {
-      "date": "2024-06-26",
-      "company": "Chipotle Mexican Grill",
-      "ticker": "CMG",
-      "action_type": "Stock Split",
-      "ratio": "50 for 1",
-      "action_details": "Chipotle Mexican Grill (CMG) performed a 50 for 1 stock split. Holders will now hold 50 shares of Chipotle Mexican Grill (CMG) for every 1 share previously held."
-    },
-    {
-      "date": "2024-06-26",
-      "company": "Nanostring Technologies Inc",
-      "ticker": "NSTGQ",
-      "action_type": "Reorganization",
-      "ratio": "",
-      "action_details": "Nanostring Technologies Inc (NSTGQ) performed a reorganization. Holders will receive 1 escrow share per share held."
-    },
-    {
-      "date": "2024-06-25",
-      "company": "Nikola Corporation",
-      "ticker": "NKLA",
-      "action_type": "Consolidation",
-      "ratio": "1 for 30",
-      "action_details": "Nikola Corporation (NKLA) performed a 1 for 30 consolidation. Holders will now hold 1 share of Nikola Corporation (NKLA) for every 30 shares previously held."
-    },
-    {
-      "date": "2024-06-25",
-      "company": "Crown Electrokinetics Corp",
-      "ticker": "CRKN",
-      "action_type": "Consolidation",
-      "ratio": "1 for 150",
-      "action_details": "Crown Electrokinetics Corp (CRKN) performed a 1 for 150 consolidation. Holders will now hold 1 share of Crown Electrokinetics Corp (CRKN) for every 150 shares previously held."
-    },
-    {
-      "date": "2024-06-25",
-      "company": "Illumina Inc",
-      "ticker": "ILMN",
-      "action_type": "Spinoff",
-      "ratio": "",
-      "action_details": "Illumina Inc. (ILMN) performed a spinoff distribution. Holders will receive 0.1667 share of GRAIL Inc. (GRAL.V) per 1 Illumina Inc. (ILMN) shares held as of record date of June 13, 2024."
-    },
-    {
-      "date": "2024-06-25",
-      "company": "Arrow Canadian Advantage Alternative Class ETF",
-      "ticker": "ACAA",
-      "action_type": "Other",
-      "ratio": "",
-      "action_details": "Arrow Canadian Advantage Alternative Class ETF (ACAA) performed a name and CUSIP change to Arrow Long/Short Alternative Fund (ACAA)."
-    },
-    {
-      "date": "2024-06-25",
-      "company": "Digital Health Acquisition Corp",
-      "ticker": "DHAC",
-      "action_type": "Merger",
-      "ratio": "",
-      "action_details": "Digital Health Acquisition Corp (DHAC) performed a merger. Holders will receive 1 share of VSee Health Inc. (VSEE) per share held."
-    },
-    {
-      "date": "2024-06-24",
-      "company": "AdTheorent Holding Company Inc",
-      "ticker": "ADTH",
-      "action_type": "Merger",
-      "ratio": "",
-      "action_details": "AdTheorent Holding Company Inc (ADTH) performed a merger. Holders will receive 3.21 USD per unit held."
-    },
-    {
-      "date": "2024-06-24",
-      "company": "Capitol Series Trust - Clockwise Capital Innovation ETF",
-      "ticker": "TIME",
-      "action_type": "Reorganization",
-      "ratio": "",
-      "action_details": "Capitol Series Trust - Clockwise Capital Innovation ETF (TIME) performed a reorganization. Holders will receive 1 unit of Tidal Trust II Clockwise Core Equity & Innovation ETF per unit held."
-    },
-    {
-      "date": "2024-06-24",
-      "company": "Templeton Global Income Fund Inc",
-      "ticker": "SABA",
-      "action_type": "Consolidation",
-      "ratio": "1 for 2",
-      "action_details": "Templeton Global Income Fund Inc (SABA) performed a name change and 1 for 2 consolidation. Holders will now hold 1 share of Templeton Global Income Fund Inc (SABA) for every 2 shares previously held."
-    },
-    {
-      "date": "2024-06-24",
-      "company": "Chemistree Technology Inc",
-      "ticker": "CHM",
-      "action_type": "Consolidation",
-      "ratio": "1 for 10",
-      "action_details": "Chemistree Technology Inc (CHM) performed a name change and 1 for 10 consolidation. Holders will now hold 1 share of Waverunner Capital Inc. (WRUN) for every 10 shares previously held."
-    },
-    {
-      "date": "2024-06-24",
-      "company": "Barrett Business Services Inc",
-      "ticker": "BBSI",
-      "action_type": "Stock Split",
-      "ratio": "4 for 1",
-      "action_details": "Barrett Business Services Inc. (BBSI) performed a 4 for 1 stock split. Holders will now hold 4 shares of Barrett Business Services Inc. (BBSI) for every 1 share previously held."
-    },
-    {
-      "date": "2024-06-24",
-      "company": "TD Morningstar ESG U.S. Corporate Bond Index ETF",
-      "ticker": "TMUC",
-      "action_type": "Redemption",
-      "ratio": "",
-      "action_details": "TD Morningstar ESG U.S. Corporate Bond Index ETF (TMUC) performed a mandatory redemption. Details of the event are still to be determined."
-    },
-    {
-      "date": "2024-06-24",
-      "company": "TD Morningstar ESG Canada Corporate Bond Index ETF - CAD",
-      "ticker": "TMCC",
-      "action_type": "Redemption",
-      "ratio": "",
-      "action_details": "TD Morningstar ESG Canada Corporate Bond Index ETF - CAD (TMCC) performed a mandatory redemption. Details of the event are still to be determined."
-    },
-    {
-      "date": "2024-06-24",
-      "company": "TD Morningstar ESG International Equity Index ETF",
-      "ticker": "TMEI",
-      "action_type": "Redemption",
-      "ratio": "",
-      "action_details": "TD Morningstar ESG International Equity Index ETF (TMEI) performed a mandatory redemption. Details of the event are still to be determined."
-    },
-    {
-      "date": "2024-06-24",
-      "company": "TD Morningstar ESG U.S. Equity Index ETF",
-      "ticker": "TMEU",
-      "action_type": "Redemption",
-      "ratio": "",
-      "action_details": "TD Morningstar ESG U.S. Equity Index ETF (TMEU) performed a mandatory redemption. Details of the event are still to be determined."
-    },
-    {
-      "date": "2024-06-24",
-      "company": "TD Income BTD Morningstar ESG Canada Equity Index ETF",
-      "ticker": "TMEC",
-      "action_type": "Redemption",
-      "ratio": "",
-      "action_details": "TD Income BTD Morningstar ESG Canada Equity Index ETF (TMEC) performed a mandatory redemption. Details of the event are still to be determined."
-    },
-    {
-      "date": "2024-06-24",
-      "company": "TD Income Builder ETF",
-      "ticker": "TPAY",
-      "action_type": "Redemption",
-      "ratio": "",
-      "action_details": "TD Income Builder ETF (TPAY) performed a mandatory redemption. Details of the event are still to be determined."
-    },
-    {
-      "date": "2024-06-24",
-      "company": "Vizsla Silver Corp",
-      "ticker": "VZLA",
-      "action_type": "Other",
-      "ratio": "",
-      "action_details": "Vizsla Silver Corp (VZLA) performed a plan of arrangement. Holders will receive 1 new share of Vizsla Silver Corp (VZLA) and 1/3 shares Vizsla Royalties Corp plus 1/3 Vizsla Royalties Corp warrants per share originally held."
-    },
-    {
-      "date": "2024-06-21",
-      "company": "AVROBIO Inc",
-      "ticker": "AVRO",
-      "action_type": "Consolidation",
-      "ratio": "1 for 12",
-      "action_details": "AVROBIO Inc. (AVRO) performed a 1 for 12 consolidation. Holders will now hold 1 share of AVROBIO Inc. (AVRO) plus 1 CVR for every 12 shares previously held."
-    },
-    {
-      "date": "2024-06-21",
-      "company": "Qilian International Holding Group Ltd",
-      "ticker": "QLI",
-      "action_type": "Consolidation",
-      "ratio": "1 for 5",
-      "action_details": "Qilian International Holding Group Ltd (QLI) performed a 1 for 5 consolidation. Holders will now hold 1 share of Qilian International Holding Group Ltd (QLI) for every 5 shares previously held."
-    },
-    {
-      "date": "2024-06-21",
-      "company": "Transphorm Inc",
-      "ticker": "TGAN",
-      "action_type": "Merger",
-      "ratio": "",
-      "action_details": "Transphorm Inc. (TGAN) performed a merger. Holders will receive 5.10 USD per share."
-    },
-    {
-      "date": "2024-06-21",
-      "company": "Ace Global Business Acquisition Ltd",
-      "ticker": "ACBA",
-      "action_type": "Acquisition",
-      "ratio": "",
-      "action_details": "Ace Global Business Acquisition Ltd (ACBA) performed a mandatory liquidation. Holders will receive 12.25816607 USD per share."
-    },
-    {
-      "date": "2024-06-20",
-      "company": "Bluejay Diagnostics Inc",
-      "ticker": "BJDX",
-      "action_type": "Consolidation",
-      "ratio": "1 for 8",
-      "action_details": "Bluejay Diagnostics Inc. (BJDX) performed a 1 for 8 consolidation. Holders will now hold 1 share of Bluejay Diagnostics Inc. (BJDX) for every 8 shares previously held."
-    },
-    {
-      "date": "2024-06-20",
-      "company": "Atara Biotherapeutics Inc",
-      "ticker": "ATRA",
-      "action_type": "Consolidation",
-      "ratio": "1 for 25",
-      "action_details": "Atara Biotherapeutics Inc. (ATRA) performed a 1 for 25 consolidation. Holders will now hold 1 share of Atara Biotherapeutics Inc. (ATRA) for every 25 shares previously held."
-    },
-    {
-      "date": "2024-06-19",
-      "company": "Eureka Lithium Corp",
-      "ticker": "ERKA",
-      "action_type": "Consolidation",
-      "ratio": "1 for 10",
-      "action_details": "Eureka Lithium Corp (ERKA) performed a 1 for 10 consolidation. Holders will now hold 1 share of Eureka Lithium Corp (ERKA) for every 10 shares previously held."
-    },
-    {
-      "date": "2024-06-18",
-      "company": "VS Media Holdings Limited",
-      "ticker": "VSME",
-      "action_type": "Consolidation",
-      "ratio": "1 for 7",
-      "action_details": "VS Media Holdings Limited (VSME) performed a 1 for 7 consolidation. Holders will now hold 1 share of VS Media Holdings Limited (VSME) for every 7 shares previously held."
-    },
-    {
-      "date": "2024-06-18",
-      "company": "Regenx Tech Corp",
-      "ticker": "RGX",
-      "action_type": "Consolidation",
-      "ratio": "1 for 2",
-      "action_details": "Regenx Tech Corp (RGX) performed a 1 for 2 consolidation. Holders will now hold 1 share of Regenx Tech Corp (RGX) for every 2 shares previously held."
-    },
-    {
-      "date": "2024-06-18",
-      "company": "GRI Bio Inc",
-      "ticker": "GRI",
-      "action_type": "Consolidation",
-      "ratio": "1 for 13",
-      "action_details": "GRI Bio Inc (GRI) performed a 1 for 13 consolidation. Holders will now hold 1 share of GRI Bio Inc (GRI) for every 13 shares previously held."
-    },
-    {
-      "date": "2024-06-18",
-      "company": "Forward Industries, Inc",
-      "ticker": "FORD",
-      "action_type": "Consolidation",
-      "ratio": "1 for 10",
-      "action_details": "Forward Industries, Inc. (FORD) performed a 1 for 10 consolidation. Holders will now hold 1 share of Forward Industries, Inc. (FORD) for every 10 shares previously held."
-    },
-    {
-      "date": "2024-06-18",
-      "company": "Ophir Gold Corp",
-      "ticker": "OPHR",
-      "action_type": "Other",
-      "ratio": "",
-      "action_details": "Ophir Gold Corp (OPHR) performed a name and CUSIP change to Ophir Metals Corp. (OPHR)."
-    },
-    {
-      "date": "2024-06-18",
-      "company": "Legg Mason ETF Investment - Clearbridge All Capital Growth ESG ETF",
-      "ticker": "CACG",
-      "action_type": "Reorganization",
-      "ratio": "",
-      "action_details": "Legg Mason ETF Investment - Clearbridge All Capital Growth ESG ETF (CACG) performed a reorganization. Holders will receive 0.77186411 shares of new Legg Mason ETF Investment - Clearbridege All Cap Growth ETF. (LRGE) per old share held."
-    },
-    {
-      "date": "2024-06-17",
-      "company": "Workhorse Group Inc",
-      "ticker": "WKHS",
-      "action_type": "Consolidation",
-      "ratio": "1 for 20",
-      "action_details": "Workhorse Group Inc (WKHS) performed a 1 for 20 consolidation. Holders will now hold 1 share of Workhorse Group Inc (WKHS) for every 20 shares previously held."
-    },
-    {
-      "date": "2024-06-17",
-      "company": "Star Equity Holdings Inc",
-      "ticker": "STRR",
-      "action_type": "Consolidation",
-      "ratio": "1 for 5",
-      "action_details": "Star Equity Holdings Inc (STRR) performed a 1 for 5 consolidation. Holders will now hold 1 share of Star Equity Holdings Inc (STRR) for every 5 shares previously held."
-    },
-    {
-      "date": "2024-06-17",
-      "company": "Salarius Pharmaceuticals Inc",
-      "ticker": "SLRX",
-      "action_type": "Consolidation",
-      "ratio": "1 for 8",
-      "action_details": "Salarius Pharmaceuticals Inc (SLRX) performed a 1 for 8 consolidation. Holders will now hold 1 share of Salarius Pharmaceuticals Inc (SLRX) for every 8 shares previously held."
-    },
-    {
-      "date": "2024-06-17",
-      "company": "Global X Hydrogen ETF",
-      "ticker": "HYDR",
-      "action_type": "Consolidation",
-      "ratio": "1 for 5",
-      "action_details": "Global X Hydrogen ETF (HYDR) performed a 1 for 5 consolidation. Holders will now hold 1 share of Global X Hydrogen ETF (HYDR) for every 5 shares previously held."
-    },
-    {
-      "date": "2024-06-17",
-      "company": "Global X Funds - 1-3 Month T-bill ETF",
-      "ticker": "CLIP",
-      "action_type": "Consolidation",
-      "ratio": "1 for 4",
-      "action_details": "Global X Funds - 1-3 Month T-bill ETF (CLIP) performed a 1 for 4 consolidation. Holders will now hold 1 share of Global X Funds - 1-3 Month T-bill ETF (CLIP) for every 4 shares previously held."
-    },
-    {
-      "date": "2024-06-17",
-      "company": "Aranjin Resources Limited",
-      "ticker": "ARJN",
-      "action_type": "Consolidation",
-      "ratio": "1 for 40",
-      "action_details": "Aranjin Resources Limited (ARJN) performed a 1 for 40 consolidation. Holders will now hold 1 share of Aranjin Resources Limited (ARJN) for every 40 shares previously held."
-    },
-    {
-      "date": "2024-06-17",
-      "company": "Virgin Galactic Holdings Inc",
-      "ticker": "SPCE",
-      "action_type": "Consolidation",
-      "ratio": "1 for 20",
-      "action_details": "Virgin Galactic Holdings Inc (Class A) (SPCE) performed a 1 for 20 consolidation. Holders will now hold 1 share of Virgin Galactic Holdings Inc (Class A) (SPCE) for every 20 shares previously held."
-    },
-    {
-      "date": "2024-06-17",
-      "company": "Perspective Therapeutics Inc",
-      "ticker": "CATX",
-      "action_type": "Consolidation",
-      "ratio": "1 for 10",
-      "action_details": "Perspective Therapeutics Inc. (CATX) performed a 1 for 10 consolidation. Holders will now hold 1 share of Perspective Therapeutics Inc. (CATX) for every 10 shares previously held."
-    },
-    {
-      "date": "2024-06-17",
-      "company": "Ether Capital Corp",
-      "ticker": "ETHC",
-      "action_type": "Other",
-      "ratio": "",
-      "action_details": "Ether Capital Corp (ETHC) performed a mandatory exchange. Holders will now hold Purpose Ether Staking Corp ETF (ETHC.B) for every share of ETHC previously held."
-    },
-    {
-      "date": "2024-06-14",
-      "company": "2U Inc",
-      "ticker": "TWOU",
-      "action_type": "Consolidation",
-      "ratio": "1 for 30",
-      "action_details": "2U Inc. (TWOU) performed a 1 for 30 consolidation. Holders will now hold 1 share of 2U Inc. (TWOU) for every 30 shares previously held."
-    },
-    {
-      "date": "2024-06-14",
-      "company": "Interactive Strength Inc",
-      "ticker": "TRNR",
-      "action_type": "Consolidation",
-      "ratio": "1 for 40",
-      "action_details": "Interactive Strength Inc. (TRNR) performed a 1 for 40 consolidation. Holders will now hold 1 share of Interactive Strength Inc. (TRNR) for every 40 shares previously held."
-    },
-    {
-      "date": "2024-06-14",
-      "company": "Koryx Copper Inc",
-      "ticker": "KRY",
-      "action_type": "Consolidation",
-      "ratio": "1 for 5",
-      "action_details": "Koryx Copper Inc. (KRY) performed a 1 for 5 consolidation. Holders will now hold 1 share of Koryx Copper Inc. (KRY) for every 5 shares previously held."
-    },
-    {
-      "date": "2024-06-14",
-      "company": "Via Renewables Inc",
-      "ticker": "VIA",
-      "action_type": "Merger",
-      "ratio": "",
-      "action_details": "Via Renewables Inc. (VIA) performed a merger. Holders will receive 11 USD share held."
-    },
-    {
-      "date": "2024-06-13",
-      "company": "Adamera Minerals Corp",
-      "ticker": "ADZ",
-      "action_type": "Consolidation",
-      "ratio": "1 for 10",
-      "action_details": "Adamera Minerals Corp (ADZ) performed a 1 for 10 consolidation. Holders will now hold 1 share of Adamera Minerals Corp (ADZ) for every 10 shares previously held."
-    },
-    {
-      "date": "2024-06-13",
-      "company": "Velo3D Inc",
-      "ticker": "VLD",
-      "action_type": "Consolidation",
-      "ratio": "1 for 35",
-      "action_details": "Velo3D Inc. (VLD) performed a 1 for 35 consolidation. Holders will now hold 1 share of Velo3D Inc. (VLD) for every 35 shares previously held."
-    },
-    {
-      "date": "2024-06-13",
-      "company": "Nevada Exploration Inc",
-      "ticker": "NGE",
-      "action_type": "Other",
-      "ratio": "",
-      "action_details": "Nevada Exploration Inc (NGE) performed a name and CUSIP change to URZ3 Energy Corp. (URZ)."
-    },
-    {
-      "date": "2024-06-13",
-      "company": "Vicarious Surgical Inc",
-      "ticker": "RBOT",
-      "action_type": "Consolidation",
-      "ratio": "1 for 30",
-      "action_details": "Vicarious Surgical Inc (Class A) (RBOT) performed a 1 for 30 consolidation. Holders will now hold 1 share of Vicarious Surgical Inc (Class A) (RBOT) for every 30 shares previously held."
-    },
-    {
-      "date": "2024-06-12",
-      "company": "Amphenol Corp",
-      "ticker": "APH",
-      "action_type": "Stock Split",
-      "ratio": "2 for 1",
-      "action_details": "Amphenol Corp. (APH) performed a 2 for 1 stock split. Holders will now hold 2 shares of Amphenol Corp. (APH) per share previously held."
-    },
-    {
-      "date": "2024-06-12",
-      "company": "Deciphera Pharmaceuticals Inc",
-      "ticker": "DCPH",
-      "action_type": "Merger",
-      "ratio": "",
-      "action_details": "Deciphera Pharmaceuticals Inc (DCPH) performed a merger. Holders will receive 25.60 USD per share held."
-    },
-    {
-      "date": "2024-06-12",
-      "company": "Barnes & Noble Education, Inc",
-      "ticker": "BNED",
-      "action_type": "Consolidation",
-      "ratio": "1 for 100",
-      "action_details": "Barnes & Noble Education, Inc. (BNED) performed a 1 for 100 consolidation. Holders will now hold 1 share of Barnes & Noble Education, Inc. (BNED) for every 100 shares previously held."
-    },
-    {
-      "date": "2024-06-12",
-      "company": "Pineapple Energy Inc",
-      "ticker": "PEGY",
-      "action_type": "Consolidation",
-      "ratio": "1 for 15",
-      "action_details": "Pineapple Energy Inc (PEGY) performed a 1 for 15 consolidation. Holders will now hold 1 share of Pineapple Energy Inc (PEGY) for every 15 shares previously held."
-    },
-    {
-      "date": "2024-06-11",
-      "company": "Rights Minerals Corp",
-      "ticker": "RTM",
-      "action_type": "Consolidation",
-      "ratio": "1 for 14",
-      "action_details": "Rights Minerals Corp (RTM) performed a 1 for 14 consolidation. Holders will now hold 1 share of Rights Minerals Corp (RTM) for every 14 shares previously held."
-    },
-    {
-      "date": "2024-06-11",
-      "company": "Kiora Pharmaceuticals Inc",
-      "ticker": "KPRX",
-      "action_type": "Consolidation",
-      "ratio": "1 for 9",
-      "action_details": "Kiora Pharmaceuticals Inc (KPRX) performed a 1 for 9 consolidation. Holders will now hold 1 share of Kiora Pharmaceuticals Inc (KPRX) for every 9 shares previously held."
-    },
-    {
-      "date": "2024-06-11",
-      "company": "Desktop Metal Inc",
-      "ticker": "DM",
-      "action_type": "Consolidation",
-      "ratio": "1 for 10",
-      "action_details": "Desktop Metal Inc (Class A) (DM) performed a 1 for 10 consolidation. Holders will now hold 1 share of Desktop Metal Inc (Class A) (DM) for every 10 shares previously held."
-    },
-    {
-      "date": "2024-06-11",
-      "company": "Canadian Natural Resources Ltd",
-      "ticker": "CNQ",
-      "action_type": "Stock Split",
-      "ratio": "2 for 1",
-      "action_details": "Canadian Natural Resources Ltd. (CNQ) performed a 2 for 1 stock split. Holders will now hold 2 shares of Canadian Natural Resources Ltd. (CNQ) for every 1 share previously held."
-    },
-    {
-      "date": "2024-06-10",
-      "company": "Tonix Pharmaceuticals Holding Corp",
-      "ticker": "TNXP",
-      "action_type": "Consolidation",
-      "ratio": "1 for 32",
-      "action_details": "Tonix Pharmaceuticals Holding Corp. (TNXP) performed a 1 for 32 consolidation. Holders will now hold 1 share of Tonix Pharmaceuticals Holding Corp. (TNXP) for every 32 shares previously held."
-    },
-    {
-      "date": "2024-06-10",
-      "company": "Baijiayun Group Ltd",
-      "ticker": "RTC",
-      "action_type": "Consolidation",
-      "ratio": "1 for 5",
-      "action_details": "Baijiayun Group Ltd (Class A) (RTC) performed a 1 for 5 consolidation. Holders will now hold 1 share of Baijiayun Group Ltd (Class A) (RTC) for every 5 shares previously held."
-    },
-    {
-      "date": "2024-06-10",
-      "company": "Health Logic Interactive Inc",
-      "ticker": "CHIP.H",
-      "action_type": "Consolidation",
-      "ratio": "1 for 4",
-      "action_details": "Health Logic Interactive Inc. (CHIP.H) performed a 1 for 4 consolidation. Holders will now hold 1 share of Health Logic Interactive Inc. (CHIP.H) for every 4 shares previously held."
-    },
-    {
-      "date": "2024-06-10",
-      "company": "NVIDIA Corp",
-      "ticker": "NVDA",
-      "action_type": "Stock Split",
-      "ratio": "10 for 1",
-      "action_details": "NVIDIA Corp. (NVDA) performed a 10 for 1 stock split. Holders will now hold 10 shares of NVIDIA Corp. (NVDA) for every 1 share previously held."
-    },
-    {
-      "date": "2024-06-07",
-      "company": "Volcon Inc",
-      "ticker": "VLCN",
-      "action_type": "Consolidation",
-      "ratio": "1 for 100",
-      "action_details": "Volcon Inc (VLCN) performed a 1 for 100 consolidation. Holders will now hold 1 share of Volcon Inc (VLCN) for every 100 shares previously held."
-    },
-    {
-      "date": "2024-06-07",
-      "company": "STRATA Skin Sciences Inc",
-      "ticker": "SSKN",
-      "action_type": "Consolidation",
-      "ratio": "1 for 10",
-      "action_details": "STRATA Skin Sciences Inc (SSKN) performed a 1 for 10 consolidation. Holders will now hold 1 share of STRATA Skin Sciences Inc (SSKN) for every 10 shares previously held."
-    },
-    {
-      "date": "2024-06-07",
-      "company": "Bluesky Digital Assets Corp",
-      "ticker": "BTC",
-      "action_type": "Consolidation",
-      "ratio": "1 for 7",
-      "action_details": "Bluesky Digital Assets Corp (BTC) performed a 1 for 7 consolidation. Holders will now hold 1 share of Bluesky Digital Assets Corp (BTC) for every 7 shares previously held."
-    },
-    {
-      "date": "2024-06-07",
-      "company": "Cea Industries Inc",
-      "ticker": "CEAD",
-      "action_type": "Consolidation",
-      "ratio": "1 for 12",
-      "action_details": "Cea Industries Inc. (CEAD) performed a 1 for 12 consolidation. Holders will now hold 1 share of Cea Industries Inc. (CEAD) for every 12 shares previously held."
-    },
-    {
-      "date": "2024-06-07",
-      "company": "Kiplin Metals Inc",
-      "ticker": "KIP",
-      "action_type": "Consolidation",
-      "ratio": "1 for 6",
-      "action_details": "Kiplin Metals Inc (KIP) performed a 1 for 6 consolidation. Holders will now hold 1 share of Kiplin Metals Inc (KIP) for every 6 shares previously held."
-    },
-    {
-      "date": "2024-06-07",
-      "company": "Ceapro Inc",
-      "ticker": "CZO",
-      "action_type": "Merger",
-      "ratio": "",
-      "action_details": "Ceapro Inc. (CZO) performed a merger. Holders will receive 0.0236 shares of Aeterna Zentaris Inc. (AEZS) for each share held."
-    },
-    {
-      "date": "2024-06-07",
-      "company": "Plutonian Acquisition Corp",
-      "ticker": "PLTN",
-      "action_type": "Merger",
-      "ratio": "",
-      "action_details": "Plutonian Acquisition Corp (PLTN) performed a merger. Holders will receive 1 share of Big Tree Cloud Holdings Limited (DSY) for each share held."
-    },
-    {
-      "date": "2024-06-06",
-      "company": "Soligenix Inc",
-      "ticker": "SNGX",
-      "action_type": "Consolidation",
-      "ratio": "1 for 16",
-      "action_details": "Soligenix Inc (SNGX) performed a 1 for 16 consolidation. Holders will now hold 1 share of Soligenix Inc (SNGX) for every 16 shares previously held."
-    },
-    {
-      "date": "2024-06-06",
-      "company": "SilverSun Technologies Inc",
-      "ticker": "SSNT",
-      "action_type": "Consolidation",
-      "ratio": "1 for 8",
-      "action_details": "SilverSun Technologies Inc (SSNT) performed a 1 for 8 consolidation. Holders will now hold 1 share of SilverSun Technologies Inc (SSNT) for every 8 shares previously held."
-    },
-    {
-      "date": "2024-06-06",
-      "company": "Trigon Metals Inc",
-      "ticker": "TM",
-      "action_type": "Consolidation",
-      "ratio": "1 for 5",
-      "action_details": "Trigon Metals Inc (TM) performed a 1 for 5 consolidation. Holders will now hold 1 share of Trigon Metals Inc (TM) for every 5 shares previously held."
-    },
-    {
-      "date": "2024-06-05",
-      "company": "Cns Pharmaceuticals Inc",
-      "ticker": "CNSP",
-      "action_type": "Consolidation",
-      "ratio": "1 for 50",
-      "action_details": "Cns Pharmaceuticals Inc (CNSP) performed a 1 for 50 consolidation. Holders will now hold 1 share of Cns Pharmaceuticals Inc (CNSP) for every 50 shares previously held."
-    },
-    {
-      "date": "2024-06-05",
-      "company": "Fusion Pharmaceuticals Inc",
-      "ticker": "FUSN",
-      "action_type": "Merger",
-      "ratio": "",
-      "action_details": "Fusion Pharmaceuticals Inc (FUSN) performed a merger. Holders will receive 21 USD plus 1 Contingent Value Right (CVR) for each share held."
-    },
-    {
-      "date": "2024-06-05",
-      "company": "Indigo Books & Music Inc",
-      "ticker": "IDG",
-      "action_type": "Merger",
-      "ratio": "",
-      "action_details": "Indigo Books & Music Inc (IDG) performed a merger. Holders will receive 2.50 CAD for each share held."
-    },
-    {
-      "date": "2024-06-04",
-      "company": "Li-Cycle Holdings Corp",
-      "ticker": "LICY",
-      "action_type": "Consolidation",
-      "ratio": "1 for 8",
-      "action_details": "Li-Cycle Holdings Corp (Class A) (LICY) performed a 1 for 8 consolidation. Holders will now hold 1 share of Li-Cycle Holdings Corp (Class A) (LICY) for every 8 shares previously held."
-    },
-    {
-      "date": "2024-06-03",
-      "company": "Vibe Growth Corporation",
-      "ticker": "VIBE",
-      "action_type": "Consolidation",
-      "ratio": "1 for 10",
-      "action_details": "Vibe Growth Corporation (VIBE) performed a 1 for 10 consolidation. Holders will now hold 1 share of Vibe Growth Corporation (VIBE) for every 10 shares previously held."
-    },
-    {
-      "date": "2024-06-03",
-      "company": "Planet Green Holdings Corp",
-      "ticker": "PLAG",
-      "action_type": "Consolidation",
-      "ratio": "1 for 10",
-      "action_details": "Planet Green Holdings Corp (PLAG) performed a 1 for 10 consolidation. Holders will now hold 1 share of Planet Green Holdings Corp (PLAG) for every 10 shares previously held."
-    },
-    {
-      "date": "2024-06-03",
-      "company": "Greenwave Technology Solutions Inc",
-      "ticker": "GWAV",
-      "action_type": "Consolidation",
-      "ratio": "1 for 150",
-      "action_details": "Greenwave Technology Solutions Inc. (GWAV) performed a 1 for 150 consolidation. Holders will now hold 1 share of Greenwave Technology Solutions Inc. (GWAV) for every 150 shares previously held."
-    },
-    {
-      "date": "2024-06-03",
-      "company": "Fuse Battery Metals Inc",
-      "ticker": "FUSE",
-      "action_type": "Consolidation",
-      "ratio": "1 for 5",
-      "action_details": "Fuse Battery Metals Inc. (FUSE) performed a 1 for 5 consolidation. Holders will now hold 1 share of Fuse Battery Metals Inc. (FUSE) for every 5 shares previously held."
-    },
-    {
-      "date": "2024-06-03",
-      "company": "BioHarvest Sciences Inc",
-      "ticker": "BHSC",
-      "action_type": "Consolidation",
-      "ratio": "1 for 35",
-      "action_details": "BioHarvest Sciences Inc (BHSC) performed a 1 for 35 consolidation. Holders will now hold 1 share of BioHarvest Sciences Inc (BHSC) for every 35 shares previously held."
-    },
-    {
-      "date": "2024-06-03",
-      "company": "Columbia ETF I - U.S. ESG Equity Income ETF",
-      "ticker": "ESGS",
-      "action_type": "Other",
-      "ratio": "",
-      "action_details": "Columbia ETF I - U.S. ESG Equity Income ETF (ESGS) performed a name and CUSIP change to Columbia U.S. Equity Income ETF (EQIN)."
-    },
-    {
-      "date": "2024-06-03",
-      "company": "Aeterna Zentaris Inc",
-      "ticker": "AEZS",
-      "action_type": "Other",
-      "ratio": "",
-      "action_details": "Aeterna Zentaris Inc. (AEZS) performed a distribution. Holders will receive 0.47698 of a Common Share purchase warrant per AEZS share held as of record date June 3, 2024."
-    },
-    {
-      "date": "2024-06-03",
-      "company": "Shockwave Medical Inc",
-      "ticker": "SWAV",
-      "action_type": "Merger",
-      "ratio": "",
-      "action_details": "Shockwave Medical Inc. (SWAV) performed a merger. Holders will receive 335 USD per share held."
     }
   ],
   "metadata": {
-    "total_actions": 1864,
-    "scraped_at": "2025-08-04T14:22:46.451839+00:00",
+    "total_actions": 1776,
+    "scraped_at": "2025-08-04T21:21:57.591318+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
-    "method_used": "cloudscraper",
+    "method_used": "selenium",
     "github_actions_compatible": true
   }
 }
