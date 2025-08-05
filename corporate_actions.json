@@ -1,6 +1,38 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-08-06",
+      "company": "First American Uranium Inc",
+      "ticker": "URM",
+      "action_type": "Consolidation",
+      "ratio": "1 for 2",
+      "action_details": "First American Uranium Inc. (URM) performed a 1 for 2 consolidation. Holders will now hold 1 share of First American Uranium Inc. (URM) for every 2 shares previously held."
+    },
+    {
+      "date": "2025-08-06",
+      "company": "Vivid Seats Inc",
+      "ticker": "SEAT",
+      "action_type": "Consolidation",
+      "ratio": "1 for 20",
+      "action_details": "Vivid Seats Inc (Class A) (SEAT) performed a 1 for 20 consolidation. Holders will now hold 1 share of Vivid Seats Inc (Class A) (SEAT) for every 20 shares previously held."
+    },
+    {
+      "date": "2025-08-06",
+      "company": "Boat Rocker Media Inc",
+      "ticker": "BRMI",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Boat Rocker Media Inc (BRMI) performed a 1 for 10 consolidation. Holders will now hold 1 share of Blue Ant Media Corporation (BAMI) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-08-06",
+      "company": "Summa Silver Corp",
+      "ticker": "SSVR",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Summa Silver Corp (SSVR) performed a merger. Holders will receive 0.4520 share of Silver47 Exploration Corp (AGA) per share held."
+    },
+    {
       "date": "2025-08-05",
       "company": "Midasco Capital",
       "ticker": "MGC.H",
@@ -14226,8 +14258,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1778,
-    "scraped_at": "2025-08-05T14:22:44.794418+00:00",
+    "total_actions": 1782,
+    "scraped_at": "2025-08-05T21:21:30.025488+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
