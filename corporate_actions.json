@@ -81,6 +81,22 @@
       "action_details": "Sonoran Desert Copper Corp (SDCU) performed a 1 for 1 name and CUSIP change to Brasnova Energy Materials Inc. (BEM)."
     },
     {
+      "date": "2025-08-05",
+      "company": "Calidi Biotherapeutics Inc",
+      "ticker": "CLDI",
+      "action_type": "Consolidation",
+      "ratio": "1 for 12",
+      "action_details": "Calidi Biotherapeutics Inc. (CLDI) performed a 1 for 12 consolidation. Holders will now hold 1 share of Calidi Biotherapeutics Inc. (CLDI) for every 12 shares previously held."
+    },
+    {
+      "date": "2025-08-05",
+      "company": "NV5 Global Inc",
+      "ticker": "NVEE",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "NV5 Global Inc (NVEE) performed a merger. Holders will receive 1.1523 shares of Acuren Corporation Ltd. (NVEE) plus 10 USD per share held."
+    },
+    {
       "date": "2025-08-04",
       "company": "Anghami Inc",
       "ticker": "ANGH",
@@ -14210,8 +14226,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1776,
-    "scraped_at": "2025-08-04T21:21:57.591318+00:00",
+    "total_actions": 1778,
+    "scraped_at": "2025-08-05T14:22:44.794418+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
