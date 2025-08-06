@@ -33,6 +33,14 @@
       "action_details": "Summa Silver Corp (SSVR) performed a merger. Holders will receive 0.4520 share of Silver47 Exploration Corp (AGA) per share held."
     },
     {
+      "date": "2025-08-06",
+      "company": "Vigil Neuroscience Inc",
+      "ticker": "VIGL",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Vigil Neuroscience Inc. (VIGL) performed a merger. Holders will receive 1 CVR of Vigil Neuroscience Inc. plus 8 USD per share held."
+    },
+    {
       "date": "2025-08-05",
       "company": "Midasco Capital",
       "ticker": "MGC.H",
@@ -14258,8 +14266,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1782,
-    "scraped_at": "2025-08-05T21:21:30.025488+00:00",
+    "total_actions": 1783,
+    "scraped_at": "2025-08-06T14:22:27.613830+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
