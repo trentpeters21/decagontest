@@ -1,6 +1,62 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-08-07",
+      "company": "Kwg Resources Inc",
+      "ticker": "KWG.A",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Kwg Resources Inc (KWG.A) performed a 1 for 1 name and CUSIP change to The Canadian Chrome Company Inc. (CACR.A)."
+    },
+    {
+      "date": "2025-08-07",
+      "company": "Empire Metals",
+      "ticker": "EP",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Empire Metals (EP) performed a 1 for 1 name and CUSIP change to Roland Mineral Enterprises Corp. (RME)."
+    },
+    {
+      "date": "2025-08-07",
+      "company": "Kwg Resources Inc",
+      "ticker": "CACR",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Kwg Resources Inc (CACR) performed a 1 for 1 name and CUSIP change to The Canadian Chrome Company Inc. (CACR)."
+    },
+    {
+      "date": "2025-08-07",
+      "company": "SMX",
+      "ticker": "SMX",
+      "action_type": "Consolidation",
+      "ratio": "1 for 7",
+      "action_details": "SMX (Security Matters) PLC (SMX) performed a 1 for 7 consolidation. Holders will now hold 1 share of SMX (Security Matters) PLC (SMX) for every 7 shares previously held."
+    },
+    {
+      "date": "2025-08-07",
+      "company": "Atomic Minerals Corporation",
+      "ticker": "ATOM",
+      "action_type": "Consolidation",
+      "ratio": "1 for 2",
+      "action_details": "Atomic Minerals Corporation (ATOM) performed a 1 for 2 consolidation. Holders will now hold 1 share of Atomic Minerals Corporation (ATOM) for every 2 shares previously held."
+    },
+    {
+      "date": "2025-08-07",
+      "company": "Spruce Biosciences Inc",
+      "ticker": "SPRB",
+      "action_type": "Consolidation",
+      "ratio": "1 for 75",
+      "action_details": "Spruce Biosciences Inc (SPRB) performed a 1 for 75 consolidation. Holders will now hold 1 share of Spruce Biosciences Inc (SPRB) for every 75 shares previously held."
+    },
+    {
+      "date": "2025-08-07",
+      "company": "Trilogy A.I. Corp",
+      "ticker": "TRAI",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Trilogy A.I. Corp. (TRAI) performed a 1 for 1 name and CUSIP change to Tokenwell Platforms Inc. (TWEL)."
+    },
+    {
       "date": "2025-08-06",
       "company": "First American Uranium Inc",
       "ticker": "URM",
@@ -14266,8 +14322,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1783,
-    "scraped_at": "2025-08-06T14:22:27.613830+00:00",
+    "total_actions": 1790,
+    "scraped_at": "2025-08-06T21:19:07.892371+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
