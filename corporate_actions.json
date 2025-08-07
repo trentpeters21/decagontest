@@ -1,6 +1,46 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-08-08",
+      "company": "Atif Holdings Limited",
+      "ticker": "ZBAI",
+      "action_type": "Consolidation",
+      "ratio": "1 for 18",
+      "action_details": "Atif Holdings Limited (ZBAI) performed a 1 for 18 consolidation. Holders will now hold 1 share of Atif Holdings Limited (ZBAI) for every 18 shares previously held."
+    },
+    {
+      "date": "2025-08-08",
+      "company": "Envirotech Vehicles Inc",
+      "ticker": "EVTVD",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Envirotech Vehicles Inc (EVTVD) performed a 1 for 10 consolidation. Holders will now hold 1 share of Envirotech Vehicles Inc (EVTVD) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-08-08",
+      "company": "Metasphere Labs Inc",
+      "ticker": "LABZ",
+      "action_type": "Consolidation",
+      "ratio": "1 for 4",
+      "action_details": "Metasphere Labs Inc. (LABZ) performed a 1 for 4 consolidation. Holders will now hold 1 share of Metasphere Labs Inc. (LABZ) for every 4 shares previously held."
+    },
+    {
+      "date": "2025-08-08",
+      "company": "DevvStream Corp",
+      "ticker": "DEVS",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "DevvStream Corp. (DEVS) performed a 1 for 10 consolidation. Holders will now hold 1 share of DevvStream Corp. (DEVS) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-08-08",
+      "company": "High-Trend International Group Class A",
+      "ticker": "HTCO",
+      "action_type": "Consolidation",
+      "ratio": "1 for 25",
+      "action_details": "High-Trend International Group Class A (HTCO) performed a 1 for 25 consolidation. Holders will now hold 1 share of High-Trend International Group Class A (HTCO) for every 25 shares previously held."
+    },
+    {
       "date": "2025-08-07",
       "company": "Kwg Resources Inc",
       "ticker": "KWG.A",
@@ -55,6 +95,30 @@
       "action_type": "Other",
       "ratio": "1 for 1",
       "action_details": "Trilogy A.I. Corp. (TRAI) performed a 1 for 1 name and CUSIP change to Tokenwell Platforms Inc. (TWEL)."
+    },
+    {
+      "date": "2025-08-07",
+      "company": "ContextLogic Inc",
+      "ticker": "LOGC",
+      "action_type": "Reorganization",
+      "ratio": "",
+      "action_details": "ContextLogic Inc. (LOGC) performed a reorganization. Holders will receive 1 new share of Contextlogic Holdings Inc. (LOGC) plus 0.001 USD per share held."
+    },
+    {
+      "date": "2025-08-07",
+      "company": "Synex Renewable Energy Corp",
+      "ticker": "SXI",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Synex Renewable Energy Corp (SXI) performed a merger. Holders will receive 2.40 USD per share held."
+    },
+    {
+      "date": "2025-08-07",
+      "company": "Sierra Metals",
+      "ticker": "SMT",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Sierra Metals (SMT) performed a merger. Holders will receive 1.15 CAD per share held."
     },
     {
       "date": "2025-08-06",
@@ -14322,8 +14386,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1790,
-    "scraped_at": "2025-08-07T14:21:52.909009+00:00",
+    "total_actions": 1798,
+    "scraped_at": "2025-08-07T21:19:43.900713+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
