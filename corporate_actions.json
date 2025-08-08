@@ -1,6 +1,54 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-08-11",
+      "company": "Energous Corporation",
+      "ticker": "WATT",
+      "action_type": "Consolidation",
+      "ratio": "1 for 30",
+      "action_details": "Energous Corporation (WATT) performed a 1 for 30 consolidation. Holders will now hold 1 share of Energous Corporation (WATT) for every 30 shares previously held."
+    },
+    {
+      "date": "2025-08-11",
+      "company": "Veru",
+      "ticker": "VERU",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Veru (VERU) performed a 1 for 10 consolidation. Holders will now hold 1 share of Veru (VERU) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-08-11",
+      "company": "Shineco Inc",
+      "ticker": "SISI",
+      "action_type": "Consolidation",
+      "ratio": "1 for 50",
+      "action_details": "Shineco Inc (SISI) performed a 1 for 50 consolidation. Holders will now hold 1 share of Shineco Inc (SISI) for every 50 shares previously held."
+    },
+    {
+      "date": "2025-08-11",
+      "company": "NuCana plc",
+      "ticker": "NCNA",
+      "action_type": "Consolidation",
+      "ratio": "1 for 200",
+      "action_details": "NuCana plc (NCNA) performed a 1 for 200 consolidation. Holders will now hold 1 ADR of NuCana plc (NCNA) for every 200 shares previously held."
+    },
+    {
+      "date": "2025-08-11",
+      "company": "3I Group PLC",
+      "ticker": "TGOPY",
+      "action_type": "Stock Split",
+      "ratio": "2 for 1",
+      "action_details": "3I Group PLC (TGOPY) performed a 2 for 1 stock split. Holders will now hold 2 shares of 3I Group PLC (TGOPY) per 1 share previously held."
+    },
+    {
+      "date": "2025-08-11",
+      "company": "Partners Value Invts LP",
+      "ticker": "",
+      "action_type": "Stock Split",
+      "ratio": "10 for 1",
+      "action_details": "Partners Value Invts LP (PVF.UN) performed a 10 for 1 stock split. Holders will now hold 10 shares of Partners Value Invts LP (PVF.UN) per 1 share previously held."
+    },
+    {
       "date": "2025-08-08",
       "company": "Atif Holdings Limited",
       "ticker": "ZBAI",
@@ -39,6 +87,46 @@
       "action_type": "Consolidation",
       "ratio": "1 for 25",
       "action_details": "High-Trend International Group Class A (HTCO) performed a 1 for 25 consolidation. Holders will now hold 1 share of High-Trend International Group Class A (HTCO) for every 25 shares previously held."
+    },
+    {
+      "date": "2025-08-08",
+      "company": "Chenghe Acquisition II Company - Exp. 053031.",
+      "ticker": "CHEB.U",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Chenghe Acquisition II Company - Exp. 053031. (CHEB.U) performed a merger. Holders will receive 1 share of Polibeli Group LTD (PLBL) and 0.5 warrants of WTS Polibeli Group LTD for each share previously held."
+    },
+    {
+      "date": "2025-08-08",
+      "company": "Tema ETF Trust - Neuroscience & Mental Health ETF",
+      "ticker": "MNTL",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "Tema ETF Trust - Neuroscience & Mental Health ETF (MNTL) performed a liquidation. Holders will receive 23.688412 USD per share held."
+    },
+    {
+      "date": "2025-08-08",
+      "company": "Tema Luxury ETF",
+      "ticker": "LUX",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "Tema Luxury ETF (LUX) performed a liquidation. Holders will receive 23.3399225 USD per share held."
+    },
+    {
+      "date": "2025-08-08",
+      "company": "Paramount Global",
+      "ticker": "PARA",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Paramount Global (PARA) performed a merger. Holders will receive 1 share of Paramount Skydance Corp. (PSKY) per share held."
+    },
+    {
+      "date": "2025-08-08",
+      "company": "Paramount Global",
+      "ticker": "PARAA",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Paramount Global (PARAA) performed a merger. Holders will receive 1.5333 shares of Paramount Skydance Corp. (PSKY) per share held."
     },
     {
       "date": "2025-08-07",
@@ -14386,12 +14474,12 @@
     }
   ],
   "metadata": {
-    "total_actions": 1798,
-    "scraped_at": "2025-08-08T14:20:10.326872+00:00",
+    "total_actions": 1809,
+    "scraped_at": "2025-08-08T21:19:35.569795+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
-    "method_used": "cloudscraper",
+    "method_used": "selenium",
     "github_actions_compatible": true
   }
 }
