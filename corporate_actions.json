@@ -129,6 +129,14 @@
       "action_details": "Paramount Global (PARAA) performed a merger. Holders will receive 1.5333 shares of Paramount Skydance Corp. (PSKY) per share held."
     },
     {
+      "date": "2025-08-08",
+      "company": "Mandalay Resources Corp",
+      "ticker": "MND",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Mandalay Resources Corp. (MND) performed a merger. Holders will receive 7.875 shares of Alkane Resources Limited (ALK) per share held."
+    },
+    {
       "date": "2025-08-07",
       "company": "Kwg Resources Inc",
       "ticker": "KWG.A",
@@ -14474,8 +14482,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1809,
-    "scraped_at": "2025-08-08T21:19:35.569795+00:00",
+    "total_actions": 1810,
+    "scraped_at": "2025-08-09T14:16:17.207745+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
