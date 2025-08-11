@@ -1,6 +1,22 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-08-12",
+      "company": "Aether Global Innovations Corp",
+      "ticker": "AETH",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Aether Global Innovations Corp (AETH) performed a 1 for 10 consolidation. Holders will now hold 1 share of Aether Global Innovations Corp (AETH) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-08-12",
+      "company": "NanoVibronix Inc",
+      "ticker": "NAOV",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "NanoVibronix Inc. (NAOV) performed a 1 for 10 consolidation. Holders will now hold 1 share of NanoVibronix Inc. (NAOV) for every 10 shares previously held."
+    },
+    {
       "date": "2025-08-11",
       "company": "Energous Corporation",
       "ticker": "WATT",
@@ -47,6 +63,54 @@
       "action_type": "Stock Split",
       "ratio": "10 for 1",
       "action_details": "Partners Value Invts LP (PVF.UN) performed a 10 for 1 stock split. Holders will now hold 10 shares of Partners Value Invts LP (PVF.UN) per 1 share previously held."
+    },
+    {
+      "date": "2025-08-11",
+      "company": "TrueShares Structured Outcome March ETF",
+      "ticker": "MARZ",
+      "action_type": "Reorganization",
+      "ratio": "",
+      "action_details": "TrueShares Structured Outcome March ETF (MARZ) performed a reorganization. Holders will receive 1 new share of Elevation Series Trust - TrueShares Structured Outcome March ETF (MARZ) per share held."
+    },
+    {
+      "date": "2025-08-11",
+      "company": "TrueShares Structured Outcome May ETF",
+      "ticker": "MAYZ",
+      "action_type": "Reorganization",
+      "ratio": "",
+      "action_details": "TrueShares Structured Outcome May ETF (MAYZ) performed a reorganization. Holders will receive 1 new share of Elevation Series Trust - TrueShares Structured Outcome May ETF (MAYZ) per share held."
+    },
+    {
+      "date": "2025-08-11",
+      "company": "TrueShares Structured Outcome January ETF",
+      "ticker": "JANZ",
+      "action_type": "Reorganization",
+      "ratio": "",
+      "action_details": "TrueShares Structured Outcome January ETF (JANZ) performed a reorganization. Holders will receive 1 new share of Elevation Series Trust - TrueShares Structured Outcome January ETF (JANZ) per share held."
+    },
+    {
+      "date": "2025-08-11",
+      "company": "TrueShares Structured Outcome October ETF",
+      "ticker": "OCTZ",
+      "action_type": "Reorganization",
+      "ratio": "",
+      "action_details": "TrueShares Structured Outcome October ETF (OCTZ) performed a reorganization. Holders will receive 1 new share of Elevation Series Trust - Trueshares Structured Outcome October ETF (OCTZ) per share held."
+    },
+    {
+      "date": "2025-08-11",
+      "company": "TrueShares Structured Outcome December ETF",
+      "ticker": "DECZ",
+      "action_type": "Reorganization",
+      "ratio": "",
+      "action_details": "TrueShares Structured Outcome December ETF (DECZ) performed a reorganization. Holders will receive 1 new share of Elevation Series Trust - TrueShares Structured Outcome December ETF (DECZ) per share held."
+    },
+    {
+      "date": "2025-08-11",
+      "company": "TrueShares Structured Outcome April ETF",
+      "ticker": "APRZ",
+      "action_type": "Reorganization",
+      "ratio": "",
+      "action_details": "TrueShares Structured Outcome April ETF (APRZ) performed a reorganization. Holders will receive 1 new share of Elevation Series Trust - TrueShares Structured Outcome April ETF (APRZ) per share held."
     },
     {
       "date": "2025-08-08",
@@ -14482,8 +14546,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1810,
-    "scraped_at": "2025-08-11T14:19:51.105410+00:00",
+    "total_actions": 1818,
+    "scraped_at": "2025-08-11T21:18:58.110964+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
