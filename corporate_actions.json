@@ -1,6 +1,14 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-08-13",
+      "company": "Scryb Inc",
+      "ticker": "SCYB",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Scryb Inc (SCYB) performed a 1 for 10 consolidation. Holders will now hold 1 share of Scryb Inc (SCYB) for every 10 shares previously held."
+    },
+    {
       "date": "2025-08-12",
       "company": "Aether Global Innovations Corp",
       "ticker": "AETH",
@@ -23,6 +31,22 @@
       "action_type": "Merger",
       "ratio": "",
       "action_details": "Helix Acquisition Corp. II (HLXB) performed a merger. Holders will receive 1 share of BridgeBio Oncology Therapeutics, Inc. (BBOT) per share held."
+    },
+    {
+      "date": "2025-08-12",
+      "company": "ESC PLAYA HOTELS & RESORTS",
+      "ticker": "",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "ESC PLAYA HOTELS & RESORTS performed a merger. Holders will receive 0.43 USD per share held."
+    },
+    {
+      "date": "2025-08-12",
+      "company": "Turnstone Biologics Corp",
+      "ticker": "TSBX",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Turnstone Biologics Corp (TSBX) performed a merger. Holders will receive 1 CVR of Turnstone Biologics Corp plus 0.34 USD for each share previously held."
     },
     {
       "date": "2025-08-11",
@@ -14554,8 +14578,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1819,
-    "scraped_at": "2025-08-12T14:17:59.491824+00:00",
+    "total_actions": 1822,
+    "scraped_at": "2025-08-12T21:19:49.297825+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
