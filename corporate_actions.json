@@ -1,6 +1,14 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-08-14",
+      "company": "Aranjin Resources Limited",
+      "ticker": "ARJN",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Aranjin Resources Limited (ARJN) performed a 1 for 1 name and CUSIP change to Trinity One Metals Ltd. (TOM)."
+    },
+    {
       "date": "2025-08-13",
       "company": "Scryb Inc",
       "ticker": "SCYB",
@@ -23,6 +31,14 @@
       "action_type": "Merger",
       "ratio": "",
       "action_details": "THE Keg Royalties (KEG.UN) performed a merger. Holders will receive 18.67433589 CAD per share held."
+    },
+    {
+      "date": "2025-08-13",
+      "company": "Evergreen Corp",
+      "ticker": "EGRVF",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "Evergreen Corp. (EGRVF) performed a liquidation. Holders will receive 12.38575194 USD per share held."
     },
     {
       "date": "2025-08-12",
@@ -14594,8 +14610,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1824,
-    "scraped_at": "2025-08-13T14:18:47.135503+00:00",
+    "total_actions": 1826,
+    "scraped_at": "2025-08-13T21:19:15.427108+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
