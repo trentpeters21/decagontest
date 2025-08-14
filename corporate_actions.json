@@ -1,6 +1,38 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-08-15",
+      "company": "FireFox Gold Corp",
+      "ticker": "FFOX",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "FireFox Gold Corp (FFOX) performed a 1 for 10 consolidation. Holders will now hold 1 share of FireFox Gold Corp (FFOX) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-08-15",
+      "company": "Catheter Precision Inc",
+      "ticker": "VTAK",
+      "action_type": "Consolidation",
+      "ratio": "1 for 19",
+      "action_details": "Catheter Precision Inc. (VTAK) performed a 1 for 19 consolidation. Holders will now hold 1 share of Catheter Precision Inc. (VTAK) for every 19 shares previously held."
+    },
+    {
+      "date": "2025-08-15",
+      "company": "Reshape Lifesciences Inc",
+      "ticker": "RSLS",
+      "action_type": "Consolidation",
+      "ratio": "1 for 4",
+      "action_details": "Reshape Lifesciences Inc. (RSLS) performed a 1 for 4 consolidation and name change. Holders will now hold 1 share of Vyome Holdings, Inc. (HIND) for every 4 shares previously held."
+    },
+    {
+      "date": "2025-08-15",
+      "company": "GraniteShares ETF Trust 1X Short Coin Daily ETF",
+      "ticker": "CONI",
+      "action_type": "Consolidation",
+      "ratio": "1 for 20",
+      "action_details": "GraniteShares ETF Trust 1X Short Coin Daily ETF (CONI) performed a 1 for 20 consolidation. Holders will now hold 1 share of GraniteShares ETF Trust 1X Short Coin Daily ETF (CONI) for every 20 shares previously held."
+    },
+    {
       "date": "2025-08-14",
       "company": "Aranjin Resources Limited",
       "ticker": "ARJN",
@@ -14610,12 +14642,12 @@
     }
   ],
   "metadata": {
-    "total_actions": 1826,
-    "scraped_at": "2025-08-14T14:17:45.791612+00:00",
+    "total_actions": 1830,
+    "scraped_at": "2025-08-14T21:19:36.784416+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
-    "method_used": "cloudscraper",
+    "method_used": "selenium",
     "github_actions_compatible": true
   }
 }
