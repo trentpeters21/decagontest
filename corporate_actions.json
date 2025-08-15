@@ -1,6 +1,134 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-08-18",
+      "company": "Chanson International Holding",
+      "ticker": "CHSN",
+      "action_type": "Consolidation",
+      "ratio": "1 for 80",
+      "action_details": "Chanson International Holding (CHSN) performed a 1 for 80 consolidation. Holders will now hold 1 share of Chanson International Holding (CHSN) for every 80 shares previously held."
+    },
+    {
+      "date": "2025-08-18",
+      "company": "Pace Metals Limited",
+      "ticker": "PACE",
+      "action_type": "Consolidation",
+      "ratio": "1 for 2",
+      "action_details": "Pace Metals Limited (PACE) performed a 1 for 2 consolidation and name change. Holders will now hold 1 share of Total Metals Corp. (TT) for every 2 shares previously held."
+    },
+    {
+      "date": "2025-08-18",
+      "company": "Entero Therapeutics Inc",
+      "ticker": "ENTO",
+      "action_type": "Consolidation",
+      "ratio": "1 for 3",
+      "action_details": "Entero Therapeutics Inc. (ENTO) performed a 1 for 3 consolidation. Holders will now hold 1 share of Entero Therapeutics Inc. (ENTO) for every 3 shares previously held."
+    },
+    {
+      "date": "2025-08-18",
+      "company": "Fendx Technologies Inc",
+      "ticker": "FNDX",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Fendx Technologies Inc. (FNDX) performed a 1 for 10 consolidation. Holders will now hold 1 share of Fendx Technologies Inc. (FNDX) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-08-18",
+      "company": "Salarius Pharmaceuticals Inc",
+      "ticker": "SLRX",
+      "action_type": "Consolidation",
+      "ratio": "1 for 15",
+      "action_details": "Salarius Pharmaceuticals Inc. (SLRX) performed a 1 for 15 consolidation. Holders will now hold 1 share of Salarius Pharmaceuticals Inc. (SLRX) for every 15 shares previously held."
+    },
+    {
+      "date": "2025-08-18",
+      "company": "Veji Holdings Limited",
+      "ticker": "VEJI.X",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Veji Holdings Limited (VEJI.X) performed a 1 for 1 name and CUSIP change to Plaid Technologies Inc. (STIF)."
+    },
+    {
+      "date": "2025-08-18",
+      "company": "BMO All-Equity ETF",
+      "ticker": "ZEQT",
+      "action_type": "Stock Split",
+      "ratio": "3 for 1",
+      "action_details": "BMO All-Equity ETF (ZEQT) performed a 3 for 1 stock split. Holders will now hold 3 shares of BMO All-Equity ETF (ZEQT) per 1 share previously held."
+    },
+    {
+      "date": "2025-08-18",
+      "company": "BMO Conservative ETF - CAD Units",
+      "ticker": "ZCON",
+      "action_type": "Stock Split",
+      "ratio": "3 for 1",
+      "action_details": "BMO Conservative ETF - CAD Units (ZCON) performed a 3 for 1 stock split. Holders will now hold 3 shares of BMO Conservative ETF - CAD Units (ZCON) per 1 share previously held."
+    },
+    {
+      "date": "2025-08-18",
+      "company": "BMO Monthly Income ETF",
+      "ticker": "ZMI.U",
+      "action_type": "Stock Split",
+      "ratio": "3 for 1",
+      "action_details": "BMO Monthly Income ETF (ZMI.U) performed a 3 for 1 stock split. Holders will now hold 3 shares of BMO Monthly Income ETF (ZMI.U) per 1 share previously held."
+    },
+    {
+      "date": "2025-08-18",
+      "company": "BMO Balanced ETF Fixed Percentage Distribution",
+      "ticker": "ZBAL.T",
+      "action_type": "Stock Split",
+      "ratio": "3 for 1",
+      "action_details": "BMO Balanced ETF Fixed Percentage Distribution (ZBAL.T) performed a 3 for 1 stock split. Holders will now hold 3 shares of BMO Balanced ETF Fixed Percentage Distribution (ZBAL.T) per 1 share previously held."
+    },
+    {
+      "date": "2025-08-18",
+      "company": "BMO Balanced ESG ETF",
+      "ticker": "ZESG",
+      "action_type": "Stock Split",
+      "ratio": "3 for 1",
+      "action_details": "BMO Balanced ESG ETF (ZESG) performed a 3 for 1 stock split. Holders will now hold 3 shares of BMO Balanced ESG ETF (ZESG) per 1 share previously held."
+    },
+    {
+      "date": "2025-08-18",
+      "company": "BMO Balanced ETF - CAD",
+      "ticker": "ZBAL",
+      "action_type": "Stock Split",
+      "ratio": "3 for 1",
+      "action_details": "BMO Balanced ETF - CAD (ZBAL) performed a 3 for 1 stock split. Holders will now hold 3 shares of BMO Balanced ETF - CAD (ZBAL) per 1 share previously held."
+    },
+    {
+      "date": "2025-08-18",
+      "company": "BMO Growth ETF Fixed Percentage Distribution",
+      "ticker": "ZGRO.T",
+      "action_type": "Stock Split",
+      "ratio": "3 for 1",
+      "action_details": "BMO Growth ETF Fixed Percentage Distribution (ZGRO.T) performed a 3 for 1 stock split. Holders will now hold 3 shares of BMO Growth ETF Fixed Percentage Distribution (ZGRO.T) per 1 share previously held."
+    },
+    {
+      "date": "2025-08-18",
+      "company": "BMO Growth ETF",
+      "ticker": "ZGRO",
+      "action_type": "Stock Split",
+      "ratio": "3 for 1",
+      "action_details": "BMO Growth ETF (ZGRO) performed a 3 for 1 stock split. Holders will now hold 3 shares of BMO Growth ETF (ZGRO) per 1 share previously held."
+    },
+    {
+      "date": "2025-08-18",
+      "company": "Granite Creek Copper Ltd",
+      "ticker": "GCX",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Granite Creek Copper Ltd. (GCX) performed a merger. Holders will receive 0.25 share of Cascadia Minerals Limited (CAM) per share held."
+    },
+    {
+      "date": "2025-08-18",
+      "company": "Global Blue Group Holding AG",
+      "ticker": "GB",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Global Blue Group Holding AG (GB) performed a merger. Holders will receive 7.50 USD per share held."
+    },
+    {
       "date": "2025-08-15",
       "company": "FireFox Gold Corp",
       "ticker": "FFOX",
@@ -31,6 +159,14 @@
       "action_type": "Consolidation",
       "ratio": "1 for 20",
       "action_details": "GraniteShares ETF Trust 1X Short Coin Daily ETF (CONI) performed a 1 for 20 consolidation. Holders will now hold 1 share of GraniteShares ETF Trust 1X Short Coin Daily ETF (CONI) for every 20 shares previously held."
+    },
+    {
+      "date": "2025-08-15",
+      "company": "CI Financial Corp",
+      "ticker": "CIX",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "CI Financial Corp (CIX) performed a merger. Holders will receive 32 CAD per share held."
     },
     {
       "date": "2025-08-14",
@@ -14642,8 +14778,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1830,
-    "scraped_at": "2025-08-15T14:17:22.355019+00:00",
+    "total_actions": 1847,
+    "scraped_at": "2025-08-15T21:17:03.996098+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
