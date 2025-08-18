@@ -1,6 +1,30 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-08-19",
+      "company": "Loblaw Cos. Ltd",
+      "ticker": "L",
+      "action_type": "Stock Split",
+      "ratio": "4 for 1",
+      "action_details": "Loblaw Cos. Ltd. (L) performed a 4 for 1 stock split. Holders will now hold 4 shares of Loblaw Cos. Ltd. (L) per 1 share previously held."
+    },
+    {
+      "date": "2025-08-19",
+      "company": "George Weston",
+      "ticker": "WN",
+      "action_type": "Stock Split",
+      "ratio": "3 for 1",
+      "action_details": "George Weston (WN) performed a 3 for 1 stock split. Holders will now hold 3 shares of George Weston (WN) per 1 share previously held."
+    },
+    {
+      "date": "2025-08-19",
+      "company": "LanzaTech Global Inc",
+      "ticker": "LNZA",
+      "action_type": "Consolidation",
+      "ratio": "1 for 100",
+      "action_details": "LanzaTech Global Inc (Class A) (LNZA) performed a 1 for 100 consolidation. Holders will now hold 1 share of LanzaTech Global Inc (Class A) (LNZA) for every 100 shares previously held."
+    },
+    {
       "date": "2025-08-18",
       "company": "Chanson International Holding",
       "ticker": "CHSN",
@@ -127,6 +151,14 @@
       "action_type": "Merger",
       "ratio": "",
       "action_details": "Global Blue Group Holding AG (GB) performed a merger. Holders will receive 7.50 USD per share held."
+    },
+    {
+      "date": "2025-08-18",
+      "company": "Amedisys Inc",
+      "ticker": "AMED",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Amedisys Inc. (AMED) performed a merger. Holders will receive 101 USD per share held."
     },
     {
       "date": "2025-08-15",
@@ -14778,8 +14810,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1847,
-    "scraped_at": "2025-08-18T14:18:56.132802+00:00",
+    "total_actions": 1851,
+    "scraped_at": "2025-08-18T21:18:34.955924+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
