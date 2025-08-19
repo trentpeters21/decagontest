@@ -25,6 +25,22 @@
       "action_details": "LanzaTech Global Inc (Class A) (LNZA) performed a 1 for 100 consolidation. Holders will now hold 1 share of LanzaTech Global Inc (Class A) (LNZA) for every 100 shares previously held."
     },
     {
+      "date": "2025-08-19",
+      "company": "Sitio Royalties Corp",
+      "ticker": "STR",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Sitio Royalties Corp (STR) performed a merger. Holders will receive 0.4855 share of Viper Energy Inc (Class A) (VNOM) per share held."
+    },
+    {
+      "date": "2025-08-19",
+      "company": "Viper Energy Inc",
+      "ticker": "VNOM",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Viper Energy Inc (Class A) (VNOM) performed a merger. Holders will receive 1 new share of Viper Energy, Inc. Class A Common Stock (VNOM) per share held."
+    },
+    {
       "date": "2025-08-18",
       "company": "Chanson International Holding",
       "ticker": "CHSN",
@@ -14810,8 +14826,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1851,
-    "scraped_at": "2025-08-18T21:18:34.955924+00:00",
+    "total_actions": 1853,
+    "scraped_at": "2025-08-19T14:17:14.517311+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
