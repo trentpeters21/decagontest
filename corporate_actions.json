@@ -1,6 +1,14 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-08-20",
+      "company": "GIBO Holdings Limited",
+      "ticker": "GIBO",
+      "action_type": "Consolidation",
+      "ratio": "1 for 200",
+      "action_details": "GIBO Holdings Limited (GIBO) performed a 1 for 200 consolidation. Holders will now hold 1 share of GIBO Holdings Limited (GIBO) for every 200 shares previously held."
+    },
+    {
       "date": "2025-08-19",
       "company": "Loblaw Cos. Ltd",
       "ticker": "L",
@@ -39,6 +47,46 @@
       "action_type": "Merger",
       "ratio": "",
       "action_details": "Viper Energy Inc (Class A) (VNOM) performed a merger. Holders will receive 1 new share of Viper Energy, Inc. Class A Common Stock (VNOM) per share held."
+    },
+    {
+      "date": "2025-08-19",
+      "company": "Global X Cybersecurity Index ETF",
+      "ticker": "HBUG",
+      "action_type": "Redemption",
+      "ratio": "",
+      "action_details": "Global X Cybersecurity Index ETF (HBUG) performed a mandatory redemption. Holders will receive 25.66969149 CAD per share held."
+    },
+    {
+      "date": "2025-08-19",
+      "company": "BetaPro Equal Weight Canadian Bank 2x Daily Bull ETF",
+      "ticker": "ATMU",
+      "action_type": "Redemption",
+      "ratio": "",
+      "action_details": "BetaPro Equal Weight Canadian Bank 2x Daily Bull ETF (ATMU) performed a mandatory redemption. Holders will receive 37.22996596 CAD per share held."
+    },
+    {
+      "date": "2025-08-19",
+      "company": "BetaPro Equal Weight Canadian Bank 2x Daily Bear ETF",
+      "ticker": "ATMD",
+      "action_type": "Redemption",
+      "ratio": "",
+      "action_details": "BetaPro Equal Weight Canadian Bank 2x Daily Bear ETF (ATMD) performed a mandatory redemption. Holders will receive 9.6013651 CAD per share held."
+    },
+    {
+      "date": "2025-08-19",
+      "company": "BetaPro Equal Weight Canadian REIT 2x Daily Bull ETF",
+      "ticker": "RITU",
+      "action_type": "Redemption",
+      "ratio": "",
+      "action_details": "BetaPro Equal Weight Canadian REIT 2x Daily Bull ETF (RITU) performed a mandatory redemption. Holders will receive 17.675162 CAD per share held."
+    },
+    {
+      "date": "2025-08-19",
+      "company": "BetaPro Equal Weight Canadian REIT 2x Daily Bear ETF",
+      "ticker": "RITD",
+      "action_type": "Redemption",
+      "ratio": "",
+      "action_details": "BetaPro Equal Weight Canadian REIT 2x Daily Bear ETF (RITD) performed a mandatory redemption. Holders will receive 11.74450573 CAD per share held."
     },
     {
       "date": "2025-08-18",
@@ -14826,8 +14874,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1853,
-    "scraped_at": "2025-08-19T14:17:14.517311+00:00",
+    "total_actions": 1859,
+    "scraped_at": "2025-08-19T21:18:37.125775+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
