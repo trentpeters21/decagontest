@@ -9,6 +9,22 @@
       "action_details": "GIBO Holdings Limited (GIBO) performed a 1 for 200 consolidation. Holders will now hold 1 share of GIBO Holdings Limited (GIBO) for every 200 shares previously held."
     },
     {
+      "date": "2025-08-20",
+      "company": "Cargo Therapeutics Inc",
+      "ticker": "CRGX",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Cargo Therapeutics Inc. (CRGX) performed a merger. Details of the event are still to be determined."
+    },
+    {
+      "date": "2025-08-20",
+      "company": "Golden Ocean Group Limited",
+      "ticker": "GOGL",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Golden Ocean Group Limited (GOGL) performed a merger. Holders will receive 0.95 share of CMB.TECH NV (CMBT) per share held."
+    },
+    {
       "date": "2025-08-19",
       "company": "Loblaw Cos. Ltd",
       "ticker": "L",
@@ -14874,8 +14890,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1859,
-    "scraped_at": "2025-08-19T21:18:37.125775+00:00",
+    "total_actions": 1861,
+    "scraped_at": "2025-08-20T14:18:15.814975+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
