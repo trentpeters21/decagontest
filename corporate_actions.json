@@ -1,6 +1,46 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-08-22",
+      "company": "Westbridge Renewable Energy Corp",
+      "ticker": "WEB",
+      "action_type": "Consolidation",
+      "ratio": "1 for 4",
+      "action_details": "Westbridge Renewable Energy Corp (WEB) performed a 1 for 4 consolidation. Holders will now hold 1 share of Westbridge Renewable Energy Corp (WEB) for every 4 shares previously held."
+    },
+    {
+      "date": "2025-08-22",
+      "company": "Color Star Technology Company Limited",
+      "ticker": "ADD",
+      "action_type": "Consolidation",
+      "ratio": "1 for 25",
+      "action_details": "Color Star Technology Company Limited (ADD) performed a name change and a 1 for 25 consolidation. Holders will now hold 1 share of Zeta Network Group (ZNB) for every 25 shares previously held."
+    },
+    {
+      "date": "2025-08-22",
+      "company": "Orion Energy Systems Inc",
+      "ticker": "OESX",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Orion Energy Systems Inc (OESX) performed a 1 for 10 consolidation. Holders will now hold 1 share of Orion Energy Systems Inc (OESX) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-08-22",
+      "company": "Canter Resources Corp",
+      "ticker": "CRC",
+      "action_type": "Consolidation",
+      "ratio": "1 for 7",
+      "action_details": "Canter Resources Corp (CRC) performed a 1 for 7 consolidation. Holders will now hold 1 share of Canter Resources Corp (CRC) for every 7 shares previously held."
+    },
+    {
+      "date": "2025-08-22",
+      "company": "Star Equity Holdings Inc",
+      "ticker": "STRR",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Star Equity Holdings Inc (STRR) performed a merger. Holders will receive 0.23 share of Hudson Global, Inc. Common Stock (HSON) per share held."
+    },
+    {
       "date": "2025-08-21",
       "company": "Treatment.com International Inc",
       "ticker": "TRUE",
@@ -89,6 +129,14 @@
       "action_details": "iShares Commodity Curve Carry Strategy ETF (CCRV) performed a liquidation. Holders will receive 20.002294 USD per share held."
     },
     {
+      "date": "2025-08-21",
+      "company": "Enzo Biochem Inc",
+      "ticker": "ENZB",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Enzo Biochem Inc. (ENZB) performed a merger. Holders will receive 0.7 USD per share held."
+    },
+    {
       "date": "2025-08-20",
       "company": "GIBO Holdings Limited",
       "ticker": "GIBO",
@@ -102,7 +150,7 @@
       "ticker": "CRGX",
       "action_type": "Merger",
       "ratio": "",
-      "action_details": "Cargo Therapeutics Inc. (CRGX) performed a merger. Details of the event are still to be determined."
+      "action_details": "Cargo Therapeutics Inc. (CRGX) performed a merger. Holders will receive 1 CVR of Cargo Therapeutics Inc. plus 4.379 USD for each share previously held."
     },
     {
       "date": "2025-08-20",
@@ -14978,12 +15026,12 @@
     }
   ],
   "metadata": {
-    "total_actions": 1872,
-    "scraped_at": "2025-08-21T14:17:18.424645+00:00",
+    "total_actions": 1878,
+    "scraped_at": "2025-08-21T21:18:35.783819+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
-    "method_used": "cloudscraper",
+    "method_used": "selenium",
     "github_actions_compatible": true
   }
 }
