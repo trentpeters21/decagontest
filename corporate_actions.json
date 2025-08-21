@@ -33,6 +33,62 @@
       "action_details": "Azitra Inc. (AZTR) performed a 1 for 6.66 consolidation. Holders will now hold 1 share of Azitra Inc. (AZTR) for every 6.66 shares previously held."
     },
     {
+      "date": "2025-08-21",
+      "company": "iShares Trust Emergent Food And Agtech Multisector ETF",
+      "ticker": "IVEG",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "iShares Trust Emergent Food And Agtech Multisector ETF (IVEG) performed a liquidation. Holders will receive 21.613268 USD per share held."
+    },
+    {
+      "date": "2025-08-21",
+      "company": "iShares Trust MSCI Water Management Multisector ETF",
+      "ticker": "IWTR",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "iShares Trust MSCI Water Management Multisector ETF (IWTR) performed a liquidation. Holders will receive 34.107391 USD per share held."
+    },
+    {
+      "date": "2025-08-21",
+      "company": "iShares Focused Value Factor ETF",
+      "ticker": "FOVL",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "iShares Focused Value Factor ETF (FOVL) performed a liquidation. Holders will receive 73.395538 USD per share held."
+    },
+    {
+      "date": "2025-08-21",
+      "company": "iShares Cloud 5G and Tech ETF",
+      "ticker": "IDAT",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "iShares Cloud 5G and Tech ETF (IDAT) performed a liquidation. Holders will receive 36.972703 USD per share held."
+    },
+    {
+      "date": "2025-08-21",
+      "company": "iShares U.S. ETF Trust Inflation Hedged U Shares Aggregate Bond ETF",
+      "ticker": "AGIH",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "iShares U.S. ETF Trust Inflation Hedged U Shares Aggregate Bond ETF (AGIH) performed a liquidation. Holders will receive 24.969877 USD per share held."
+    },
+    {
+      "date": "2025-08-21",
+      "company": "iShares U.S. ETF Trust Inflation Hedged High Yield Bond ETF",
+      "ticker": "HYGI",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "iShares U.S. ETF Trust Inflation Hedged High Yield Bond ETF (HYGI) performed a liquidation. Holders will receive 27.312541 USD per share held."
+    },
+    {
+      "date": "2025-08-21",
+      "company": "iShares Commodity Curve Carry Strategy ETF",
+      "ticker": "CCRV",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "iShares Commodity Curve Carry Strategy ETF (CCRV) performed a liquidation. Holders will receive 20.002294 USD per share held."
+    },
+    {
       "date": "2025-08-20",
       "company": "GIBO Holdings Limited",
       "ticker": "GIBO",
@@ -14922,8 +14978,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1865,
-    "scraped_at": "2025-08-20T21:18:33.279069+00:00",
+    "total_actions": 1872,
+    "scraped_at": "2025-08-21T14:17:18.424645+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
