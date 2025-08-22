@@ -1,6 +1,62 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-08-25",
+      "company": "Foresight Autonomous Hldg Ltd",
+      "ticker": "FRSX",
+      "action_type": "Consolidation",
+      "ratio": "1 for 7",
+      "action_details": "Foresight Autonomous Hldg Ltd (FRSX) performed a 1 for 7 consolidation. Holders will now hold 1 ADR of Foresight Autonomous Holdings Ltd (FRSX) for every 7 shares previously held."
+    },
+    {
+      "date": "2025-08-25",
+      "company": "OceanPal Inc New",
+      "ticker": "OP",
+      "action_type": "Consolidation",
+      "ratio": "1 for 25",
+      "action_details": "OceanPal Inc New (OP) performed a 1 for 25 consolidation. Holders will now hold 1 share of OceanPal Inc New (OP) for every 25 shares previously held."
+    },
+    {
+      "date": "2025-08-25",
+      "company": "Quhuo Ltd",
+      "ticker": "QH",
+      "action_type": "Consolidation",
+      "ratio": "1 for 90",
+      "action_details": "Quhuo Ltd (QH) performed a 1 for 90 consolidation. Holders will now hold 1 ADR of Quhuo Ltd (QH) for every 90 shares previously held."
+    },
+    {
+      "date": "2025-08-25",
+      "company": "Graphjet Technology",
+      "ticker": "GTI",
+      "action_type": "Consolidation",
+      "ratio": "1 for 60",
+      "action_details": "Graphjet Technology (GTI) performed a 1 for 60 consolidation. Holders will now hold 1 share of Graphjet Technology (GTI) for every 60 shares previously held."
+    },
+    {
+      "date": "2025-08-25",
+      "company": "Greenwave Technology Solutions Inc",
+      "ticker": "GWAV",
+      "action_type": "Consolidation",
+      "ratio": "1 for 110",
+      "action_details": "Greenwave Technology Solutions Inc (GWAV) performed a 1 for 110 consolidation. Holders will now hold 1 share of Greenwave Technology Solutions Inc (GWAV) for every 110 shares previously held."
+    },
+    {
+      "date": "2025-08-25",
+      "company": "Briacell Therapeutics Corp",
+      "ticker": "BCT",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Briacell Therapeutics Corp (BCT) performed a 1 for 10 consolidation. Holders will now hold 1 share of Briacell Therapeutics Corp (BCT) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-08-25",
+      "company": "SU Group Holdings Limited",
+      "ticker": "SUGP",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "SU Group Holdings Limited (SUGP) performed a 1 for 10 consolidation. Holders will now hold 1 share of SU Group Holdings Limited (SUGP) for every 10 shares previously held."
+    },
+    {
       "date": "2025-08-22",
       "company": "Westbridge Renewable Energy Corp",
       "ticker": "WEB",
@@ -47,6 +103,14 @@
       "action_type": "Consolidation",
       "ratio": "1 for 1000",
       "action_details": "Carsmartt Inc Common (CRSM) performed a name change and a 1 for 1000 consolidation. Holders will now hold 1 share of Related Blocks Inc. (CRSMD) for every 1000 shares previously held."
+    },
+    {
+      "date": "2025-08-22",
+      "company": "Neuberger Berman Next Generation Connected Consumer ETF",
+      "ticker": "NBCC",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "Neuberger Berman Next Generation Connected Consumer ETF (NBCC) performed a liquidation. Holders will receive 24.277194 USD per share held."
     },
     {
       "date": "2025-08-21",
@@ -15034,12 +15098,12 @@
     }
   ],
   "metadata": {
-    "total_actions": 1879,
-    "scraped_at": "2025-08-22T14:16:47.791792+00:00",
+    "total_actions": 1887,
+    "scraped_at": "2025-08-22T21:17:21.645236+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
-    "method_used": "selenium",
+    "method_used": "cloudscraper",
     "github_actions_compatible": true
   }
 }
