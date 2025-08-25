@@ -1,6 +1,54 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-08-26",
+      "company": "Americas Gold and Silver Corp",
+      "ticker": "USA",
+      "action_type": "Consolidation",
+      "ratio": "1 for 2.5",
+      "action_details": "Americas Gold and Silver Corp (USA) performed a 1 for 2.5 consolidation. Holders will now hold 1 share of Americas Gold and Silver Corp (USA) for every 2.5 shares previously held."
+    },
+    {
+      "date": "2025-08-26",
+      "company": "Xander Resources Inc",
+      "ticker": "XND",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Xander Resources Inc. (XND) performed a 1 for 1 name and CUSIP change to Core Critical Metals Corp. (CCMC)."
+    },
+    {
+      "date": "2025-08-26",
+      "company": "Chemomab Therapeutics Ltd",
+      "ticker": "CMMB",
+      "action_type": "Consolidation",
+      "ratio": "1 for 4",
+      "action_details": "Chemomab Therapeutics Ltd (CMMB) performed a 1 for 4 consolidation. Holders will now hold 1 ADR of Chemomab Therapeutics Ltd (CMMB) for every 4 shares previously held."
+    },
+    {
+      "date": "2025-08-26",
+      "company": "Regency Silver Corp",
+      "ticker": "RSMX",
+      "action_type": "Consolidation",
+      "ratio": "1 for 2",
+      "action_details": "Regency Silver Corp (RSMX) performed a 1 for 2 consolidation. Holders will now hold 1 share of Regency Silver Corp (RSMX) for every 2 shares previously held."
+    },
+    {
+      "date": "2025-08-26",
+      "company": "Akanda Corp",
+      "ticker": "AKAN",
+      "action_type": "Consolidation",
+      "ratio": "1 for 3.125",
+      "action_details": "Akanda Corp (AKAN) performed a 1 for 3.125 consolidation. Holders will now hold 1 share of Akanda Corp (AKAN) for every 3.125 shares previously held."
+    },
+    {
+      "date": "2025-08-26",
+      "company": "Rumble Resources Inc",
+      "ticker": "RB",
+      "action_type": "Stock Split",
+      "ratio": "2 for 1",
+      "action_details": "Rumble Resources Inc. (RB) performed a 2 for 1 stock split. Holders will now hold 2 shares of Rumble Resources Inc. (RB) per 1 share previously held."
+    },
+    {
       "date": "2025-08-25",
       "company": "Foresight Autonomous Hldg Ltd",
       "ticker": "FRSX",
@@ -54,7 +102,7 @@
       "ticker": "SUGP",
       "action_type": "Consolidation",
       "ratio": "1 for 10",
-      "action_details": "SU Group Holdings Limited (SUGP) performed a 1 for 10 consolidation. Holders will now hold 1 share of SU Group Holdings Limited (SUGP) for every 10 shares previously held."
+      "action_details": "SU Group Holdings Limited (SUGP) performed a 1 for 10 consolidation. Holders will now hold 1 share of SU Group Holdings Limited (SUGP) for every 10 shares previously held.Reyna Silver Corp (RSLV) performed a merger. Holders will receive 0.13 CAD per share held."
     },
     {
       "date": "2025-08-22",
@@ -15098,8 +15146,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1887,
-    "scraped_at": "2025-08-25T14:18:10.961549+00:00",
+    "total_actions": 1893,
+    "scraped_at": "2025-08-25T21:18:34.204957+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
