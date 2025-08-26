@@ -1,6 +1,22 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-08-27",
+      "company": "Lions Bay Capital Inc",
+      "ticker": "LBI",
+      "action_type": "Consolidation",
+      "ratio": "1 for 5",
+      "action_details": "Lions Bay Capital Inc. (LBI) performed a 1 for 5 consolidation. Holders will now hold 1 share of Lions Bay Capital Inc. (LBI) for every 5 shares previously held."
+    },
+    {
+      "date": "2025-08-27",
+      "company": "Supernova Metals Corp",
+      "ticker": "SUPR",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Supernova Metals Corp (SUPR) performed a 1 for 1 name and CUSIP change to Oregen Energy Corp. (ORNG)."
+    },
+    {
       "date": "2025-08-26",
       "company": "Americas Gold and Silver Corp",
       "ticker": "USA",
@@ -55,6 +71,14 @@
       "action_type": "Merger",
       "ratio": "",
       "action_details": "Dun & Bradstreet Holdings Inc (DNB) performed a merger. Holders will receive 9.15 USD per share held."
+    },
+    {
+      "date": "2025-08-26",
+      "company": "New York Life Investments ETF Trust - Nyli Healthy Hearts ETF",
+      "ticker": "HART",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "New York Life Investments ETF Trust - Nyli Healthy Hearts ETF (HART) performed a liquidation. Holders will receive 30.64928 USD per share held."
     },
     {
       "date": "2025-08-25",
@@ -15154,8 +15178,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1894,
-    "scraped_at": "2025-08-26T14:16:32.219905+00:00",
+    "total_actions": 1897,
+    "scraped_at": "2025-08-26T21:17:24.329984+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
