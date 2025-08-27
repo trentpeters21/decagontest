@@ -1,6 +1,46 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-08-28",
+      "company": "GreenPower Motor Company Inc",
+      "ticker": "GPV",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "GreenPower Motor Company Inc (GPV) performed a 1 for 10 consolidation. Holders will now hold 1 share of GreenPower Motor Company Inc (GPV) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-08-28",
+      "company": "DarioHealth Corp",
+      "ticker": "DRIO",
+      "action_type": "Consolidation",
+      "ratio": "1 for 20",
+      "action_details": "DarioHealth Corp (DRIO) performed a 1 for 20 consolidation. Holders will now hold 1 share of DarioHealth Corp (DRIO) for every 20 shares previously held."
+    },
+    {
+      "date": "2025-08-28",
+      "company": "Golden Heaven Group Holdings Limited",
+      "ticker": "GDHG",
+      "action_type": "Consolidation",
+      "ratio": "1 for 15",
+      "action_details": "Golden Heaven Group Holdings Limited (GDHG) performed a 1 for 15 consolidation. Holders will now hold 1 share of Golden Heaven Group Holdings Limited (GDHG) for every 15 shares previously held."
+    },
+    {
+      "date": "2025-08-28",
+      "company": "Ameriwest Lithium Inc",
+      "ticker": "AWLI",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Ameriwest Lithium Inc. (AWLI) performed a 1 for 1 name and CUSIP change to Ameriwest Critical Metals Inc. (AWCM)."
+    },
+    {
+      "date": "2025-08-28",
+      "company": "Callinex Mines Inc",
+      "ticker": "CNX",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Callinex Mines Inc (CNX) performed a 1 for 1 name and CUSIP change to Visionary Copper and Gold Mines Inc. (VCG)."
+    },
+    {
       "date": "2025-08-27",
       "company": "Lions Bay Capital Inc",
       "ticker": "LBI",
@@ -15178,8 +15218,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1897,
-    "scraped_at": "2025-08-27T14:16:37.675438+00:00",
+    "total_actions": 1902,
+    "scraped_at": "2025-08-27T21:18:14.427228+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
