@@ -1,6 +1,110 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-09-02",
+      "company": "Global X Genomics & Biotechnology ETF",
+      "ticker": "GNOM",
+      "action_type": "Consolidation",
+      "ratio": "1 for 4",
+      "action_details": "Global X Genomics & Biotechnology ETF (GNOM) performed a 1 for 4 consolidation. Holders will now hold 1 share Global X Genomics & Biotechnology ETF (GNOM) for every 4 shares previously held."
+    },
+    {
+      "date": "2025-09-02",
+      "company": "Global X AgTech & Food Innovation ETF",
+      "ticker": "KROP",
+      "action_type": "Consolidation",
+      "ratio": "1 for 3",
+      "action_details": "Global X AgTech & Food Innovation ETF (KROP) performed a 1 for 3 consolidation. Holders will now hold 1 share Global X AgTech & Food Innovation ETF (KROP) for every 3 shares previously held."
+    },
+    {
+      "date": "2025-09-02",
+      "company": "Global X CleanTech ETF",
+      "ticker": "CTEC",
+      "action_type": "Consolidation",
+      "ratio": "1 for 5",
+      "action_details": "Global X CleanTech ETF (CTEC) performed a 1 for 5 consolidation. Holders will now hold 1 share Global X CleanTech ETF (CTEC) for every 5 shares previously held."
+    },
+    {
+      "date": "2025-09-02",
+      "company": "Global X Renewable Energy Producers ETF",
+      "ticker": "RNRG",
+      "action_type": "Consolidation",
+      "ratio": "1 for 3",
+      "action_details": "Global X Renewable Energy Producers ETF (RNRG) performed a 1 for 3 consolidation. Holders will now hold 1 share Global X Renewable Energy Producers ETF (RNRG) for every 3 shares previously held."
+    },
+    {
+      "date": "2025-09-02",
+      "company": "Tidewater Midstream and Infrastructure",
+      "ticker": "TWM",
+      "action_type": "Consolidation",
+      "ratio": "1 for 20",
+      "action_details": "Tidewater Midstream and Infrastructure (TWM) performed a 1 for 20 consolidation. Holders will now hold 1 share Tidewater Midstream and Infrastructure (TWM) for every 20 shares previously held."
+    },
+    {
+      "date": "2025-09-02",
+      "company": "FiscalNote Holdings Inc",
+      "ticker": "NOTE",
+      "action_type": "Consolidation",
+      "ratio": "1 for 12",
+      "action_details": "FiscalNote Holdings Inc (Class A) (NOTE) performed a 1 for 12 consolidation. Holders will now hold 1 share FiscalNote Holdings Inc (NOTE) for every 12 shares previously held."
+    },
+    {
+      "date": "2025-09-02",
+      "company": "Lucid Group Inc",
+      "ticker": "LCID",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Lucid Group Inc (LCID) performed a 1 for 10 consolidation. Holders will now hold 1 share Lucid Group Inc (LCID) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-09-02",
+      "company": "Growth X HealthTech ETF",
+      "ticker": "HEAL",
+      "action_type": "Consolidation",
+      "ratio": "1 for 3",
+      "action_details": "Growth X HealthTech ETF (HEAL) performed a 1 for 3 consolidation. Holders will now hold 1 share Growth X HealthTech ETF (HEAL) for every 3 shares previously held."
+    },
+    {
+      "date": "2025-09-02",
+      "company": "MSP Recovery Inc",
+      "ticker": "MSPR",
+      "action_type": "Consolidation",
+      "ratio": "1 for 7",
+      "action_details": "MSP Recovery Inc (MSPR) performed a 1 for 7 consolidation. Holders will now hold 1 share MSP Recovery Inc (MSPR) for every 7 shares previously held."
+    },
+    {
+      "date": "2025-09-02",
+      "company": "TNF Pharmaceuticals, Inc",
+      "ticker": "TNFA",
+      "action_type": "Consolidation",
+      "ratio": "1 for 100",
+      "action_details": "TNF Pharmaceuticals, Inc. (TNFA) performed a 1 for 100 consolidation. Holders will now hold 1 share TNF Pharmaceuticals, Inc. (TNFA) for every 100 shares previously held."
+    },
+    {
+      "date": "2025-09-02",
+      "company": "PMGC Holdings Inc",
+      "ticker": "ELAB",
+      "action_type": "Consolidation",
+      "ratio": "1 for 3.5",
+      "action_details": "PMGC Holdings Inc. (ELAB) performed a 1 for 3.5 consolidation. Holders will now hold 1 share PMGC Holdings Inc. (ELAB) for every 3.5 shares previously held."
+    },
+    {
+      "date": "2025-09-02",
+      "company": "Bridge Investment Group Holdings Inc",
+      "ticker": "BRDG",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Bridge Investment Group Holdings Inc (Class A) (BRDG) performed a merger. Holders will receive 0.07081 shares of Apollo Global Management Inc (Class) (APO) per share held."
+    },
+    {
+      "date": "2025-09-02",
+      "company": "South State",
+      "ticker": "SSB",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "South State (SSB) performed a merger. Holders will receive 1 new share of SouthState Bank Corporation (SSB) per share held."
+    },
+    {
       "date": "2025-08-29",
       "company": "Token Cat Limited",
       "ticker": "TC",
@@ -31,6 +135,62 @@
       "action_type": "Consolidation",
       "ratio": "1 for 10",
       "action_details": "Bayridge Resources Corp. (BYRG) performed a 1 for 10 consolidation. Holders will now hold 1 share of Bayridge Resources Corp. (BYRG) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-08-29",
+      "company": "Western Asset Total Return ETF",
+      "ticker": "WBND",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "Western Asset Total Return ETF (WBND) performed a liquidation. Holders will receive 20.173368 USD per share held."
+    },
+    {
+      "date": "2025-08-29",
+      "company": "Legg Mason ETF Investment Westn Asset Short",
+      "ticker": "WINC",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "Legg Mason ETF Investment Westn Asset Short (WINC) performed a liquidation. Holders will receive 24.217946 USD per share held."
+    },
+    {
+      "date": "2025-08-29",
+      "company": "Global X Wind Energy ETF",
+      "ticker": "WNDY",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "Global X Wind Energy ETF (WNDY) performed a liquidation. Holders will receive 12.3378 USD per share held."
+    },
+    {
+      "date": "2025-08-29",
+      "company": "Global X Solar ETF",
+      "ticker": "RAYS",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "Global X Solar ETF (RAYS) performed a liquidation. Holders will receive 10.0999 USD per share held."
+    },
+    {
+      "date": "2025-08-29",
+      "company": "Global X Funds Proptech ETF",
+      "ticker": "PTEC",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "Global X Funds Proptech ETF (PTEC) performed a liquidation. Holders will receive 39.6445 USD per share held."
+    },
+    {
+      "date": "2025-08-29",
+      "company": "Global X Funds Interest Rate Hedge ETF",
+      "ticker": "RATE",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "Global X Funds Interest Rate Hedge ETF (RATE) performed a liquidation. Holders will receive 17.4726 USD per share held."
+    },
+    {
+      "date": "2025-08-29",
+      "company": "Global X Funds S&P 500 Quality Dividend Covered Call ETF",
+      "ticker": "QDCC",
+      "action_type": "Dividend",
+      "ratio": "",
+      "action_details": "Global X Funds S&P 500 Quality Dividend Covered Call ETF (QDCC) performed a liquidation. Holders will receive 24.3881 USD per share held."
     },
     {
       "date": "2025-08-28",
@@ -631,6 +791,14 @@
       "action_type": "Merger",
       "ratio": "",
       "action_details": "CI Financial Corp (CIX) performed a merger. Holders will receive 32 CAD per share held."
+    },
+    {
+      "date": "2025-08-15",
+      "company": "IGM Biosciences Inc",
+      "ticker": "IGMS",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "IGM Biosciences Inc. (IGMS) performed a merger. Holders will receive 1 CVR of IGM Biosciences Inc. plus 1.247 USD for each share previously held."
     },
     {
       "date": "2025-08-14",
@@ -15242,8 +15410,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1905,
-    "scraped_at": "2025-08-29T14:16:06.211479+00:00",
+    "total_actions": 1926,
+    "scraped_at": "2025-08-29T21:17:01.518004+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
