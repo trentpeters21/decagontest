@@ -1,6 +1,38 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-09-03",
+      "company": "Gryphon Digital Mining Inc",
+      "ticker": "GRYP",
+      "action_type": "Consolidation",
+      "ratio": "1 for 5",
+      "action_details": "Gryphon Digital Mining Inc. (GRYP) performed a name change and a 1 for 5 consolidation. Holders will now hold 1 share American Bitcoin Corp. Class A Common Stock (ABTC) for every 5 shares previously held."
+    },
+    {
+      "date": "2025-09-03",
+      "company": "Forum Energy Metals",
+      "ticker": "FMC",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Forum Energy Metals (FMC) performed a merger. Holders will receive 0.3535 share of Baselode Energy Corp. (FIND) per share held."
+    },
+    {
+      "date": "2025-09-03",
+      "company": "Brookline Bancorp",
+      "ticker": "BRKL",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Brookline Bancorp (BRKL) performed a merger. Holders will receive 0.42 share of Beacon Financial Corp. (BBT) per share held."
+    },
+    {
+      "date": "2025-09-03",
+      "company": "Pacfic Premier Bancorp",
+      "ticker": "PPBI",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Pacfic Premier Bancorp (PPBI) performed a merger. Holders will receive 0.915 share of Columbia Banking System (COLB) per share held."
+    },
+    {
       "date": "2025-09-02",
       "company": "Global X Genomics & Biotechnology ETF",
       "ticker": "GNOM",
@@ -15410,12 +15442,12 @@
     }
   ],
   "metadata": {
-    "total_actions": 1926,
-    "scraped_at": "2025-09-02T14:17:17.129285+00:00",
+    "total_actions": 1930,
+    "scraped_at": "2025-09-02T21:16:22.634910+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
-    "method_used": "selenium",
+    "method_used": "cloudscraper",
     "github_actions_compatible": true
   }
 }
