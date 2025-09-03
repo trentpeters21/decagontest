@@ -1,6 +1,30 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-09-04",
+      "company": "Kincora Copper Ltd",
+      "ticker": "KCC",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Kincora Copper Ltd (KCC) performed a name change and a 1 for 10 consolidation. Holders will now hold 1 share Kincora Copper Ltd (KCC) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-09-04",
+      "company": "Goldshore Resources Inc",
+      "ticker": "GSHR",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Goldshore Resources Inc. (GSHR) performed a 1 for 1 name and CUSIP change to Gold X2 Mining Inc. (AUXX)."
+    },
+    {
+      "date": "2025-09-04",
+      "company": "ImmunoPrecise Antibodies Ltd",
+      "ticker": "IPA",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "ImmunoPrecise Antibodies Ltd (IPA) performed a 1 for 1 name and CUSIP change to MindWalk Holdings Corporation (HYFT)."
+    },
+    {
       "date": "2025-09-03",
       "company": "Gryphon Digital Mining Inc",
       "ticker": "GRYP",
@@ -31,6 +55,22 @@
       "action_type": "Merger",
       "ratio": "",
       "action_details": "Pacfic Premier Bancorp (PPBI) performed a merger. Holders will receive 0.915 share of Columbia Banking System (COLB) per share held."
+    },
+    {
+      "date": "2025-09-03",
+      "company": "Conns Inc",
+      "ticker": "CONNQ",
+      "action_type": "Other",
+      "ratio": "",
+      "action_details": "Conns Inc. (CONNQ) performed a mandatory exchange. Holders will receive 1 escrow share per share held."
+    },
+    {
+      "date": "2025-09-03",
+      "company": "Old Point Financial Corp",
+      "ticker": "OPOF",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Old Point Financial Corp. (OPOF) performed a merger. Holders will receive 41 USD per share held."
     },
     {
       "date": "2025-09-02",
@@ -135,6 +175,14 @@
       "action_type": "Merger",
       "ratio": "",
       "action_details": "South State (SSB) performed a merger. Holders will receive 1 new share of SouthState Bank Corporation (SSB) per share held."
+    },
+    {
+      "date": "2025-09-02",
+      "company": "ITeos Therapeutics Inc",
+      "ticker": "ITOS",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "ITeos Therapeutics Inc. (ITOS) performed a merger. Holders will receive 10.047 USD plus 1 CVR per share held."
     },
     {
       "date": "2025-08-29",
@@ -15442,8 +15490,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1930,
-    "scraped_at": "2025-09-03T14:16:25.679866+00:00",
+    "total_actions": 1936,
+    "scraped_at": "2025-09-03T21:16:25.023296+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
