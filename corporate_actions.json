@@ -1,6 +1,62 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-09-05",
+      "company": "Erdene Resource Development",
+      "ticker": "ERD",
+      "action_type": "Consolidation",
+      "ratio": "1 for 6",
+      "action_details": "Erdene Resource Development (ERD) performed a 1 for 6 consolidation. Holders will now hold 1 share of Erdene Resource Development (ERD) for every 6 shares previously held."
+    },
+    {
+      "date": "2025-09-05",
+      "company": "InnoCan Pharma Corp",
+      "ticker": "INNO",
+      "action_type": "Consolidation",
+      "ratio": "1 for 65",
+      "action_details": "InnoCan Pharma Corp (INNO) performed a 1 for 65 consolidation. Holders will now hold 1 share of InnoCan Pharma Corp (INNO) for every 65 shares previously held."
+    },
+    {
+      "date": "2025-09-05",
+      "company": "CNFinance Holdings Ltd",
+      "ticker": "CNF",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "CNFinance Holdings Ltd (CNF) performed a 1 for 10 consolidation. Holders will now hold 1 ADR of CNFinance Holdings Ltd (CNF) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-09-05",
+      "company": "Quadratic Deflation ETF",
+      "ticker": "BNDD",
+      "action_type": "Consolidation",
+      "ratio": "1 for 8",
+      "action_details": "Quadratic Deflation ETF (BNDD) performed a 1 for 8 consolidation. Holders will now hold 1 share of Quadratic Deflation ETF (BNDD) for every 8 shares previously held."
+    },
+    {
+      "date": "2025-09-05",
+      "company": "Nauticus Robotics Inc",
+      "ticker": "KITT",
+      "action_type": "Consolidation",
+      "ratio": "1 for 9",
+      "action_details": "Nauticus Robotics Inc. (KITT) performed a 1 for 9 consolidation. Holders will now hold 1 share of Nauticus Robotics Inc. (KITT) for every 9 shares previously held."
+    },
+    {
+      "date": "2025-09-05",
+      "company": "Tian Ruixiang Holdings Ltd",
+      "ticker": "TIRX",
+      "action_type": "Consolidation",
+      "ratio": "1 for 5",
+      "action_details": "Tian Ruixiang Holdings Ltd (Class A) (TIRX) performed a 1 for 5 consolidation. Holders will now hold 1 share of Tian Ruixiang Holdings Ltd (Class A) (TIRX) for every 5 shares previously held."
+    },
+    {
+      "date": "2025-09-05",
+      "company": "Alternus Clean Energy Inc",
+      "ticker": "ALCE",
+      "action_type": "Consolidation",
+      "ratio": "1 for 200",
+      "action_details": "Alternus Clean Energy Inc (Class A) (ALCE) performed a 1 for 200 consolidation. Holders will now hold 1 share of Alternus Clean Energy Inc (Class A) (ALCE) for every 200 shares previously held."
+    },
+    {
       "date": "2025-09-04",
       "company": "Kincora Copper Ltd",
       "ticker": "KCC",
@@ -15490,8 +15546,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1936,
-    "scraped_at": "2025-09-04T14:16:23.621944+00:00",
+    "total_actions": 1943,
+    "scraped_at": "2025-09-04T21:17:29.287084+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
