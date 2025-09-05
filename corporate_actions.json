@@ -1,6 +1,94 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-09-08",
+      "company": "Oxford Lane Capital",
+      "ticker": "OXLC",
+      "action_type": "Consolidation",
+      "ratio": "1 for 5",
+      "action_details": "Oxford Lane Capital (OXLC) performed a 1 for 5 consolidation. Holders will now hold 1 share of Oxford Lane Capital (OXLC) for every 5 shares previously held."
+    },
+    {
+      "date": "2025-09-08",
+      "company": "Maple Gold Mines",
+      "ticker": "MGM",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Maple Gold Mines (MGM) performed a 1 for 10 consolidation. Holders will now hold 1 share of Maple Gold Mines (MGM) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-09-08",
+      "company": "Top Kingwin Limited",
+      "ticker": "WAI",
+      "action_type": "Consolidation",
+      "ratio": "1 for 25",
+      "action_details": "Top Kingwin Limited (WAI) performed a 1 for 25 consolidation. Holders will now hold 1 share of Top Kingwin Limited (WAI) for every 25 shares previously held."
+    },
+    {
+      "date": "2025-09-08",
+      "company": "General Electric CDR",
+      "ticker": "GE",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "General Electric CDR (CAD Hedged) (GE) performed a 1 for 1 name and CUSIP change to GE Aerospace CDR (CAD Hedged) (GE)."
+    },
+    {
+      "date": "2025-09-08",
+      "company": "Safe & Green Holdings Corp",
+      "ticker": "SGBX",
+      "action_type": "Consolidation",
+      "ratio": "1 for 64",
+      "action_details": "Safe & Green Holdings Corp (SGBX) performed a 1 for 64 consolidation. Holders will now hold 1 share of Safe & Green Holdings Corp (SGBX) for every 64 shares previously held."
+    },
+    {
+      "date": "2025-09-08",
+      "company": "Galaxy Payroll Group Limited",
+      "ticker": "GLXG",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Galaxy Payroll Group Limited (GLXG) performed a 1 for 10 consolidation. Holders will now hold 1 share of Galaxy Payroll Group Limited (GLXG) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-09-08",
+      "company": "Stardust Power Inc",
+      "ticker": "SDST",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Stardust Power Inc. (SDST) performed a 1 for 10 consolidation. Holders will now hold 1 share of Stardust Power Inc. (SDST) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-09-08",
+      "company": "GreenPower Motor Company Inc",
+      "ticker": "GPV",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "GreenPower Motor Company Inc (GPV) performed a 1 for 10 consolidation. Holders will now hold 1 share of GreenPower Motor Company Inc (GPV) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-09-08",
+      "company": "HDFC Bank Ltd",
+      "ticker": "HDB",
+      "action_type": "Stock Split",
+      "ratio": "2 for 1",
+      "action_details": "HDFC Bank Ltd. (HDB) performed a 2 for 1 stock split. Holders will now hold 2 shares of HDFC Bank Ltd. (HDB) per 1 share previously held."
+    },
+    {
+      "date": "2025-09-08",
+      "company": "American Creek Resources Ltd",
+      "ticker": "AMK",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "American Creek Resources Ltd (AMK) performed a merger. Holders will receive 0.238 share of Tudor Gold Corp (TUD) per share held."
+    },
+    {
+      "date": "2025-09-08",
+      "company": "SOS Limited ADR",
+      "ticker": "SOS",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "SOS Limited ADR (SOS) performed a 1 for 1 mandatory exchange. Holders will receive 1 ordinary share of SOS Limited (SOS) per ADR held."
+    },
+    {
       "date": "2025-09-05",
       "company": "Erdene Resource Development",
       "ticker": "ERD",
@@ -55,6 +143,22 @@
       "action_type": "Consolidation",
       "ratio": "1 for 200",
       "action_details": "Alternus Clean Energy Inc (Class A) (ALCE) performed a 1 for 200 consolidation. Holders will now hold 1 share of Alternus Clean Energy Inc (Class A) (ALCE) for every 200 shares previously held."
+    },
+    {
+      "date": "2025-09-05",
+      "company": "GMS Inc",
+      "ticker": "GMS",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "GMS Inc. (GMS) performed a merger. Holders will receive 110 USD per share held."
+    },
+    {
+      "date": "2025-09-05",
+      "company": "ATI Physical Therapy Inc",
+      "ticker": "ATIP",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "ATI Physical Therapy Inc (Class A) (ATIP) performed a merger. Holders will receive 2.85 USD per share held."
     },
     {
       "date": "2025-09-04",
@@ -15546,8 +15650,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1943,
-    "scraped_at": "2025-09-05T14:15:41.863328+00:00",
+    "total_actions": 1956,
+    "scraped_at": "2025-09-05T21:16:54.403361+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
