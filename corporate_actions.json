@@ -1,6 +1,14 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-09-09",
+      "company": "Diginex Limited",
+      "ticker": "DGNX",
+      "action_type": "Stock Split",
+      "ratio": "8 for 1",
+      "action_details": "Diginex Limited (DGNX) performed a 8 for 1 stock split. Holders will now hold 8 shares of Diginex Limited (DGNX) per 1 share previously held."
+    },
+    {
       "date": "2025-09-08",
       "company": "Oxford Lane Capital",
       "ticker": "OXLC",
@@ -15650,12 +15658,12 @@
     }
   ],
   "metadata": {
-    "total_actions": 1956,
-    "scraped_at": "2025-09-08T14:17:27.140807+00:00",
+    "total_actions": 1957,
+    "scraped_at": "2025-09-08T21:17:08.968550+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
-    "method_used": "selenium",
+    "method_used": "cloudscraper",
     "github_actions_compatible": true
   }
 }
