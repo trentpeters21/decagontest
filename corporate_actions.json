@@ -97,6 +97,14 @@
       "action_details": "SOS Limited ADR (SOS) performed a 1 for 1 mandatory exchange. Holders will receive 1 ordinary share of SOS Limited (SOS) per ADR held."
     },
     {
+      "date": "2025-09-08",
+      "company": "Foot Locker Inc",
+      "ticker": "FL",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Foot Locker Inc (FL) performed a merger. Holders will receive 24 USD per share held."
+    },
+    {
       "date": "2025-09-05",
       "company": "Erdene Resource Development",
       "ticker": "ERD",
@@ -15658,12 +15666,12 @@
     }
   ],
   "metadata": {
-    "total_actions": 1957,
-    "scraped_at": "2025-09-08T21:17:08.968550+00:00",
+    "total_actions": 1958,
+    "scraped_at": "2025-09-09T14:14:43.970079+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
-    "method_used": "cloudscraper",
+    "method_used": "selenium",
     "github_actions_compatible": true
   }
 }
