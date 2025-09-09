@@ -1,6 +1,22 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-09-10",
+      "company": "Sulliden Mining Capital Inc",
+      "ticker": "SMC",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Sulliden Mining Capital Inc (SMC) performed a name change and a 1 for 10 consolidation. Holders will now hold 1 share of Future Mineral Resources Inc. (FMR) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-09-10",
+      "company": "Steakholder Foods Limited",
+      "ticker": "STKH",
+      "action_type": "Consolidation",
+      "ratio": "1 for 8",
+      "action_details": "Steakholder Foods Limited (STKH) performed a 1 for 8 consolidation. Holders will now hold 1 ADR of Steakholder Foods Limited (STKH) for every 8 ADR previously held."
+    },
+    {
       "date": "2025-09-09",
       "company": "Diginex Limited",
       "ticker": "DGNX",
@@ -103,6 +119,14 @@
       "action_type": "Merger",
       "ratio": "",
       "action_details": "Foot Locker Inc (FL) performed a merger. Holders will receive 24 USD per share held."
+    },
+    {
+      "date": "2025-09-08",
+      "company": "MAG Silver Corp",
+      "ticker": "MAG",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "MAG Silver Corp (MAG) performed a merger. Holders will receive 0.58844257 share of Pan American Silver Corp (PAAS) plus 4.52847757 USD for each share previously held."
     },
     {
       "date": "2025-09-05",
@@ -15666,8 +15690,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1958,
-    "scraped_at": "2025-09-09T14:14:43.970079+00:00",
+    "total_actions": 1961,
+    "scraped_at": "2025-09-09T21:16:46.765875+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
