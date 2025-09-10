@@ -17,12 +17,36 @@
       "action_details": "Steakholder Foods Limited (STKH) performed a 1 for 8 consolidation. Holders will now hold 1 ADR of Steakholder Foods Limited (STKH) for every 8 ADR previously held."
     },
     {
+      "date": "2025-09-10",
+      "company": "TrueShares Structured Outcome July ETF",
+      "ticker": "JULZ",
+      "action_type": "Other",
+      "ratio": "",
+      "action_details": "TrueShares Structured Outcome July ETF (JULZ) performed a reclassification. Holders will receive 1 share of ETF Elevation SER TR per share held."
+    },
+    {
       "date": "2025-09-09",
       "company": "Diginex Limited",
       "ticker": "DGNX",
       "action_type": "Stock Split",
       "ratio": "8 for 1",
       "action_details": "Diginex Limited (DGNX) performed a 8 for 1 stock split. Holders will now hold 8 shares of Diginex Limited (DGNX) per 1 share previously held."
+    },
+    {
+      "date": "2025-09-09",
+      "company": "American Century ETF Trust - Quality Convertible Securities ETF",
+      "ticker": "QCON",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "American Century ETF Trust - Quality Convertible Securities ETF (QCON) performed a liquidation. Details of the event are still to be determined."
+    },
+    {
+      "date": "2025-09-09",
+      "company": "American Century ETF Trust - Quality ETF",
+      "ticker": "QPFF",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "American Century ETF Trust - Quality ETF (QPFF) performed a liquidation. Details of the event are still to be determined."
     },
     {
       "date": "2025-09-08",
@@ -15690,12 +15714,12 @@
     }
   ],
   "metadata": {
-    "total_actions": 1961,
-    "scraped_at": "2025-09-09T21:16:46.765875+00:00",
+    "total_actions": 1964,
+    "scraped_at": "2025-09-10T14:15:18.355443+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
-    "method_used": "selenium",
+    "method_used": "cloudscraper",
     "github_actions_compatible": true
   }
 }
