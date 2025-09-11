@@ -7,8 +7,7 @@ Reads SQL query from file and executes it via Satori CLI
 import os
 import json
 import requests
-import psycopg2
-from sshtunnel import SSHTunnelForwarder
+import subprocess
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 
@@ -45,60 +44,34 @@ def save_last_run_timestamp():
     with open(LAST_RUN_FILE, 'w') as f:
         json.dump({'last_run_timestamp': timestamp}, f)
 
-def run_ssh_tunnel_query(query):
-    """Execute a SQL query using SSH tunnel to Redshift"""
+def run_satori_query(query):
+    """Execute a SQL query using Satori CLI"""
     try:
-        print("Connecting to SSH tunnel...")
+        print("Executing query via Satori CLI...")
         
-        # Redshift connection credentials
-        creds = {
-            'dbname': 'pantheon',
-            'user': 'wealthsimple',
-            'password': os.getenv('REDSHIFT_PASSWORD'),
-            'host': '127.0.0.1',  # localhost because we're using SSH tunnel
-            'port': 5534
-        }
+        # Use Satori CLI to execute the query
+        cmd = [
+            'satori', 'run', 'psql', 
+            '--no-launch-browser',
+            'Redshift - Prod', 
+            'pantheon', 
+            '-c', query
+        ]
         
-        # Establish SSH tunnel
-        with SSHTunnelForwarder(
-            ('mgmt.prod.iad.w10e.com', 22),
-            ssh_username=os.getenv('SSH_USERNAME'),
-            ssh_private_key=os.getenv('SSH_PRIVATE_KEY_PATH'),
-            remote_bind_address=('wsprod-pantheon-redshift.c9qtpydth0xz.us-east-1.redshift.amazonaws.com', 5439),
-            local_bind_address=('localhost', 5534)
-        ) as ssh_tunnel:
-            print('SSH tunnel connected')
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
+        
+        if result.returncode != 0:
+            print(f"Satori CLI error: {result.stderr}")
+            return None
             
-            print('Connecting to Redshift...')
-            with psycopg2.connect(**creds) as conn:
-                print("Connected to Redshift successfully!")
-                
-                print("Executing query...")
-                with conn.cursor() as cur:
-                    cur.execute(query)
-                    results = cur.fetchall()
-                    
-                    # Convert results to list of dictionaries
-                    conversations = []
-                    for row in results:
-                        conversation = {
-                            'conversation_id': row[0] if len(row) > 0 else '',
-                            'conversation_url': row[1] if len(row) > 1 else '',
-                            'csat': row[2] if len(row) > 2 else '',
-                            'deflected': row[3] if len(row) > 3 else '',
-                            'summary': row[4] if len(row) > 4 else '',
-                            'created_at_utc': str(row[5]) if len(row) > 5 else '',
-                            'created_at_est': row[6] if len(row) > 6 else '',
-                            'tags': row[7] if len(row) > 7 else '',
-                            'metadata': row[8] if len(row) > 8 else ''
-                        }
-                        conversations.append(conversation)
-                    
-                    print(f"Found {len(conversations)} conversations")
-                    return conversations
-                    
+        print("Query executed successfully")
+        return parse_psql_results(result.stdout)
+        
+    except subprocess.TimeoutExpired:
+        print("Query timed out after 60 seconds")
+        return None
     except Exception as e:
-        print(f"Error running SSH tunnel query: {e}")
+        print(f"Error running Satori query: {e}")
         return None
 
 def parse_psql_results(output):
@@ -142,15 +115,15 @@ def parse_psql_results(output):
     return conversations
 
 def get_voice_conversations_from_warehouse():
-    """Fetch voice conversations from the last 12 hours (defined in SQL)."""
-    # Load SQL query (already constrained to last 12 hours)
+    """Fetch voice conversations from the last 24 hours (defined in SQL)."""
+    # Load SQL query (already constrained to last 24 hours)
     query = load_sql_query()
     if not query:
         return []
-    print("Fetching conversations from the last 12 hours (per SQL filter)")
+    print("Fetching conversations from the last 24 hours (per SQL filter)")
 
-    # Execute query using SSH tunnel
-    conversations = run_ssh_tunnel_query(query)
+    # Execute query using Satori CLI
+    conversations = run_satori_query(query)
     if not conversations:
         return []
     
@@ -191,7 +164,7 @@ def save_conversations_to_json(conversations, filename="voice_conversations_ware
 def main():
     """Main function to fetch voice conversations and send to Workato"""
     print("=== Voice Conversations Data Warehouse Fetcher ===")
-    print("Using SSH tunnel to connect to Redshift database")
+    print("Using Satori CLI to connect to Redshift - Prod database")
     
     # Fetch conversations from data warehouse
     conversations = get_voice_conversations_from_warehouse()
