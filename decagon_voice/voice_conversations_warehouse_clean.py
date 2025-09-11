@@ -4,10 +4,10 @@ Voice Conversations Data Warehouse Fetcher
 Reads SQL query from file and executes it via Satori CLI
 """
 
-import subprocess
 import os
 import json
 import requests
+import sqlalchemy
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 
@@ -15,8 +15,11 @@ from dotenv import load_dotenv
 load_dotenv('warehouse.env')
 
 # Configuration
-SATORI_DATASTORE = os.getenv('SATORI_DATASTORE', 'Redshift - Prod')
-SATORI_DATABASE = os.getenv('SATORI_DATABASE', 'pantheon')
+SATORI_USERNAME = os.getenv('SATORI_USERNAME')
+SATORI_PASSWORD = os.getenv('SATORI_PASSWORD')
+DB_HOST = "wsdev-pantheon-redshift-c9qtpydth0xz.ws1.us-east-1.a.p1.satoricyber.net"
+DB_PORT = 5439
+DB_NAME = "pantheon"
 WORKATO_WEBHOOK_URL = os.getenv('WORKATO_WEBHOOK_URL')
 
 # File paths
@@ -46,47 +49,47 @@ def save_last_run_timestamp():
     with open(LAST_RUN_FILE, 'w') as f:
         json.dump({'last_run_timestamp': timestamp}, f)
 
-def run_satori_query(query):
-    """Execute a SQL query using Satori CLI"""
+def run_database_query(query):
+    """Execute a SQL query using direct database connection"""
     try:
-        # Clean up the query - remove extra whitespace and newlines
-        clean_query = ' '.join(query.split())
-        
-        # Use satori run psql to execute the query
-        cmd = [
-            'satori', 'run', 'psql', 
-            SATORI_DATASTORE, 
-            SATORI_DATABASE,
-            '--', '-c', clean_query
-        ]
-        
-        print(f"Executing query...")
-        print(f"Command: {' '.join(cmd)}")
-        
-        result = subprocess.run(
-            cmd,
-            capture_output=True,
-            text=True,
-            timeout=300  # 5 minute timeout
-        )
-        
-        print(f"Return code: {result.returncode}")
-        if result.stdout:
-            print(f"STDOUT (first 500 chars): {result.stdout[:500]}")
-        if result.stderr:
-            print(f"STDERR: {result.stderr}")
-        
-        if result.returncode != 0:
-            print(f"Error executing query: {result.stderr}")
+        if not SATORI_USERNAME or not SATORI_PASSWORD:
+            print("Error: SATORI_USERNAME and SATORI_PASSWORD must be set")
             return None
             
-        return result.stdout
+        # Create database connection string
+        url = f"postgresql://{SATORI_USERNAME}:{SATORI_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
         
-    except subprocess.TimeoutExpired:
-        print("Query timed out after 5 minutes")
-        return None
+        print(f"Connecting to database: {DB_HOST}:{DB_PORT}/{DB_NAME}")
+        
+        # Create engine
+        engine = sqlalchemy.create_engine(url)
+        
+        # Execute query
+        print("Executing query...")
+        with engine.connect() as connection:
+            result = connection.execute(sqlalchemy.text(query))
+            
+            # Convert result to list of dictionaries
+            conversations = []
+            for row in result:
+                conversation = {
+                    'conversation_id': row[0] if len(row) > 0 else '',
+                    'conversation_url': row[1] if len(row) > 1 else '',
+                    'csat': row[2] if len(row) > 2 else '',
+                    'deflected': row[3] if len(row) > 3 else '',
+                    'summary': row[4] if len(row) > 4 else '',
+                    'created_at_utc': str(row[5]) if len(row) > 5 else '',
+                    'created_at_est': row[6] if len(row) > 6 else '',
+                    'tags': row[7] if len(row) > 7 else '',
+                    'metadata': row[8] if len(row) > 8 else ''
+                }
+                conversations.append(conversation)
+            
+            print(f"Found {len(conversations)} conversations")
+            return conversations
+            
     except Exception as e:
-        print(f"Error running Satori query: {e}")
+        print(f"Error running database query: {e}")
         return None
 
 def parse_psql_results(output):
@@ -137,13 +140,12 @@ def get_voice_conversations_from_warehouse():
         return []
     print("Fetching conversations from the last 12 hours (per SQL filter)")
 
-    # Execute query
-    result = run_satori_query(query)
-    if not result:
+    # Execute query using direct database connection
+    conversations = run_database_query(query)
+    if not conversations:
         return []
     
-    # Parse results
-    return parse_psql_results(result)
+    return conversations
 
 def send_to_workato_webhook(conversation, webhook_url):
     """Send conversation data to Workato webhook"""
@@ -178,10 +180,9 @@ def save_conversations_to_json(conversations, filename="voice_conversations_ware
         return False
 
 def main():
-    """Main function to fetch voice conversations and send to Slack"""
+    """Main function to fetch voice conversations and send to Workato"""
     print("=== Voice Conversations Data Warehouse Fetcher ===")
-    print(f"Using datastore: {SATORI_DATASTORE}")
-    print(f"Using database: {SATORI_DATABASE}")
+    print(f"Using database: {DB_HOST}:{DB_PORT}/{DB_NAME}")
     
     # Fetch conversations from data warehouse
     conversations = get_voice_conversations_from_warehouse()

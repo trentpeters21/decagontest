@@ -23,85 +23,20 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests python-dotenv
+        pip install requests python-dotenv sqlalchemy psycopg2-binary
         
-    - name: Install Satori CLI
+    - name: Set up database connection
       run: |
-        # Try to install Satori CLI from GitHub releases
-        echo "Installing Satori CLI..."
-        mkdir -p $HOME/.satori/bin
-        
-        # Try to download from GitHub releases first
-        echo "Attempting to download Satori CLI from GitHub releases..."
-        if curl -s -L -o $HOME/.satori/bin/satori "https://github.com/satoricyber/satori-cli/releases/latest/download/satori-linux-amd64"; then
-          echo "Successfully downloaded Satori CLI from GitHub releases"
-          chmod +x $HOME/.satori/bin/satori
-        else
-          echo "GitHub release download failed, trying alternative method..."
-          # Fallback: try the original install script with different approach
-          if curl -s -L "https://satori.dev/install.sh" | bash; then
-            echo "Successfully installed via install script"
-          else
-            echo "Install script failed, creating mock CLI for testing..."
-            # Create a mock satori command as fallback
-            cat > $HOME/.satori/bin/satori << 'EOF'
-            #!/bin/bash
-            echo "Satori CLI mock - version 1.0.0"
-            if [ "$1" = "--version" ]; then
-              echo "1.0.0"
-            elif [ "$1" = "run" ] && [ "$2" = "psql" ]; then
-              echo "Mock Satori psql command"
-              # Mock the psql command that would normally connect to Redshift
-              echo "conversation_id|conversation_url|csat|deflected|summary|created_at_utc|created_at_est|tags|metadata"
-              echo "test-id|https://test.com|5|False|Test conversation|2025-09-11 12:00:00|September 11, 2025 8:00 am|[]|{}"
-            else
-              echo "Usage: satori [COMMAND]"
-              echo "Commands:"
-              echo "  run     Execute a tool"
-              echo "  --version  Show version"
-            fi
-            EOF
-            chmod +x $HOME/.satori/bin/satori
-          fi
-        fi
-        
-        echo "Adding Satori to PATH..."
-        echo "$HOME/.satori/bin" >> $GITHUB_PATH
-        echo "PATH after adding Satori: $PATH"
-        echo "Checking if Satori is installed..."
-        ls -la $HOME/.satori/bin/
-        echo "Testing Satori command..."
-        $HOME/.satori/bin/satori --version
-        
-    - name: Configure Satori
-      run: |
-        # Set up Satori configuration
-        mkdir -p ~/.satori
-        echo "datastore: Redshift - Prod" > ~/.satori/config.yaml
-        echo "database: pantheon" >> ~/.satori/config.yaml
-        echo "schema: decagon_chat" >> ~/.satori/config.yaml
-        
-    - name: Authenticate with Satori
-      run: |
-        # Create Satori credentials file
-        echo "Creating Satori credentials file..."
-        cat > ~/.satori/credentials.json << EOF
-        {
-          "username": "${{ secrets.SATORI_USERNAME }}",
-          "password": "${{ secrets.SATORI_PASSWORD }}",
-          "expires_at": "2025-12-31T23:59:59.999Z"
-        }
-        EOF
-        echo "Satori credentials file created"
-        # Test authentication by listing datastores
-        $HOME/.satori/bin/satori run psql --help
+        echo "Setting up direct database connection..."
+        echo "Database host: wsdev-pantheon-redshift-c9qtpydth0xz.ws1.us-east-1.a.p1.satoricyber.net"
+        echo "Port: 5439"
+        echo "Database: pantheon"
         
     - name: Set up environment variables
       run: |
-        # Create environment file for the script
-        echo "SATORI_DATASTORE=Redshift - Prod" >> $GITHUB_ENV
-        echo "SATORI_DATABASE=pantheon" >> $GITHUB_ENV
-        echo "SATORI_SCHEMA=decagon_chat" >> $GITHUB_ENV
+        # Set up environment variables for direct database connection
+        echo "SATORI_USERNAME=${{ secrets.SATORI_USERNAME }}" >> $GITHUB_ENV
+        echo "SATORI_PASSWORD=${{ secrets.SATORI_PASSWORD }}" >> $GITHUB_ENV
         echo "WORKATO_WEBHOOK_URL=${{ secrets.WORKATO_WEBHOOK_URL }}" >> $GITHUB_ENV
         
     - name: Run voice conversations script
