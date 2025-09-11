@@ -113,16 +113,17 @@ def parse_psql_results(output):
         # Split by | and clean up
         parts = [part.strip() for part in line.split('|')]
         
-        if len(parts) >= 8:  # We expect 8 columns
+        if len(parts) >= 9:  # We expect 9 columns now
             conversation = {
                 'conversation_id': parts[0] if len(parts) > 0 else '',
                 'conversation_url': parts[1] if len(parts) > 1 else '',
                 'csat': parts[2] if len(parts) > 2 else '',
                 'deflected': parts[3] if len(parts) > 3 else '',
                 'summary': parts[4] if len(parts) > 4 else '',
-                'created_at': parts[5] if len(parts) > 5 else '',
-                'tags': parts[6] if len(parts) > 6 else '',
-                'metadata': parts[7] if len(parts) > 7 else ''
+                'created_at_utc': parts[5] if len(parts) > 5 else '',
+                'created_at_est': parts[6] if len(parts) > 6 else '',
+                'tags': parts[7] if len(parts) > 7 else '',
+                'metadata': parts[8] if len(parts) > 8 else ''
             }
             conversations.append(conversation)
     
@@ -147,28 +148,14 @@ def get_voice_conversations_from_warehouse():
 def send_to_workato_webhook(conversation, webhook_url):
     """Send conversation data to Workato webhook"""
     try:
-        # Format created_at to a clean date and timestamp
-        created_at_str = conversation.get("created_at")
-        formatted_created_at = created_at_str
-        
-        if created_at_str:
-            try:
-                # Parse the ISO 8601 string into a datetime object
-                dt_object = datetime.fromisoformat(created_at_str.replace('Z', '+00:00'))
-                # Format it to "September 09, 2025 at 05:10 PM"
-                formatted_created_at = dt_object.strftime("%B %d, %Y at %I:%M %p")
-            except (ValueError, AttributeError) as e:
-                print(f"Warning: Could not parse created_at '{created_at_str}': {e}")
-                # Keep original if parsing fails
-                formatted_created_at = created_at_str
-        
         payload = {
             "conversation_id": conversation.get("conversation_id"),
             "conversation_url": conversation.get("conversation_url"),
             "csat": conversation.get("csat"),
             "deflected": conversation.get("deflected"),
             "summary": conversation.get("summary"),
-            "created_at": formatted_created_at,
+            "created_at_utc": conversation.get("created_at_utc"),
+            "created_at_est": conversation.get("created_at_est"),
             "tags": conversation.get("tags"),
             "metadata": conversation.get("metadata")
         }
