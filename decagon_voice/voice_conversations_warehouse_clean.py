@@ -129,12 +129,12 @@ def parse_psql_results(output):
     return conversations
 
 def get_voice_conversations_from_warehouse():
-    """Fetch voice conversations from the last 30 minutes (defined in SQL)."""
-    # Load SQL query (already constrained to last 30 minutes)
+    """Fetch voice conversations from the last 12 hours (defined in SQL)."""
+    # Load SQL query (already constrained to last 12 hours)
     query = load_sql_query()
     if not query:
         return []
-    print("Fetching conversations from the last 30 minutes (per SQL filter)")
+    print("Fetching conversations from the last 12 hours (per SQL filter)")
 
     # Execute query
     result = run_satori_query(query)

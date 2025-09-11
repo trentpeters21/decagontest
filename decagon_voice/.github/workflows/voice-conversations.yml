@@ -2,8 +2,8 @@ name: Voice Conversations Data Sync
 
 on:
   schedule:
-    # Run every 30 minutes
-    - cron: '*/30 * * * *'
+    # Run every 12 hours at 1pm and 1am EST (6pm and 6am UTC)
+    - cron: '0 18,6 * * *'
   # Allow manual triggering
   workflow_dispatch:
 
