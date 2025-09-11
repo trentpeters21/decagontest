@@ -1,0 +1,3025 @@
+[
+  {
+    "conversation_id": "b9f6292d-a99f-467f-831e-812c8a4f9c8c",
+    "conversation_url": "https://decagon.ai/admin/conversations#b9f6292d-a99f-467f-831e-812c8a4f9c8c",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer had two queries: firstly, they wanted to understand the concept of Tax Alpha, and secondly, they were unsure about how to locate their tax documents on the Wealthsimple platform.",
+    "created_at": "2024-08-09T00:31:31.756198+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/preview",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "0fa171f9-70e7-455b-8b61-272c94570214",
+    "conversation_url": "https://decagon.ai/admin/conversations#0fa171f9-70e7-455b-8b61-272c94570214",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer was unsure about how to earn stock or crypto back with their Wealthsimple Cash card.",
+    "created_at": "2024-08-13T19:22:40.757118+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Other",
+        "level": 1
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/preview",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "7f223f3e-3a47-484a-8b06-aeeb08014f39",
+    "conversation_url": "https://decagon.ai/admin/conversations#7f223f3e-3a47-484a-8b06-aeeb08014f39",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer was unsure about how to transfer their Tax-Free Savings Account (TFSA) to Wealthsimple.",
+    "created_at": "2024-08-13T19:41:16.199198+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "alan.glasberg@wealthsimple.com",
+      "user_id": "alan.glasberg@wealthsimple.com",
+      "lastName": "Glasberg",
+      "firstName": "Alan",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/preview",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "a426a8e0-dd73-4e5d-9df3-153003bc1b16",
+    "conversation_url": "https://decagon.ai/admin/conversations#a426a8e0-dd73-4e5d-9df3-153003bc1b16",
+    "csat": 2,
+    "deflected": "",
+    "summary": "The customer had several queries about Wealthsimple's services. They wanted to know about the interest rates on their cash account, how to dispute unrecognized charges on their card, how to transfer money from an overseas bank, and about the foreign exchange fees on their card. They also asked about the different portfolios offered by Wealthsimple, the benefits of joining Wealthsimple, and the different tiers of service. The customer also had questions about cross-border financial advice, how to unlock their account, and what stocks to invest in. Lastly, they asked about dual-listed securities and the Norbert's Gambit strategy.",
+    "created_at": "2024-08-13T20:34:34.487299+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "tony.chen@wealthsimple.com",
+      "user_id": "tony.chen@wealthsimple.com",
+      "lastName": "Chen",
+      "firstName": "Tony",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/preview",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "3cc4d5e7-d28e-4be3-844b-b14496167e8c",
+    "conversation_url": "https://decagon.ai/admin/conversations#3cc4d5e7-d28e-4be3-844b-b14496167e8c",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer had several queries about Wealthsimple's services. They wanted to know if they could open an RRSP without a SIN number, whether Wealthsimple shows the contribution room when adding funds to an RRSP account, if they would be eligible for the 1% match offer if they transferred their RRSP account from Questrade, why they should use a Wealthsimple Cash card over a traditional credit card, and for ETF recommendations for their RRSP account.",
+    "created_at": "2024-08-14T18:43:53.211256+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Other",
+        "level": 1
+      }
+    ],
+    "metadata": {
+      "email": "dasha.pashuto@wealthsimple.com",
+      "user_id": "dasha.pashuto@wealthsimple.com",
+      "lastName": "Pashuto",
+      "firstName": "Dasha",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "10da1ad4-8024-44de-8181-1b2b0427cf1c",
+    "conversation_url": "https://decagon.ai/admin/conversations#10da1ad4-8024-44de-8181-1b2b0427cf1c",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer had several queries about Wealthsimple's services. They wanted to understand what a Tax-Free Savings Account (TFSA) is, how to open a TFSA account with Wealthsimple, and how to choose between a TFSA and a Registered Retirement Savings Plan (RRSP). Additionally, they asked about the duration of a transfer from TD Direct Investing to Wealthsimple.",
+    "created_at": "2024-08-15T14:25:12.773603+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "jonah.hu@wealthsimple.com",
+      "user_id": "jonah.hu@wealthsimple.com",
+      "lastName": "Hu",
+      "firstName": "Jonah",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/preview",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "69fe776d-58fb-4b72-b923-8c96b48b1258",
+    "conversation_url": "https://decagon.ai/admin/conversations#69fe776d-58fb-4b72-b923-8c96b48b1258",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer is unsure about which company they own shares in and believes it might be Google. They also want to get in touch with the CEO of the company, Christine McKinnon.",
+    "created_at": "2024-08-15T15:08:23.344790+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "msaeed@wealthsimple.com",
+      "user_id": "msaeed@wealthsimple.com",
+      "lastName": "Saeed",
+      "firstName": "Maaz",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/preview",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "a47ce91d-669b-4764-ab81-24f46e70988d",
+    "conversation_url": "https://decagon.ai/admin/conversations#a47ce91d-669b-4764-ab81-24f46e70988d",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer needed assistance with wiring $70000 from their Wealthsimple account to close on a house deal. They were unsure of the process and the details required to complete the wire transfer.",
+    "created_at": "2024-08-15T15:09:33.732298+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Potential account takeover (ATO)",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "msaeed@wealthsimple.com",
+      "user_id": "msaeed@wealthsimple.com",
+      "lastName": "Saeed",
+      "firstName": "Maaz",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/preview",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "4e9ab665-1e33-45a4-9d82-5af98a0ce836",
+    "conversation_url": "https://decagon.ai/admin/conversations#4e9ab665-1e33-45a4-9d82-5af98a0ce836",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer was inquiring about when their 1% deposit bonus would be credited to their account.",
+    "created_at": "2024-08-15T15:12:03.919480+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "msaeed@wealthsimple.com",
+      "user_id": "msaeed@wealthsimple.com",
+      "lastName": "Saeed",
+      "firstName": "Maaz",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/preview",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "a99b526c-6f76-487b-a036-d89ca823fad5",
+    "conversation_url": "https://decagon.ai/admin/conversations#a99b526c-6f76-487b-a036-d89ca823fad5",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know how to close their First Home Saver Account (FHSA) and transfer the funds to their cash account. They also asked if they could close the account before the specified times, which are on the 15th anniversary of opening the FHSA, the year they turn 71, or the year after their first qualifying withdrawal from the FHSA.",
+    "created_at": "2024-08-21T22:07:14.555968+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Account/login suspensions",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "tony.chen@wealthsimple.com",
+      "user_id": "tony.chen@wealthsimple.com",
+      "lastName": "Chen",
+      "firstName": "Tony",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/preview",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "a7e3cbf4-a655-4920-b427-e19a836340c9",
+    "conversation_url": "https://decagon.ai/admin/conversations#a7e3cbf4-a655-4920-b427-e19a836340c9",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer had several queries about their Wealthsimple account. They wanted to know about the perks of being a Wealthsimple Generation client, how to cancel a deposit, the fees associated with a managed invest portfolio, how to close their profile, and how to convert a managed TFSA to a self-directed TFSA. They also asked about liquidating non-qualified assets, the documents needed for a transfer, setting up an FHSA transfer, enabling auto-sell, viewing their tax return, disabling options, updating the theme of their managed portfolio, accessing statements, and a promotional credit they were supposed to receive.",
+    "created_at": "2024-10-08T19:48:07.903568+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "dasha.pashuto@wealthsimple.com",
+      "user_id": "dasha.pashuto@wealthsimple.com",
+      "lastName": "Pashuto",
+      "firstName": "Dasha",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "ee3030c2-5330-4b1d-9bfa-14f296f75973",
+    "conversation_url": "https://decagon.ai/admin/conversations#ee3030c2-5330-4b1d-9bfa-14f296f75973",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer was unable to liquidate their non-qualified assets in the app, which they identified as a level 2 issue.",
+    "created_at": "2024-10-09T21:27:37.760886+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Account/login suspensions",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "dasha.pashuto@wealthsimple.com",
+      "user_id": "dasha.pashuto@wealthsimple.com",
+      "lastName": "Pashuto",
+      "firstName": "Dasha",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "e196d4ef-2af7-4940-be8e-2e7f575a4abd",
+    "conversation_url": "https://decagon.ai/admin/conversations#e196d4ef-2af7-4940-be8e-2e7f575a4abd",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer needed assistance in generating an email to guide a client on opening a new Tax-Free Savings Account (TFSA) with Wealthsimple. The customer requested the email to be formatted with specific tags for the subject and body, and to interpolate provided metadata where appropriate.",
+    "created_at": "2024-10-16T20:06:34.568409+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "2FA/MFA",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "name": "jonah",
+      "tier": "core",
+      "last_name": "hu",
+      "first_name": "jonah"
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "91b0c3af-fd6b-4f86-8830-237e6ca66a0b",
+    "conversation_url": "https://decagon.ai/admin/conversations#91b0c3af-fd6b-4f86-8830-237e6ca66a0b",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer needed assistance in drafting an email to a client about the process of opening a Tax-Free Savings Account (TFSA) with Wealthsimple.",
+    "created_at": "2024-10-16T20:10:38.745528+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "name": "jonah"
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "a6ecadfc-2da3-4027-8f26-fafb1ecebc05",
+    "conversation_url": "https://decagon.ai/admin/conversations#a6ecadfc-2da3-4027-8f26-fafb1ecebc05",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer was having trouble viewing a pending transfer on the Wealthsimple mobile app and wanted to know if they could cancel the transfer.",
+    "created_at": "2024-10-19T00:29:39.427160+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3009",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "43ab1db3-2d17-46ce-920a-8ccc4338af1d",
+    "conversation_url": "https://decagon.ai/admin/conversations#43ab1db3-2d17-46ce-920a-8ccc4338af1d",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wants to cancel a transfer on their Wealthsimple account.",
+    "created_at": "2024-10-19T00:38:24.654663+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "perry@decagon.ai",
+      "user_id": "perry@decagon.ai",
+      "lastName": "Ha",
+      "firstName": "Perry",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3009",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "7325f86e-6091-4c02-9516-198dbb31113f",
+    "conversation_url": "https://decagon.ai/admin/conversations#7325f86e-6091-4c02-9516-198dbb31113f",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer was unsure about how to transfer funds to their Wealthsimple account.",
+    "created_at": "2024-10-19T00:51:49.063136+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "639d327c-50a0-4329-b071-73c0fea17f6b",
+    "conversation_url": "https://decagon.ai/admin/conversations#639d327c-50a0-4329-b071-73c0fea17f6b",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to cancel a pending institutional transfer on their Wealthsimple account and was unsure of how to do it on their mobile device.",
+    "created_at": "2024-10-19T01:38:00.695100+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Authorized cash disputes/chargebacks",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3009",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "481f6578-54d5-4c09-ab15-73956362a8d1",
+    "conversation_url": "https://decagon.ai/admin/conversations#481f6578-54d5-4c09-ab15-73956362a8d1",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer was unsure about how to transfer funds to their Wealthsimple account.",
+    "created_at": "2024-10-19T01:38:59.218135+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "5e2e7dc6-d89c-4c70-b571-0bd406f352d9",
+    "conversation_url": "https://decagon.ai/admin/conversations#5e2e7dc6-d89c-4c70-b571-0bd406f352d9",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer's main issue was that their transfer from TD was blocked and they wanted to understand the possible reasons for this. They were interested in both specific reasons related to their account and general reasons that could apply to any account.",
+    "created_at": "2024-10-21T20:14:20.618890+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Account/login suspensions",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "tony.chen@wealthsimple.com",
+      "user_id": "tony.chen@wealthsimple.com",
+      "lastName": "Chen",
+      "firstName": "Tony",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "38ab9993-3c87-497d-aef5-182ca442ae8c",
+    "conversation_url": "https://decagon.ai/admin/conversations#38ab9993-3c87-497d-aef5-182ca442ae8c",
+    "csat": 5,
+    "deflected": "",
+    "summary": "The customer wanted to know the time it takes to transfer a TFSA and an RRSP from TD to Wealthsimple.",
+    "created_at": "2024-10-22T15:18:36.274574+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "jonah.hu@wealthsimple.com",
+      "user_id": "jonah.hu@wealthsimple.com",
+      "lastName": "Hu",
+      "firstName": "Jonah",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "1a2a9a00-cf13-47f6-99e7-a8607be0886b",
+    "conversation_url": "https://decagon.ai/admin/conversations#1a2a9a00-cf13-47f6-99e7-a8607be0886b",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer was unsure about how to enter the Wealthsimple 2024 Apple Promotion and what the benefits would be if they transferred $500,000 to their Wealthsimple account.",
+    "created_at": "2024-10-23T01:25:57.342725+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3238",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "39d21178-be44-4c39-bc68-80f71156a1c2",
+    "conversation_url": "https://decagon.ai/admin/conversations#39d21178-be44-4c39-bc68-80f71156a1c2",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer is seeking information on how to get an iPhone after transferring funds and wants to know about their eligibility for the same.",
+    "created_at": "2024-10-23T02:10:53.873842+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3244",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "6a2d22e6-6e3e-4c8a-8500-64009da537cc",
+    "conversation_url": "https://decagon.ai/admin/conversations#6a2d22e6-6e3e-4c8a-8500-64009da537cc",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer reached out to inquire about the timeline of a promotion.",
+    "created_at": "2024-10-23T02:23:10.030092+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Authorized cash disputes/chargebacks",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3244",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "df16c41c-dd30-490a-af7d-388fe9c5fe2b",
+    "conversation_url": "https://decagon.ai/admin/conversations#df16c41c-dd30-490a-af7d-388fe9c5fe2b",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer reached out to confirm their registration for an Apple promotion through Wealthsimple.",
+    "created_at": "2024-10-23T02:26:16.307870+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3245",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "a3ad6f4a-3e91-4005-bbd8-f8423529131a",
+    "conversation_url": "https://decagon.ai/admin/conversations#a3ad6f4a-3e91-4005-bbd8-f8423529131a",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer reached out to inquire about their eligibility for an Apple promotion.",
+    "created_at": "2024-10-23T02:27:10.139777+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "2FA/MFA",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3245",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "07f7896f-d175-4ffc-bcf3-92168b0b711a",
+    "conversation_url": "https://decagon.ai/admin/conversations#07f7896f-d175-4ffc-bcf3-92168b0b711a",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer reached out to support to inquire about their eligibility for a promotion.",
+    "created_at": "2024-10-23T02:29:15.730839+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3246",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "6110e217-cb09-40f8-84bd-54b7584b4f18",
+    "conversation_url": "https://decagon.ai/admin/conversations#6110e217-cb09-40f8-84bd-54b7584b4f18",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer reached out to inquire about their eligibility for a service or product from Wealthsimple. However, the agent was unable to assist due to technical difficulties with their system.",
+    "created_at": "2024-10-23T02:30:20.022792+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Account/login suspensions",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3247",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "34bf3c23-13ac-4083-bfdb-968fa45cb70c",
+    "conversation_url": "https://decagon.ai/admin/conversations#34bf3c23-13ac-4083-bfdb-968fa45cb70c",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer reached out to inquire about their selection status for a service or product from Wealthsimple.",
+    "created_at": "2024-10-23T02:32:53.360083+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3250",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "73505cd5-5715-4222-a2b9-57dea0793846",
+    "conversation_url": "https://decagon.ai/admin/conversations#73505cd5-5715-4222-a2b9-57dea0793846",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer reached out to support because they were having trouble entering a promotion on Wealthsimple.",
+    "created_at": "2024-10-23T02:33:41.634609+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3251",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "d5f1860c-9044-4307-9e16-beb3e86eae7e",
+    "conversation_url": "https://decagon.ai/admin/conversations#d5f1860c-9044-4307-9e16-beb3e86eae7e",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer reached out to support to inquire about how to qualify for a specific offer from Wealthsimple.",
+    "created_at": "2024-10-23T02:34:49.498343+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3251",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "77a59aa4-a84e-4029-88d4-8450f60ff46b",
+    "conversation_url": "https://decagon.ai/admin/conversations#77a59aa4-a84e-4029-88d4-8450f60ff46b",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer reached out to inquire about the 2024 Apple Promotion they heard about and wanted more information on it.",
+    "created_at": "2024-10-23T02:36:37.855201+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3252",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "0c73c026-c0ee-4c1c-aeb4-07c66b328ff6",
+    "conversation_url": "https://decagon.ai/admin/conversations#0c73c026-c0ee-4c1c-aeb4-07c66b328ff6",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer reached out to inquire about how to qualify for a service or product from Wealthsimple.",
+    "created_at": "2024-10-23T02:53:51.942929+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3254",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "0eb3ec18-0caa-4a7e-80bb-4b8728902648",
+    "conversation_url": "https://decagon.ai/admin/conversations#0eb3ec18-0caa-4a7e-80bb-4b8728902648",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to understand the details of the 2024 Apple Promotion at Wealthsimple and was interested in enrolling for the same.",
+    "created_at": "2024-10-23T02:55:09.089868+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Investing: Self-directed/managed/crypto",
+        "level": 1
+      },
+      {
+        "name": "Crypto trading, purchase limits, staking",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3255",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "72bcd1ec-a4fc-41fe-9881-faba92f266ac",
+    "conversation_url": "https://decagon.ai/admin/conversations#72bcd1ec-a4fc-41fe-9881-faba92f266ac",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer reached out to support to inquire about the dates of a promotion.",
+    "created_at": "2024-10-23T02:58:03.413409+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3255",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "d1599771-e372-4e5e-9e87-65b0e2e57949",
+    "conversation_url": "https://decagon.ai/admin/conversations#d1599771-e372-4e5e-9e87-65b0e2e57949",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know the deposit amount required to be eligible for the 2024 Apple Promotion at Wealthsimple. They also asked about the types of accounts they could deposit funds into.",
+    "created_at": "2024-10-23T02:58:54.160198+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Investing: Self-directed/managed/crypto",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3255",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "a5f1c68e-788f-43ed-b3d3-b549030153cd",
+    "conversation_url": "https://decagon.ai/admin/conversations#a5f1c68e-788f-43ed-b3d3-b549030153cd",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know how to qualify for the 2024 Apple promotion offered by Wealthsimple.",
+    "created_at": "2024-10-23T03:06:57.089706+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Investing: Self-directed/managed/crypto",
+        "level": 1
+      },
+      {
+        "name": "Crypto trading, purchase limits, staking",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "cde8fa45-286f-4843-8d6b-6aa6ded7830a",
+    "conversation_url": "https://decagon.ai/admin/conversations#cde8fa45-286f-4843-8d6b-6aa6ded7830a",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know the minimum deposit required to qualify for a reward under the 2024 Apple Promotion.",
+    "created_at": "2024-10-23T03:10:03.830614+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Other",
+        "level": 1
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "074bf614-b819-465e-b6a2-4b1d24a18b77",
+    "conversation_url": "https://decagon.ai/admin/conversations#074bf614-b819-465e-b6a2-4b1d24a18b77",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer reached out to support to inquire about which Apple product they could get as part of a promotion.",
+    "created_at": "2024-10-23T03:13:16.847832+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "b233ab2f-7f5b-458a-8192-48c50c3aa415",
+    "conversation_url": "https://decagon.ai/admin/conversations#b233ab2f-7f5b-458a-8192-48c50c3aa415",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer reached out to support to inquire about the dates of a promotion.",
+    "created_at": "2024-10-23T03:15:35.718261+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/preview",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "a509bfc8-6ebc-410e-8979-f36948a22d1b",
+    "conversation_url": "https://decagon.ai/admin/conversations#a509bfc8-6ebc-410e-8979-f36948a22d1b",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer is seeking clarification on whether withdrawing money, registering, and then redepositing would be considered a valid transaction in the system.",
+    "created_at": "2024-10-23T03:17:21.745582+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Banking: Cash and Cards",
+        "level": 1
+      },
+      {
+        "name": "Credit & Cash Cards (delivery, activations, transactions, rewards, fees & other features)",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "aeb184b1-2069-4c37-bcaa-35a6398e9d2b",
+    "conversation_url": "https://decagon.ai/admin/conversations#aeb184b1-2069-4c37-bcaa-35a6398e9d2b",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know which institutional transfers are eligible for Wealthsimple.",
+    "created_at": "2024-10-23T23:16:20.480037+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Other",
+        "level": 1
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3255",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "3d0c9fac-cbae-4e22-a3b1-41b3d3f0ed08",
+    "conversation_url": "https://decagon.ai/admin/conversations#3d0c9fac-cbae-4e22-a3b1-41b3d3f0ed08",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know which institutional transfers are eligible for Wealthsimple and which ones qualify for the 2024 Apple Promotion.",
+    "created_at": "2024-10-23T23:23:14.735474+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Investing: Self-directed/managed/crypto",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3322",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "2f32423c-76f8-42ff-84fa-64bdd7023cf0",
+    "conversation_url": "https://decagon.ai/admin/conversations#2f32423c-76f8-42ff-84fa-64bdd7023cf0",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer was unsure about how to enter the Wealthsimple 2024 Apple Promotion.",
+    "created_at": "2024-10-23T23:24:47.100025+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3323",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "fb2487b7-bae4-4dd5-b309-93edbd805f84",
+    "conversation_url": "https://decagon.ai/admin/conversations#fb2487b7-bae4-4dd5-b309-93edbd805f84",
+    "csat": 4,
+    "deflected": "",
+    "summary": "The customer was interested in participating in the Wealthsimple 2024 Apple Promotion but was unsure about how to register for it. They also wanted to know if they could register immediately.",
+    "created_at": "2024-10-23T23:26:02.799802+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3325",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "30e3251c-a633-47c8-b82d-9e747459ece0",
+    "conversation_url": "https://decagon.ai/admin/conversations#30e3251c-a633-47c8-b82d-9e747459ece0",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know the key dates for the Wealthsimple 2024 Apple Promotion and how to confirm their enrollment in the promotion.",
+    "created_at": "2024-10-23T23:28:59.275878+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3325",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "0d09d756-7067-4e01-be4b-b022c0d71efa",
+    "conversation_url": "https://decagon.ai/admin/conversations#0d09d756-7067-4e01-be4b-b022c0d71efa",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know if internal transfers were eligible at Wealthsimple and if they could be used for the Apple promotion.",
+    "created_at": "2024-10-23T23:30:14.526368+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Investing: Self-directed/managed/crypto",
+        "level": 1
+      },
+      {
+        "name": "Crypto deposits/withdrawals (external wallet transfers), withdrawal limits",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3325",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "5d41c4d8-23bb-4365-93a1-65d20e3992e4",
+    "conversation_url": "https://decagon.ai/admin/conversations#5d41c4d8-23bb-4365-93a1-65d20e3992e4",
+    "csat": 5,
+    "deflected": "",
+    "summary": "The customer was inquiring about the Wealthsimple 2024 Apple Promotion, specifically whether they could pool transfers with their spouse to meet the $100,000 minimum transfer requirement. They also wanted to know about the rewards offered in the promotion, including whether a MacBook Pro was an option.",
+    "created_at": "2024-10-23T23:31:34.229684+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3325",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "a37d77a1-1d60-4543-9b1f-c0016a6f5694",
+    "conversation_url": "https://decagon.ai/admin/conversations#a37d77a1-1d60-4543-9b1f-c0016a6f5694",
+    "csat": 5,
+    "deflected": "",
+    "summary": "The customer was seeking clarification on the hold period associated with the Wealthsimple 2024 Apple Promotion. They wanted to understand the terms of the hold period and how it affects their funds transfer.",
+    "created_at": "2024-10-24T00:00:52.008217+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3328",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "5691f5f3-708d-41c0-863b-3270463fa1fd",
+    "conversation_url": "https://decagon.ai/admin/conversations#5691f5f3-708d-41c0-863b-3270463fa1fd",
+    "csat": 5,
+    "deflected": "",
+    "summary": "The customer was seeking clarification on how the hold period works for the Wealthsimple 2024 Apple Promotion. They were also interested in getting more information about Wealthsimple's Managed Investing service.",
+    "created_at": "2024-10-24T00:03:37.513780+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3329",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "6bccb149-0fd2-4bc4-914b-f7f5f3160f82",
+    "conversation_url": "https://decagon.ai/admin/conversations#6bccb149-0fd2-4bc4-914b-f7f5f3160f82",
+    "csat": 5,
+    "deflected": "",
+    "summary": "The customer was interested in the 2024 Apple Promotion offered by Wealthsimple. They wanted to know the rewards for transferring a large sum of money, specifically $1M, and if transferring $500,000 CAD would qualify them for an iPhone 16 Pro Max. They also asked about the delivery process and whether they could change the color of the device after it was delivered. Lastly, they inquired about the process for their brother to sign up for the promotion.",
+    "created_at": "2024-10-24T00:15:18.870317+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "289c2ad3-5915-4808-9f3c-61cfb8f4c78c",
+    "conversation_url": "https://decagon.ai/admin/conversations#289c2ad3-5915-4808-9f3c-61cfb8f4c78c",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer reached out to support to inquire about the qualifications for a promotional offer.",
+    "created_at": "2024-10-24T00:26:56.653108+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "2FA/MFA",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "de0235b6-fa71-4364-a730-143de7f9e930",
+    "conversation_url": "https://decagon.ai/admin/conversations#de0235b6-fa71-4364-a730-143de7f9e930",
+    "csat": 5,
+    "deflected": "",
+    "summary": "The customer was unsure about how to qualify for the Wealthsimple 2024 Apple Promotion to get a new phone.",
+    "created_at": "2024-10-24T00:27:55.042437+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "9d1a0c23-f08f-4d9e-acbc-5806e29981a0",
+    "conversation_url": "https://decagon.ai/admin/conversations#9d1a0c23-f08f-4d9e-acbc-5806e29981a0",
+    "csat": 5,
+    "deflected": "",
+    "summary": "The customer wanted to participate in the Wealthsimple 2024 Apple Promotion and was unsure about which account to transfer funds into for the giveaway. They also needed clarification on how deposits into Joint/Spousal accounts would affect their eligibility for the promotion. Additionally, the customer wanted to know if they could transfer funds directly from their Wells Fargo account.",
+    "created_at": "2024-10-24T00:32:48.407508+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Investing: Self-directed/managed/crypto",
+        "level": 1
+      },
+      {
+        "name": "Crypto deposits/withdrawals (external wallet transfers), withdrawal limits",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "95dfe071-e21a-4944-afb5-39194ce83339",
+    "conversation_url": "https://decagon.ai/admin/conversations#95dfe071-e21a-4944-afb5-39194ce83339",
+    "csat": 5,
+    "deflected": "",
+    "summary": "The customer was unsure about the terms and conditions of the Wealthsimple 2024 Apple Promotion. They wanted to know if they could keep the reward if they withdrew money from their account, and they were also interested in the specifics of the rewards, including the availability of laptops and phones.",
+    "created_at": "2024-10-24T00:38:06.228541+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Investing: Self-directed/managed/crypto",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "a73ce067-2187-4b7e-8ae2-2bfe574c20d1",
+    "conversation_url": "https://decagon.ai/admin/conversations#a73ce067-2187-4b7e-8ae2-2bfe574c20d1",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer reached out to inquire about an Apple promotion they heard about and wanted to know if they qualify for it.",
+    "created_at": "2024-10-24T04:15:52.142555+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "perry@decagon.ai",
+      "user_id": "perry@decagon.ai",
+      "lastName": "Ha",
+      "firstName": "Perry",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "d6e09ce8-9175-4a18-ae76-ea0181241ac3",
+    "conversation_url": "https://decagon.ai/admin/conversations#d6e09ce8-9175-4a18-ae76-ea0181241ac3",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer reached out to inquire about the eligibility criteria and the timeline for the 2024 Apple Promotion offered by Wealthsimple.",
+    "created_at": "2024-10-24T04:18:08.676014+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Investing: Self-directed/managed/crypto",
+        "level": 1
+      },
+      {
+        "name": "Crypto trading, purchase limits, staking",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "perry@decagon.ai",
+      "user_id": "perry@decagon.ai",
+      "lastName": "Ha",
+      "firstName": "Perry",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "90f2fd47-6ae6-4ebd-9949-4e3011c85c69",
+    "conversation_url": "https://decagon.ai/admin/conversations#90f2fd47-6ae6-4ebd-9949-4e3011c85c69",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer is having difficulty viewing their pending transfer on Wealthsimple.",
+    "created_at": "2024-10-24T17:57:42.119373+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Identity issues - duplicate user/IDV conflict",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3009",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "07730a35-8ff2-4cc1-bd1d-da274b315c08",
+    "conversation_url": "https://decagon.ai/admin/conversations#07730a35-8ff2-4cc1-bd1d-da274b315c08",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer was unsure about how to enter the Apple 2024 promotion on Wealthsimple.",
+    "created_at": "2024-10-24T19:38:23.537788+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Scams/phishing",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "d3f5bebb-e390-4687-b4c0-581435522f1d",
+    "conversation_url": "https://decagon.ai/admin/conversations#d3f5bebb-e390-4687-b4c0-581435522f1d",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know about the different reward tiers for the Apple 2024 promotion at Wealthsimple based on total qualifying net deposits.",
+    "created_at": "2024-10-24T21:32:50.565752+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Other",
+        "level": 1
+      }
+    ],
+    "metadata": {
+      "email": "tony.chen@wealthsimple.com",
+      "user_id": "tony.chen@wealthsimple.com",
+      "lastName": "Chen",
+      "firstName": "Tony",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "14e10495-4912-4396-8fba-c3465e9a7a97",
+    "conversation_url": "https://decagon.ai/admin/conversations#14e10495-4912-4396-8fba-c3465e9a7a97",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know the minimum amount of money they needed to transfer or deposit to qualify for the Apple 2024 promotion at Wealthsimple.",
+    "created_at": "2024-10-24T21:32:54.594072+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Investing: Self-directed/managed/crypto",
+        "level": 1
+      },
+      {
+        "name": "Crypto deposits/withdrawals (external wallet transfers), withdrawal limits",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "pdarcy@wealthsimple.com",
+      "user_id": "pdarcy@wealthsimple.com",
+      "lastName": "D'Arcy",
+      "firstName": "Polly",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "cd6da6ea-1c95-4193-b4db-a62591e77fbe",
+    "conversation_url": "https://decagon.ai/admin/conversations#cd6da6ea-1c95-4193-b4db-a62591e77fbe",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer had two main issues. Firstly, they wanted to know how to update their address on their Wealthsimple profile. Secondly, they were seeking information on how to transfer a Life Income Fund (LIF) to a Registered Retirement Savings Plan (RRSP).",
+    "created_at": "2024-10-25T15:28:20.013805+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "msaeed@wealthsimple.com",
+      "user_id": "msaeed@wealthsimple.com",
+      "lastName": "Saeed",
+      "firstName": "Maaz",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "22b9dd71-1266-4456-8a64-6f8b6a2473f3",
+    "conversation_url": "https://decagon.ai/admin/conversations#22b9dd71-1266-4456-8a64-6f8b6a2473f3",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer is seeking clarification on whether they need to pay tax on a 1% match promotion from Wealthsimple. However, they did not provide enough details about the specific product or promotion for the agent to provide an accurate response.",
+    "created_at": "2024-10-28T18:16:18.715296+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "tony.chen@wealthsimple.com",
+      "user_id": "tony.chen@wealthsimple.com",
+      "lastName": "Chen",
+      "firstName": "Tony",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "92b73cee-adaf-4b9c-a927-ee242a9eb42b",
+    "conversation_url": "https://decagon.ai/admin/conversations#92b73cee-adaf-4b9c-a927-ee242a9eb42b",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer has not yet stated their issue in the conversation.",
+    "created_at": "2024-10-28T18:17:52.552871+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Authorized cash disputes/chargebacks",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "jonah.hu@wealthsimple.com",
+      "user_id": "jonah.hu@wealthsimple.com",
+      "lastName": "Hu",
+      "firstName": "Jonah",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "e5fbaac6-efe8-48e1-9e5c-1857f145ddca",
+    "conversation_url": "https://decagon.ai/admin/conversations#e5fbaac6-efe8-48e1-9e5c-1857f145ddca",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to close their USD account with Wealthsimple. They are a Premium customer and needed guidance on how to proceed with the cancellation process.",
+    "created_at": "2024-10-28T18:33:56.741360+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "jonah.hu@wealthsimple.com",
+      "user_id": "jonah.hu@wealthsimple.com",
+      "lastName": "Hu",
+      "firstName": "Jonah",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/playbooks#3437",
+      "_decagon_playbook_label": "draft",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "28d9aba1-d2a0-4ba4-87ad-9fb4b422e8b9",
+    "conversation_url": "https://decagon.ai/admin/conversations#28d9aba1-d2a0-4ba4-87ad-9fb4b422e8b9",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer had several queries about transferring different types of accounts to Wealthsimple. They wanted to know how to transfer RRIF & Spousal RRIF from iTrade, how to transfer a TD mutual fund FHSA to a Wealthsimple FHSA, and the implications of transferring various accounts (RRSP, TFSA, non-registered securities, and crypto) to Dubai accounts. They also asked about the impact on contribution room when transferring cash from a TD TFSA to a Wealthsimple TFSA, and how to transfer a BMO Investorline TFSA account to Wealthsimple. Lastly, they informed the agent about a test transfer of CN shares from Computershare and asked for confirmation once the transfer was received and executed.",
+    "created_at": "2024-10-30T03:47:14.286763+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Authorized cash disputes/chargebacks",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "tkalimov@wealthsimple.com",
+      "user_id": "tkalimov@wealthsimple.com",
+      "lastName": "Kalimov",
+      "firstName": "Timur",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/preview",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "feedc9b6-6a31-441f-aaca-9192c142271b",
+    "conversation_url": "https://decagon.ai/admin/conversations#feedc9b6-6a31-441f-aaca-9192c142271b",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer had two main issues. Firstly, they were concerned about the withdrawal of their delisted TELL (Tellurian) stocks and when the promised $1 credit per share would be deposited into their account. Secondly, they wanted to get rid of the remaining Terra Classic coin in their account, which they could neither sell nor transfer due to its low amount.",
+    "created_at": "2024-10-30T16:33:57.986308+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Authorized cash disputes/chargebacks",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "tony.chen@wealthsimple.com",
+      "user_id": "tony.chen@wealthsimple.com",
+      "lastName": "Chen",
+      "firstName": "Tony",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "2b87bf2d-b512-4812-96ef-d82195439036",
+    "conversation_url": "https://decagon.ai/admin/conversations#2b87bf2d-b512-4812-96ef-d82195439036",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer had two main issues. First, they were unsure about how to add a beneficiary to their account. Second, they were concerned about the auto-save feature on their tax return, as they had made a test change to see the impact of a charitable donation and the change was saved automatically. They were worried about how to revert such changes if they were made unintentionally.",
+    "created_at": "2024-10-30T16:36:40.574855+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "2FA/MFA",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "pdarcy@wealthsimple.com",
+      "user_id": "pdarcy@wealthsimple.com",
+      "lastName": "D'Arcy",
+      "firstName": "Polly",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "91116cee-3dfb-421a-bd2e-be9341ac7294",
+    "conversation_url": "https://decagon.ai/admin/conversations#91116cee-3dfb-421a-bd2e-be9341ac7294",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know how to transfer funds from their Margin account to their TFSA, both of which are with Wealthsimple.",
+    "created_at": "2024-10-30T17:13:52.498020+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/preview",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "574b86f0-a2be-41ac-be85-3c7193e9d277",
+    "conversation_url": "https://decagon.ai/admin/conversations#574b86f0-a2be-41ac-be85-3c7193e9d277",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know how to transfer money from their cash trading account to their TFSA within Wealthsimple. They also asked about the duration of this process.",
+    "created_at": "2024-10-31T01:00:36.919590+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Investing: Self-directed/managed/crypto",
+        "level": 1
+      },
+      {
+        "name": "Crypto deposits/withdrawals (external wallet transfers), withdrawal limits",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "8cba274a-c60f-43e5-b635-3fc35038f02a",
+    "conversation_url": "https://decagon.ai/admin/conversations#8cba274a-c60f-43e5-b635-3fc35038f02a",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to understand how to transfer their Self-Directed Tax-Free Savings Account (TFSA) to Wealthsimple Private Credit.",
+    "created_at": "2024-10-31T01:17:45.249970+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "5fb04f0f-6479-47d5-a1b0-041563712bff",
+    "conversation_url": "https://decagon.ai/admin/conversations#5fb04f0f-6479-47d5-a1b0-041563712bff",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know if they could switch from an RRSP self-directed trading account to a regular trading account on their own using the Wealthsimple app or website.",
+    "created_at": "2024-10-31T01:19:07.048189+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "cf46bc3a-dc7f-4a9b-babe-12cf18f086e7",
+    "conversation_url": "https://decagon.ai/admin/conversations#cf46bc3a-dc7f-4a9b-babe-12cf18f086e7",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer has two Wealthsimple GRSP (Group Registered Savings Plan) accounts and wants to know if they can merge these two accounts.",
+    "created_at": "2024-10-31T01:21:13.353199+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "2FA/MFA",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "96d13d87-c317-496e-af8b-5522c7b3674f",
+    "conversation_url": "https://decagon.ai/admin/conversations#96d13d87-c317-496e-af8b-5522c7b3674f",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to use stocks in their Tax-Free Savings Account (TFSA) to buy Ethereum. They were unsure about the process and whether they needed to open a new account for cryptocurrency trading.",
+    "created_at": "2024-10-31T01:22:11.183288+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "4e9c268e-0efe-417a-90b2-83ebcfa54843",
+    "conversation_url": "https://decagon.ai/admin/conversations#4e9c268e-0efe-417a-90b2-83ebcfa54843",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know if they could have more than one Tax-Free Savings Account (TFSA) in their name with Wealthsimple.",
+    "created_at": "2024-10-31T01:24:28.640402+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "b6075720-876f-4c06-ac7e-19cd871d5201",
+    "conversation_url": "https://decagon.ai/admin/conversations#b6075720-876f-4c06-ac7e-19cd871d5201",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know how to transfer funds from their cash account to their crypto account on Wealthsimple.",
+    "created_at": "2024-10-31T01:26:02.793623+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Investing: Self-directed/managed/crypto",
+        "level": 1
+      },
+      {
+        "name": "Crypto deposits/withdrawals (external wallet transfers), withdrawal limits",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "d7053504-f3df-46f2-9573-94b19fc8ffdc",
+    "conversation_url": "https://decagon.ai/admin/conversations#d7053504-f3df-46f2-9573-94b19fc8ffdc",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know if they could transfer US dollars from their bank to their unregistered account at Wealthsimple.",
+    "created_at": "2024-10-31T01:27:20.957362+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Other",
+        "level": 1
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "bb7c8732-f760-487a-9c42-eef807d9ce05",
+    "conversation_url": "https://decagon.ai/admin/conversations#bb7c8732-f760-487a-9c42-eef807d9ce05",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer was having trouble transferring their FHSA account from EQ Bank to Wealthsimple as they couldn't find the option to do so.",
+    "created_at": "2024-10-31T01:32:21.911703+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "6230600a-5d5b-4033-b58e-465435eb52ab",
+    "conversation_url": "https://decagon.ai/admin/conversations#6230600a-5d5b-4033-b58e-465435eb52ab",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to invest funds from their corporation but was unsure how to do so with Wealthsimple.",
+    "created_at": "2024-10-31T01:33:07.047933+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "a8b5edea-1f70-4fdf-b8d7-f1b773e33316",
+    "conversation_url": "https://decagon.ai/admin/conversations#a8b5edea-1f70-4fdf-b8d7-f1b773e33316",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to transfer their First Home Saver Account (FHSA) into Wealthsimple.",
+    "created_at": "2024-10-31T01:34:09.461605+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "2FA/MFA",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "b369ac0c-6878-4801-8194-114d186a05a8",
+    "conversation_url": "https://decagon.ai/admin/conversations#b369ac0c-6878-4801-8194-114d186a05a8",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know about the status of transferring FHSA accounts from other institutions to Wealthsimple.",
+    "created_at": "2024-10-31T01:34:58.911871+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "e1de8db8-8ba3-4831-84d8-644e7ae00b8a",
+    "conversation_url": "https://decagon.ai/admin/conversations#e1de8db8-8ba3-4831-84d8-644e7ae00b8a",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know if they could set up a recurring transfer from their Wealthsimple Cash account to their other bank accounts.",
+    "created_at": "2024-10-31T01:35:45.267630+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Banking: Cash and Cards",
+        "level": 1
+      },
+      {
+        "name": "Spending, ATM withdrawals, cashback",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "54ef5cd5-31e3-4f3c-933d-cd1ca3d02344",
+    "conversation_url": "https://decagon.ai/admin/conversations#54ef5cd5-31e3-4f3c-933d-cd1ca3d02344",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer was unsure about how to transfer money from their cash account to their bank account using the Wealthsimple mobile app.",
+    "created_at": "2024-10-31T01:36:41.425461+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Other",
+        "level": 1
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "a1b2e8bf-3eae-439b-802c-b941172cda09",
+    "conversation_url": "https://decagon.ai/admin/conversations#a1b2e8bf-3eae-439b-802c-b941172cda09",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know how to transfer a Registered Education Savings Plan (RESP) to Wealthsimple.",
+    "created_at": "2024-10-31T01:37:38.584661+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "5475a8c3-3913-464c-afe7-d5fc66ea01ff",
+    "conversation_url": "https://decagon.ai/admin/conversations#5475a8c3-3913-464c-afe7-d5fc66ea01ff",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer did not provide any specific issue in this conversation.",
+    "created_at": "2024-10-31T01:39:40.400816+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Authorized cash disputes/chargebacks",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "ba0e4048-dcac-4567-baa6-4342f03dad79",
+    "conversation_url": "https://decagon.ai/admin/conversations#ba0e4048-dcac-4567-baa6-4342f03dad79",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to transfer their account from Questrade to Wealthsimple but was unsure of the process.",
+    "created_at": "2024-10-31T01:39:57.676644+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "f464bc0b-4afb-4775-9684-8a23f7ef7c3e",
+    "conversation_url": "https://decagon.ai/admin/conversations#f464bc0b-4afb-4775-9684-8a23f7ef7c3e",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to transfer money to Wise from their Wealthsimple account.",
+    "created_at": "2024-10-31T01:41:01.767220+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "76f98639-fa6f-4f91-af5e-0b463a0bf93b",
+    "conversation_url": "https://decagon.ai/admin/conversations#76f98639-fa6f-4f91-af5e-0b463a0bf93b",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know how their father could transfer $30,000 from his Wealthsimple account to theirs.",
+    "created_at": "2024-10-31T01:41:43.478623+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Authorized cash disputes/chargebacks",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "b093a424-9386-4e7d-87cc-a869ea900a5d",
+    "conversation_url": "https://decagon.ai/admin/conversations#b093a424-9386-4e7d-87cc-a869ea900a5d",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer was unsure about how to make a wire transfer with Wealthsimple.",
+    "created_at": "2024-10-31T01:42:43.049321+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "e612314f-4dc5-4288-ae35-fea57de0e802",
+    "conversation_url": "https://decagon.ai/admin/conversations#e612314f-4dc5-4288-ae35-fea57de0e802",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to open a Wealthsimple Save account but was unaware that this service is no longer available to new clients.",
+    "created_at": "2024-10-31T01:49:38.257157+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Account/login suspensions",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "263be75e-bde3-4716-b14a-0e23f9973ed0",
+    "conversation_url": "https://decagon.ai/admin/conversations#263be75e-bde3-4716-b14a-0e23f9973ed0",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know how to trade Shiba Inu (SHIB) in their Wealthsimple Crypto account.",
+    "created_at": "2024-10-31T01:54:59.038317+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "8f3df334-8085-4906-ae05-649dbb44b5e5",
+    "conversation_url": "https://decagon.ai/admin/conversations#8f3df334-8085-4906-ae05-649dbb44b5e5",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to know the minimum age requirement to open an account with Wealthsimple.",
+    "created_at": "2024-10-31T01:56:10.999256+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Other",
+        "level": 1
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "d86d8138-bc10-4d8b-b533-8974391c14b1",
+    "conversation_url": "https://decagon.ai/admin/conversations#d86d8138-bc10-4d8b-b533-8974391c14b1",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer was having trouble cancelling a limit order on the Wealthsimple app. Despite following the agent's instructions, the cancel button was not working for the customer on both the app and the web platform.",
+    "created_at": "2024-10-31T01:57:24.662940+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Authorized cash disputes/chargebacks",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "a212ed81-e292-4728-8f29-6dc7c141148a",
+    "conversation_url": "https://decagon.ai/admin/conversations#a212ed81-e292-4728-8f29-6dc7c141148a",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer reached out to support to understand what a stock is.",
+    "created_at": "2024-10-31T02:01:07.152309+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "242005d5-50fa-4bee-959f-8f1b65f064d3",
+    "conversation_url": "https://decagon.ai/admin/conversations#242005d5-50fa-4bee-959f-8f1b65f064d3",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer was unsure about how to place a Market Order on Wealthsimple.",
+    "created_at": "2024-10-31T02:02:03.209603+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "dab444f9-db75-4699-b981-6d43358e6650",
+    "conversation_url": "https://decagon.ai/admin/conversations#dab444f9-db75-4699-b981-6d43358e6650",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer was unsure about how to place a Market Order on Wealthsimple.",
+    "created_at": "2024-10-31T02:02:09.353100+00:00",
+    "tags": [
+      {
+        "name": "Other",
+        "level": 0
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "8f65c2bb-dea8-41c9-a826-5ed5a6443dc9",
+    "conversation_url": "https://decagon.ai/admin/conversations#8f65c2bb-dea8-41c9-a826-5ed5a6443dc9",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer reached out to support to inquire about the details of Wealthsimple's Classic portfolio.",
+    "created_at": "2024-10-31T02:02:45.600208+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "d20fa16a-2094-4592-ab17-1df0a79503b9",
+    "conversation_url": "https://decagon.ai/admin/conversations#d20fa16a-2094-4592-ab17-1df0a79503b9",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer wanted to understand more about the risk levels when choosing a portfolio with Wealthsimple.",
+    "created_at": "2024-10-31T02:03:43.339306+00:00",
+    "tags": [
+      {
+        "name": "Using and Managing Money",
+        "level": 0
+      },
+      {
+        "name": "Investing: Self-directed/managed/crypto",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "707b3924-0ffa-4d38-9bd9-556dbf3bd5da",
+    "conversation_url": "https://decagon.ai/admin/conversations#707b3924-0ffa-4d38-9bd9-556dbf3bd5da",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer reached out to support to understand the concept of compounded interest.",
+    "created_at": "2024-10-31T02:04:17.346339+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Authorized cash disputes/chargebacks",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  },
+  {
+    "conversation_id": "3f274135-a668-4b19-ab5f-54886137d471",
+    "conversation_url": "https://decagon.ai/admin/conversations#3f274135-a668-4b19-ab5f-54886137d471",
+    "csat": "",
+    "deflected": "",
+    "summary": "The customer was unsure about how to complete an in-kind transfer from their external account to Wealthsimple.",
+    "created_at": "2024-10-31T02:05:18.542728+00:00",
+    "tags": [
+      {
+        "name": "Managing Security and Risk",
+        "level": 0
+      },
+      {
+        "name": "Security and Risk",
+        "level": 1
+      },
+      {
+        "name": "Other",
+        "level": 2
+      }
+    ],
+    "metadata": {
+      "email": "matt@decagon.ai",
+      "user_id": "matt@decagon.ai",
+      "lastName": "Tosi",
+      "firstName": "Matt",
+      "user_device": "web",
+      "widget_location": "https://decagon.ai/admin/build/knowledge",
+      "_decagon_playbook_label": "production",
+      "_is_decagon_admin_portal": true
+    },
+    "flow_type": "CHATBOT"
+  }
+]
