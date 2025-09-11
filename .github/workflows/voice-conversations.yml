@@ -53,7 +53,7 @@ jobs:
         python voice_conversations_warehouse_clean.py
         
     - name: Upload results as artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: always()
       with:
         name: voice-conversations-results
