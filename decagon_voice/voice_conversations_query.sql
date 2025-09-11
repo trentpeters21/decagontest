@@ -13,10 +13,10 @@ SELECT
     tags,
     metadata
 FROM decagon_chat.conversation
-WHERE 
-    flow_type = 'VOICE'
-    AND summary IS NOT NULL
-    AND summary != ''
-    AND created_at >= DATEADD(minute, -2880, GETDATE())
+        WHERE
+            flow_type = 'VOICE'
+            AND summary IS NOT NULL
+            AND summary != ''
+            AND created_at >= DATEADD(minute, -720, GETDATE())
 ORDER BY created_at DESC
 LIMIT 1000;
