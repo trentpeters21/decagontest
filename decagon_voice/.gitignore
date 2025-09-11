@@ -7,6 +7,9 @@
 *.json
 !last_warehouse_run.json
 
+# Voice conversations data (contains sensitive information)
+voice_conversations_warehouse.json
+
 # Python cache
 __pycache__/
 *.pyc
