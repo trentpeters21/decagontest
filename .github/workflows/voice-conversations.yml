@@ -40,9 +40,11 @@ jobs:
         echo "datastore: Redshift - Prod" > ~/.satori/config.yaml
         echo "database: pantheon" >> ~/.satori/config.yaml
         echo "schema: decagon_chat" >> ~/.satori/config.yaml
-        # Set up authentication (you'll need to add these as secrets)
-        echo "api_key: ${{ secrets.SATORI_API_KEY }}" >> ~/.satori/config.yaml
-        echo "api_url: ${{ secrets.SATORI_API_URL }}" >> ~/.satori/config.yaml
+        
+    - name: Authenticate with Satori
+      run: |
+        # Login to Satori using credentials
+        echo "${{ secrets.SATORI_PASSWORD }}" | $HOME/.satori/bin/satori login ${{ secrets.SATORI_EMAIL }} --password-stdin
         
     - name: Set up environment variables
       run: |
