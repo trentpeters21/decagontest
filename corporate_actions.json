@@ -25,6 +25,86 @@
       "action_details": "Carbeeza Inc (AUTO) performed a 1 for 1 name and CUSIP change to Agereh Technologies Inc. (AUTO)."
     },
     {
+      "date": "2025-09-11",
+      "company": "RBC U.S. Banks Yield Index ETF",
+      "ticker": "RUBY",
+      "action_type": "Redemption",
+      "ratio": "",
+      "action_details": "RBC U.S. Banks Yield Index ETF (RUBY) performed a mandatory redemption. Details of the event are still to be determined."
+    },
+    {
+      "date": "2025-09-11",
+      "company": "RBC U.S. Banks Yield Index ETF",
+      "ticker": "RUBY.U",
+      "action_type": "Redemption",
+      "ratio": "",
+      "action_details": "RBC U.S. Banks Yield Index ETF (RUBY.U) performed a mandatory redemption. Details of the event are still to be determined."
+    },
+    {
+      "date": "2025-09-11",
+      "company": "RBC U.S. Banks Yield CAD Hedged Index ETF",
+      "ticker": "RUBH",
+      "action_type": "Redemption",
+      "ratio": "",
+      "action_details": "RBC U.S. Banks Yield CAD Hedged Index ETF (RUBH) performed a mandatory redemption. Details of the event are still to be determined."
+    },
+    {
+      "date": "2025-09-11",
+      "company": "RBC Quant Emerging Markets Dividend Leaders ETF CAD",
+      "ticker": "RXD",
+      "action_type": "Dividend",
+      "ratio": "",
+      "action_details": "RBC Quant Emerging Markets Dividend Leaders ETF CAD (RXD) performed a mandatory redemption. Details of the event are still to be determined."
+    },
+    {
+      "date": "2025-09-11",
+      "company": "RBC Quant Emerging Markets Dividend Leaders ETF CAD",
+      "ticker": "RXD.U",
+      "action_type": "Dividend",
+      "ratio": "",
+      "action_details": "RBC Quant Emerging Markets Dividend Leaders ETF CAD (RXD.U) performed a mandatory redemption. Details of the event are still to be determined."
+    },
+    {
+      "date": "2025-09-11",
+      "company": "RBC PH&N Short Term Canadian Bond ETF",
+      "ticker": "RPSB",
+      "action_type": "Redemption",
+      "ratio": "",
+      "action_details": "RBC PH&N Short Term Canadian Bond ETF (RPSB) performed a mandatory redemption. Details of the event are still to be determined."
+    },
+    {
+      "date": "2025-09-11",
+      "company": "RBC Target 2025 Government Bond ETF - CAD",
+      "ticker": "RGQN",
+      "action_type": "Redemption",
+      "ratio": "",
+      "action_details": "RBC Target 2025 Government Bond ETF - CAD (RGQN) performed a mandatory redemption. Details of the event are still to be determined."
+    },
+    {
+      "date": "2025-09-11",
+      "company": "RBC Target 2025 Corporate Bond Index ETF - CAD",
+      "ticker": "RQN",
+      "action_type": "Redemption",
+      "ratio": "",
+      "action_details": "RBC Target 2025 Corporate Bond Index ETF - CAD (RQN) performed a mandatory redemption. Details of the event are still to be determined."
+    },
+    {
+      "date": "2025-09-11",
+      "company": "RBC Target 2025 U.S. Corporate Bond ETF",
+      "ticker": "RUQN",
+      "action_type": "Redemption",
+      "ratio": "",
+      "action_details": "RBC Target 2025 U.S. Corporate Bond ETF (RUQN) performed a mandatory redemption. Details of the event are still to be determined."
+    },
+    {
+      "date": "2025-09-11",
+      "company": "RBC Target 2025 U.S. Corporate Bond ETF",
+      "ticker": "RUQN.U",
+      "action_type": "Redemption",
+      "ratio": "",
+      "action_details": "RBC Target 2025 U.S. Corporate Bond ETF (RUQN.U) performed a mandatory redemption. Details of the event are still to be determined."
+    },
+    {
       "date": "2025-09-10",
       "company": "Sulliden Mining Capital Inc",
       "ticker": "SMC",
@@ -15746,12 +15826,12 @@
     }
   ],
   "metadata": {
-    "total_actions": 1968,
-    "scraped_at": "2025-09-10T21:16:58.639161+00:00",
+    "total_actions": 1978,
+    "scraped_at": "2025-09-11T14:16:50.893121+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
-    "method_used": "selenium",
+    "method_used": "cloudscraper",
     "github_actions_compatible": true
   }
 }
