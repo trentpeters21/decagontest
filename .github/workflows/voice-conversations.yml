@@ -44,7 +44,11 @@ jobs:
     - name: Authenticate with Satori
       run: |
         # Login to Satori using credentials
+        echo "Attempting to login to Satori..."
         echo "${{ secrets.SATORI_PASSWORD }}" | $HOME/.satori/bin/satori login ${{ secrets.SATORI_USERNAME }} --password-stdin
+        echo "Satori login completed with exit code: $?"
+        # Verify authentication
+        $HOME/.satori/bin/satori whoami
         
     - name: Set up environment variables
       run: |
@@ -57,7 +61,12 @@ jobs:
     - name: Run voice conversations script
       run: |
         cd decagon_voice/decagon_voice
+        echo "Current directory: $(pwd)"
+        echo "Files in directory:"
+        ls -la
+        echo "Running Python script..."
         python3 voice_conversations_warehouse_clean.py
+        echo "Script completed with exit code: $?"
         
     - name: Upload results as artifact
       uses: actions/upload-artifact@v4
