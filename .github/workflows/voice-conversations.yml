@@ -30,6 +30,8 @@ jobs:
         # Install Satori CLI
         curl -s https://satori.dev/install.sh | bash
         echo "$HOME/.satori/bin" >> $GITHUB_PATH
+        # Verify installation
+        $HOME/.satori/bin/satori --version
         
     - name: Configure Satori
       run: |
@@ -38,6 +40,9 @@ jobs:
         echo "datastore: Redshift - Prod" > ~/.satori/config.yaml
         echo "database: pantheon" >> ~/.satori/config.yaml
         echo "schema: decagon_chat" >> ~/.satori/config.yaml
+        # Set up authentication (you'll need to add these as secrets)
+        echo "api_key: ${{ secrets.SATORI_API_KEY }}" >> ~/.satori/config.yaml
+        echo "api_url: ${{ secrets.SATORI_API_URL }}" >> ~/.satori/config.yaml
         
     - name: Set up environment variables
       run: |
@@ -50,7 +55,7 @@ jobs:
     - name: Run voice conversations script
       run: |
         cd decagon_voice/decagon_voice
-        python voice_conversations_warehouse_clean.py
+        python3 voice_conversations_warehouse_clean.py
         
     - name: Upload results as artifact
       uses: actions/upload-artifact@v4
