@@ -17,8 +17,8 @@ load_dotenv('warehouse.env')
 # Configuration
 SATORI_USERNAME = os.getenv('SATORI_USERNAME')
 SATORI_PASSWORD = os.getenv('SATORI_PASSWORD')
-DB_HOST = "wsdev-pantheon-redshift-c9qtpydth0xz.ws1.us-east-1.a.p1.satoricyber.net"
-DB_PORT = 5439
+DB_HOST = "wsprod-pantheon-redshift-c9qtpydth0xz.ws1.us-east-1.a.p1.satoricyber.net"
+DB_PORT = 12345
 DB_NAME = "pantheon"
 WORKATO_WEBHOOK_URL = os.getenv('WORKATO_WEBHOOK_URL')
 
@@ -56,8 +56,8 @@ def run_database_query(query):
             print("Error: SATORI_USERNAME and SATORI_PASSWORD must be set")
             return None
             
-        # Create database connection string
-        url = f"postgresql://{SATORI_USERNAME}:{SATORI_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+        # Create database connection string with SSL parameters
+        url = f"postgresql://{SATORI_USERNAME}:{SATORI_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}?sslmode=require"
         
         print(f"Connecting to database: {DB_HOST}:{DB_PORT}/{DB_NAME}")
         
