@@ -93,8 +93,8 @@ jobs:
       run: |
         echo "Starting script execution..."
         echo "Current directory: $(pwd)"
-        echo "Changing to decagon_voice/decagon_voice directory..."
-        cd decagon_voice/decagon_voice
+        echo "Changing to decagon_voice directory..."
+        cd decagon_voice
         echo "New directory: $(pwd)"
         echo "Files in directory:"
         ls -la
@@ -113,5 +113,5 @@ jobs:
       if: always()
       with:
         name: voice-conversations-results
-        path: decagon_voice/decagon_voice/voice_conversations_warehouse.json
+        path: decagon_voice/voice_conversations_warehouse.json
         retention-days: 7
