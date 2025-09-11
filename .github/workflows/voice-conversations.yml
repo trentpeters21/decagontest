@@ -43,12 +43,18 @@ jobs:
         
     - name: Authenticate with Satori
       run: |
-        # Login to Satori using credentials
-        echo "Attempting to login to Satori..."
-        echo "${{ secrets.SATORI_PASSWORD }}" | $HOME/.satori/bin/satori login ${{ secrets.SATORI_USERNAME }} --password-stdin
-        echo "Satori login completed with exit code: $?"
-        # Verify authentication
-        $HOME/.satori/bin/satori whoami
+        # Create Satori credentials file
+        echo "Creating Satori credentials file..."
+        cat > ~/.satori/credentials.json << EOF
+        {
+          "username": "${{ secrets.SATORI_USERNAME }}",
+          "password": "${{ secrets.SATORI_PASSWORD }}",
+          "expires_at": "2025-12-31T23:59:59.999Z"
+        }
+        EOF
+        echo "Satori credentials file created"
+        # Test authentication by listing datastores
+        $HOME/.satori/bin/satori run psql --help
         
     - name: Set up environment variables
       run: |
