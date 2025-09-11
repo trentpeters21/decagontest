@@ -23,24 +23,21 @@ jobs:
             - name: Install dependencies
               run: |
                 python -m pip install --upgrade pip
-                pip install requests python-dotenv
+                pip install requests python-dotenv psycopg2-binary sshtunnel
 
-            - name: Install Satori CLI
+            - name: Set up SSH key
               run: |
-                echo "Installing Satori CLI..."
-                curl -s https://satori.dev/install.sh | bash
-                echo "$HOME/.satori/bin" >> $GITHUB_PATH
-                echo "Satori CLI installed"
-
-            - name: Set up Satori authentication
-              run: |
-                echo "Setting up Satori authentication..."
-                mkdir -p ~/.satori
-                echo '{"username": "${{ secrets.SATORI_USERNAME }}", "password": "${{ secrets.SATORI_PASSWORD }}"}' > ~/.satori/credentials.json
-                echo "Satori credentials configured"
+                echo "Setting up SSH key..."
+                mkdir -p ~/.ssh
+                echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+                chmod 600 ~/.ssh/id_rsa
+                echo "SSH key configured"
 
             - name: Set up environment variables
               run: |
+                echo "SSH_USERNAME=${{ secrets.SSH_USERNAME }}" >> $GITHUB_ENV
+                echo "SSH_PRIVATE_KEY_PATH=~/.ssh/id_rsa" >> $GITHUB_ENV
+                echo "REDSHIFT_PASSWORD=${{ secrets.REDSHIFT_PASSWORD }}" >> $GITHUB_ENV
                 echo "WORKATO_WEBHOOK_URL=${{ secrets.WORKATO_WEBHOOK_URL }}" >> $GITHUB_ENV
         
     - name: Run voice conversations script
