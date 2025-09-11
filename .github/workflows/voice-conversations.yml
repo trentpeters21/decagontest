@@ -28,9 +28,14 @@ jobs:
     - name: Install Satori CLI
       run: |
         # Install Satori CLI
+        echo "Installing Satori CLI..."
         curl -s https://satori.dev/install.sh | bash
+        echo "Adding Satori to PATH..."
         echo "$HOME/.satori/bin" >> $GITHUB_PATH
-        # Verify installation
+        echo "PATH after adding Satori: $PATH"
+        echo "Checking if Satori is installed..."
+        ls -la $HOME/.satori/bin/
+        echo "Testing Satori command..."
         $HOME/.satori/bin/satori --version
         
     - name: Configure Satori
@@ -66,13 +71,22 @@ jobs:
         
     - name: Run voice conversations script
       run: |
-        cd decagon_voice/decagon_voice
+        echo "Starting script execution..."
         echo "Current directory: $(pwd)"
+        echo "Changing to decagon_voice/decagon_voice directory..."
+        cd decagon_voice/decagon_voice
+        echo "New directory: $(pwd)"
         echo "Files in directory:"
         ls -la
+        echo "Checking Python version..."
+        python3 --version
+        echo "Checking if script file exists..."
+        ls -la voice_conversations_warehouse_clean.py
         echo "Running Python script..."
         python3 voice_conversations_warehouse_clean.py
         echo "Script completed with exit code: $?"
+        echo "Checking if JSON file was created..."
+        ls -la *.json || echo "No JSON files found"
         
     - name: Upload results as artifact
       uses: actions/upload-artifact@v4
