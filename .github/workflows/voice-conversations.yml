@@ -44,7 +44,7 @@ jobs:
     - name: Authenticate with Satori
       run: |
         # Login to Satori using credentials
-        echo "${{ secrets.SATORI_PASSWORD }}" | $HOME/.satori/bin/satori login ${{ secrets.SATORI_EMAIL }} --password-stdin
+        echo "${{ secrets.SATORI_PASSWORD }}" | $HOME/.satori/bin/satori login ${{ secrets.SATORI_USERNAME }} --password-stdin
         
     - name: Set up environment variables
       run: |
