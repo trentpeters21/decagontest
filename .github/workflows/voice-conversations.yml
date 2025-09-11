@@ -28,8 +28,8 @@ jobs:
     - name: Set up database connection
       run: |
         echo "Setting up direct database connection..."
-        echo "Database host: wsdev-pantheon-redshift-c9qtpydth0xz.ws1.us-east-1.a.p1.satoricyber.net"
-        echo "Port: 5439"
+        echo "Database host: wsprod-pantheon-redshift-c9qtpydth0xz.ws1.us-east-1.a.p1.satoricyber.net"
+        echo "Port: 12345"
         echo "Database: pantheon"
         
     - name: Set up environment variables
