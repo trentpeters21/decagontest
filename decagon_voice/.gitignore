@@ -1,0 +1,21 @@
+# Environment files with secrets
+.env
+*.env
+!warehouse.env
+
+# JSON data files
+*.json
+!last_warehouse_run.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
