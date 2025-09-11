@@ -20,24 +20,28 @@ jobs:
       with:
         python-version: '3.9'
         
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests python-dotenv sqlalchemy psycopg2-binary
-        
-    - name: Set up database connection
-      run: |
-        echo "Setting up direct database connection..."
-        echo "Database host: wsprod-pantheon-redshift-c9qtpydth0xz.ws1.us-east-1.a.p1.satoricyber.net"
-        echo "Port: 12345"
-        echo "Database: pantheon"
-        
-    - name: Set up environment variables
-      run: |
-        # Set up environment variables for direct database connection
-        echo "SATORI_USERNAME=${{ secrets.SATORI_USERNAME }}" >> $GITHUB_ENV
-        echo "SATORI_PASSWORD=${{ secrets.SATORI_PASSWORD }}" >> $GITHUB_ENV
-        echo "WORKATO_WEBHOOK_URL=${{ secrets.WORKATO_WEBHOOK_URL }}" >> $GITHUB_ENV
+            - name: Install dependencies
+              run: |
+                python -m pip install --upgrade pip
+                pip install requests python-dotenv
+
+            - name: Install Satori CLI
+              run: |
+                echo "Installing Satori CLI..."
+                curl -s https://satori.dev/install.sh | bash
+                echo "$HOME/.satori/bin" >> $GITHUB_PATH
+                echo "Satori CLI installed"
+
+            - name: Set up Satori authentication
+              run: |
+                echo "Setting up Satori authentication..."
+                mkdir -p ~/.satori
+                echo '{"username": "${{ secrets.SATORI_USERNAME }}", "password": "${{ secrets.SATORI_PASSWORD }}"}' > ~/.satori/credentials.json
+                echo "Satori credentials configured"
+
+            - name: Set up environment variables
+              run: |
+                echo "WORKATO_WEBHOOK_URL=${{ secrets.WORKATO_WEBHOOK_URL }}" >> $GITHUB_ENV
         
     - name: Run voice conversations script
       run: |
