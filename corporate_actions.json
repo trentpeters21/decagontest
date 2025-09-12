@@ -1,6 +1,46 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-09-15",
+      "company": "Clearside Biomedical Inc",
+      "ticker": "CLSD",
+      "action_type": "Consolidation",
+      "ratio": "1 for 15",
+      "action_details": "Clearside Biomedical Inc. (CLSD) performed a 1 for 15 consolidation. Holders will now hold 1 share of Clearside Biomedical Inc. (CLSD) for every 15 share previously held."
+    },
+    {
+      "date": "2025-09-15",
+      "company": "Biodesix Inc",
+      "ticker": "BDSX",
+      "action_type": "Consolidation",
+      "ratio": "1 for 20",
+      "action_details": "Biodesix Inc (BDSX) performed a 1 for 20 consolidation. Holders will now hold 1 share of Biodesix Inc (BDSX) for every 20 share previously held."
+    },
+    {
+      "date": "2025-09-15",
+      "company": "Sadot Group Inc",
+      "ticker": "SDOT",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Sadot Group Inc. (SDOT) performed a 1 for 10 consolidation. Holders will now hold 1 share of Sadot Group Inc. (SDOT) for every 10 share previously held."
+    },
+    {
+      "date": "2025-09-15",
+      "company": "Apollo Silver Corp",
+      "ticker": "APGO",
+      "action_type": "Consolidation",
+      "ratio": "1 for 5",
+      "action_details": "Apollo Silver Corp (APGO) performed a 1 for 5 consolidation. Holders will now hold 1 share of Apollo Silver Corp (APGO) for every 5 share previously held."
+    },
+    {
+      "date": "2025-09-15",
+      "company": "Dundee Precious Metals Inc",
+      "ticker": "DPM",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Dundee Precious Metals Inc. (DPM) performed a 1 for 1 name and CUSIP change to DPM Metals Inc (DPM)."
+    },
+    {
       "date": "2025-09-12",
       "company": "Versamet Royalties Corp",
       "ticker": "VMET",
@@ -22,7 +62,7 @@
       "ticker": "DRRX",
       "action_type": "Merger",
       "ratio": "",
-      "action_details": "Durect Corp (DRRX) performed a merger. Details of the event are still to be determined."
+      "action_details": "Durect Corp (DRRX) performed a merger. Holders will receive 1 CVR of Durect Corp plus 1.75 USD for each share previously held."
     },
     {
       "date": "2025-09-12",
@@ -78,7 +118,7 @@
       "ticker": "RUBY",
       "action_type": "Redemption",
       "ratio": "",
-      "action_details": "RBC U.S. Banks Yield Index ETF (RUBY) performed a mandatory redemption. Details of the event are still to be determined."
+      "action_details": "RBC U.S. Banks Yield Index ETF (RUBY) performed a mandatory redemption. Holders will receive 26.8490 CAD per share held."
     },
     {
       "date": "2025-09-11",
@@ -86,7 +126,7 @@
       "ticker": "RUBY.U",
       "action_type": "Redemption",
       "ratio": "",
-      "action_details": "RBC U.S. Banks Yield Index ETF (RUBY.U) performed a mandatory redemption. Details of the event are still to be determined."
+      "action_details": "RBC U.S. Banks Yield Index ETF (RUBY.U) performed a mandatory redemption. Holders will receive 19.39760 CAD per share held."
     },
     {
       "date": "2025-09-11",
@@ -94,7 +134,7 @@
       "ticker": "RUBH",
       "action_type": "Redemption",
       "ratio": "",
-      "action_details": "RBC U.S. Banks Yield CAD Hedged Index ETF (RUBH) performed a mandatory redemption. Details of the event are still to be determined."
+      "action_details": "RBC U.S. Banks Yield CAD Hedged Index ETF (RUBH) performed a mandatory redemption. Holders will receive 21.77660 CAD per share held."
     },
     {
       "date": "2025-09-11",
@@ -102,7 +142,7 @@
       "ticker": "RXD",
       "action_type": "Dividend",
       "ratio": "",
-      "action_details": "RBC Quant Emerging Markets Dividend Leaders ETF CAD (RXD) performed a mandatory redemption. Details of the event are still to be determined."
+      "action_details": "RBC Quant Emerging Markets Dividend Leaders ETF CAD (RXD) performed a mandatory redemption. Holders will receive 24.1308 CAD per share held."
     },
     {
       "date": "2025-09-11",
@@ -110,7 +150,7 @@
       "ticker": "RXD.U",
       "action_type": "Dividend",
       "ratio": "",
-      "action_details": "RBC Quant Emerging Markets Dividend Leaders ETF CAD (RXD.U) performed a mandatory redemption. Details of the event are still to be determined."
+      "action_details": "RBC Quant Emerging Markets Dividend Leaders ETF CAD (RXD.U) performed a mandatory redemption. Holders will receive 17.4338 CAD per share held."
     },
     {
       "date": "2025-09-11",
@@ -118,7 +158,7 @@
       "ticker": "RPSB",
       "action_type": "Redemption",
       "ratio": "",
-      "action_details": "RBC PH&N Short Term Canadian Bond ETF (RPSB) performed a mandatory redemption. Details of the event are still to be determined."
+      "action_details": "RBC PH&N Short Term Canadian Bond ETF (RPSB) performed a mandatory redemption. Holders will receive 20.06270 CAD per share held."
     },
     {
       "date": "2025-09-11",
@@ -126,7 +166,7 @@
       "ticker": "RGQN",
       "action_type": "Redemption",
       "ratio": "",
-      "action_details": "RBC Target 2025 Government Bond ETF - CAD (RGQN) performed a mandatory redemption. Details of the event are still to be determined."
+      "action_details": "RBC Target 2025 Government Bond ETF - CAD (RGQN) performed a mandatory redemption. Holders will receive 20.6391 CAD per share held."
     },
     {
       "date": "2025-09-11",
@@ -134,7 +174,7 @@
       "ticker": "RQN",
       "action_type": "Redemption",
       "ratio": "",
-      "action_details": "RBC Target 2025 Corporate Bond Index ETF - CAD (RQN) performed a mandatory redemption. Details of the event are still to be determined."
+      "action_details": "RBC Target 2025 Corporate Bond Index ETF - CAD (RQN) performed a mandatory redemption. Holders will receive 20.4997 CAD per share held."
     },
     {
       "date": "2025-09-11",
@@ -142,7 +182,7 @@
       "ticker": "RUQN",
       "action_type": "Redemption",
       "ratio": "",
-      "action_details": "RBC Target 2025 U.S. Corporate Bond ETF (RUQN) performed a mandatory redemption. Details of the event are still to be determined."
+      "action_details": "RBC Target 2025 U.S. Corporate Bond ETF (RUQN) performed a mandatory redemption. Holders will receive 20.737900 CAD per share held."
     },
     {
       "date": "2025-09-11",
@@ -150,7 +190,7 @@
       "ticker": "RUQN.U",
       "action_type": "Redemption",
       "ratio": "",
-      "action_details": "RBC Target 2025 U.S. Corporate Bond ETF (RUQN.U) performed a mandatory redemption. Details of the event are still to be determined."
+      "action_details": "RBC Target 2025 U.S. Corporate Bond ETF (RUQN.U) performed a mandatory redemption. Holders will receive 14.982500 CAD per share held."
     },
     {
       "date": "2025-09-10",
@@ -15874,8 +15914,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1984,
-    "scraped_at": "2025-09-12T14:15:26.587031+00:00",
+    "total_actions": 1989,
+    "scraped_at": "2025-09-12T21:15:37.384180+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
