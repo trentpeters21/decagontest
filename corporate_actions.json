@@ -1,6 +1,54 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-09-12",
+      "company": "Versamet Royalties Corp",
+      "ticker": "VMET",
+      "action_type": "Consolidation",
+      "ratio": "1 for 5",
+      "action_details": "Versamet Royalties Corp. (VMET) performed a 1 for 5 consolidation. Holders will now hold 1 share of Versamet Royalties Corp. (VMET) for every 5 share previously held."
+    },
+    {
+      "date": "2025-09-12",
+      "company": "China Automotive Systems",
+      "ticker": "CAAS",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "China Automotive Systems (CAAS) performed a merger. Holders will receive 1 new share of China Automotive Systems (CAAS) per share held."
+    },
+    {
+      "date": "2025-09-12",
+      "company": "Durect Corp",
+      "ticker": "DRRX",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Durect Corp (DRRX) performed a merger. Details of the event are still to be determined."
+    },
+    {
+      "date": "2025-09-12",
+      "company": "SKECHERS USA Inc",
+      "ticker": "SKX",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "SKECHERS USA Inc. (SKX) performed a merger. Details of the event are still to be determined."
+    },
+    {
+      "date": "2025-09-12",
+      "company": "Olo Inc",
+      "ticker": "OLO",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Olo Inc (Class A) (OLO) performed a merger. Details of the event are still to be determined."
+    },
+    {
+      "date": "2025-09-12",
+      "company": "Harbor Human Capital Factor Unconstrained ETF",
+      "ticker": "HAPY",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "Harbor Human Capital Factor Unconstrained ETF (HAPY) performed a liquidation. Details of the event are still to be determined."
+    },
+    {
       "date": "2025-09-11",
       "company": "BioVaxys Technology Corp",
       "ticker": "BIOV",
@@ -158,7 +206,7 @@
       "ticker": "GME",
       "action_type": "Other",
       "ratio": "",
-      "action_details": "Gamestop Corporation (Class A) (GME) announced a special warrant distribution. Details of the event will be updated once officially confirmed by the depository."
+      "action_details": "Gamestop Corporation (Class A) (GME) announced a special warrant distribution. Holders will receive 1 warrant for every 10 shares held as of record date of October 3, 2025."
     },
     {
       "date": "2025-09-08",
@@ -15826,8 +15874,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1978,
-    "scraped_at": "2025-09-11T14:16:50.893121+00:00",
+    "total_actions": 1984,
+    "scraped_at": "2025-09-12T14:15:26.587031+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
