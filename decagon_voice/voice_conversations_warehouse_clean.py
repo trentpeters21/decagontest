@@ -12,7 +12,7 @@ from datetime import datetime, timedelta
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv('warehouse.env')
+load_dotenv('.env')
 
 # Configuration
 WORKATO_WEBHOOK_URL = os.getenv('WORKATO_WEBHOOK_URL')

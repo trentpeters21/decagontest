@@ -6,13 +6,13 @@ This setup queries voice conversations directly from your data warehouse using S
 
 - `voice_conversations_warehouse_clean.py` - Main script
 - `voice_conversations_query.sql` - SQL query (easily editable)
-- `warehouse.env` - Configuration file
+- `.env` - Configuration file
 - `voice_conversations_warehouse.json` - Output data
 - `last_warehouse_run.json` - Tracks last run for delta updates
 
 ## Setup
 
-1. **Configure environment variables** in `warehouse.env`:
+1. **Configure environment variables** in `.env`:
    ```bash
    SATORI_DATASTORE=Redshift - Prod
    SATORI_DATABASE=pantheon
