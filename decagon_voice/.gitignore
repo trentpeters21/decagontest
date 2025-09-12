@@ -2,6 +2,7 @@
 .env
 *.env
 warehouse.env
+warehouse.env.local
 
 # JSON data files
 *.json
