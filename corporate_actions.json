@@ -15915,11 +15915,11 @@
   ],
   "metadata": {
     "total_actions": 1989,
-    "scraped_at": "2025-09-12T21:15:37.384180+00:00",
+    "scraped_at": "2025-09-13T14:12:37.855381+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
-    "method_used": "cloudscraper",
+    "method_used": "selenium",
     "github_actions_compatible": true
   }
 }
