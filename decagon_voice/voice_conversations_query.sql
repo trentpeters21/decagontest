@@ -1,4 +1,4 @@
-an i SELECT 
+SELECT 
     conversation_id,
     conversation_url,
     csat,
@@ -17,6 +17,6 @@ FROM decagon_chat.conversation
             flow_type = 'VOICE'
             AND summary IS NOT NULL
             AND summary != ''
-            AND created_at >= DATEADD(day, -7, GETDATE())
+            AND created_at >= DATEADD(hour, -96, GETDATE())
 ORDER BY created_at DESC
 LIMIT 1000;

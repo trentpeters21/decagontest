@@ -8,6 +8,7 @@ import os
 import json
 import requests
 import subprocess
+import time
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 
@@ -15,7 +16,7 @@ from dotenv import load_dotenv
 load_dotenv('.env')
 
 # Configuration
-WORKATO_WEBHOOK_URL = os.getenv('WORKATO_WEBHOOK_URL')
+WORKATO_WEBHOOK_URL = os.getenv('WORKATO_WEBHOOK_URL', 'https://webhooks.workato.com/webhooks/rest/7215f6d4-811d-43ea-a85e-91278de0f5f1/decagon_voice_conversations')
 
 # File paths
 SQL_QUERY_FILE = 'voice_conversations_query.sql'
@@ -120,7 +121,7 @@ def get_voice_conversations_from_warehouse():
     query = load_sql_query()
     if not query:
         return []
-    print("Fetching conversations from the last 24 hours (per SQL filter)")
+    print("Fetching conversations from the last 12 hours (per SQL filter)")
 
     # Execute query using Satori CLI
     conversations = run_satori_query(query)
@@ -129,26 +130,56 @@ def get_voice_conversations_from_warehouse():
     
     return conversations
 
-def send_to_workato_webhook(conversation, webhook_url):
-    """Send conversation data to Workato webhook"""
-    try:
-        payload = {
-            "conversation_id": conversation.get("conversation_id"),
-            "conversation_url": conversation.get("conversation_url"),
-            "csat": conversation.get("csat"),
-            "deflected": conversation.get("deflected"),
-            "summary": conversation.get("summary"),
-            "created_at_utc": conversation.get("created_at_utc"),
-            "created_at_est": conversation.get("created_at_est"),
-            "tags": conversation.get("tags"),
-            "metadata": conversation.get("metadata")
-        }
-        
-        response = requests.post(webhook_url, json=payload, timeout=30)
-        return response.status_code == 200
-    except Exception as e:
-        print(f"Error sending to Workato: {e}")
-        return False
+def send_to_workato_webhook(conversation, webhook_url, max_retries=3):
+    """Send conversation data to Workato webhook with retry logic"""
+    payload = {
+        "conversation_id": conversation.get("conversation_id"),
+        "conversation_url": conversation.get("conversation_url"),
+        "csat": conversation.get("csat"),
+        "deflected": conversation.get("deflected"),
+        "summary": conversation.get("summary"),
+        "created_at_utc": conversation.get("created_at_utc"),
+        "created_at_est": conversation.get("created_at_est"),
+        "tags": conversation.get("tags"),
+        "metadata": conversation.get("metadata")
+    }
+    
+    for attempt in range(max_retries):
+        try:
+            print(f"DEBUG: Sending to {webhook_url}")
+            print(f"DEBUG: Payload keys: {list(payload.keys())}")
+            print(f"DEBUG: conversation_id: {payload.get('conversation_id')}")
+            response = requests.post(webhook_url, json=payload, timeout=30)
+            print(f"DEBUG: Response status: {response.status_code}")
+            print(f"DEBUG: Response headers: {dict(response.headers)}")
+            
+            if response.status_code == 200:
+                return True
+            elif response.status_code == 429:
+                print(f"RATE LIMITED: HTTP 429 - {response.text}")
+                return "RATE_LIMITED"
+            elif response.status_code == 404:
+                if attempt < max_retries - 1:
+                    print(f"Recipe stopped (404), retrying in 2 seconds... (attempt {attempt + 1}/{max_retries})")
+                    time.sleep(2)
+                    continue
+                else:
+                    print(f"Recipe still stopped after {max_retries} attempts: HTTP 404")
+                    return False
+            else:
+                print(f"HTTP {response.status_code}: {response.text}")
+                return False
+                
+        except Exception as e:
+            if attempt < max_retries - 1:
+                print(f"Error sending to Workato (attempt {attempt + 1}/{max_retries}): {e}")
+                time.sleep(1)
+                continue
+            else:
+                print(f"Error sending to Workato after {max_retries} attempts: {e}")
+                return False
+    
+    return False
 
 
 def save_conversations_to_json(conversations, filename="voice_conversations_warehouse.json"):
@@ -179,19 +210,51 @@ def main():
     if save_conversations_to_json(conversations):
         print(f"Successfully saved {len(conversations)} conversations to voice_conversations_warehouse.json")
     
-    # Send to Workato
+    # Send to Workato with preflight and throttling
     if not WORKATO_WEBHOOK_URL or WORKATO_WEBHOOK_URL == 'your-workato-webhook-url-here':
         print("No Workato webhook URL configured - skipping Workato notification")
     else:
-        print("Sending conversations to Workato...")
+        print(f"Sending {len(conversations)} conversations to Workato (rate-limited)…")
         sent_count = 0
-        for conversation in conversations:
-            if send_to_workato_webhook(conversation, WORKATO_WEBHOOK_URL):
-                sent_count += 1
-            else:
-                print(f"Failed to send conversation {conversation.get('conversation_id', 'unknown')}")
+        failed_count = 0
         
-        print(f"Successfully sent {sent_count} conversations to Workato")
+        # Rate limiting: 6000 requests per 5 minutes = 20 requests per second max
+        # Use conservative 10 requests per second to stay well under limit
+        requests_per_second = 10
+        delay_between_requests = 1.0 / requests_per_second
+        
+        consecutive_failures = 0
+        max_consecutive_failures = 5  # Stop if 5 consecutive conversations fail
+        
+        for idx, conversation in enumerate(conversations, start=1):
+            result = send_to_workato_webhook(conversation, WORKATO_WEBHOOK_URL)
+            
+            if result == "RATE_LIMITED":
+                print(f"Hit rate limit at conversation {idx}. Stopping to avoid more failures.")
+                print(f"Rate limit resets in 5 minutes. Remaining conversations will be sent in next run.")
+                break
+            elif result:
+                sent_count += 1
+                consecutive_failures = 0  # Reset counter on success
+            else:
+                failed_count += 1
+                consecutive_failures += 1
+                print(f"Failed to send conversation {conversation.get('conversation_id', 'unknown')}")
+                
+                # Stop if too many consecutive failures (recipe likely stopped)
+                if consecutive_failures >= max_consecutive_failures:
+                    print(f"Stopping after {consecutive_failures} consecutive failures. Recipe appears to be stopped.")
+                    print("Please start the Workato recipe and try again.")
+                    break
+
+            # Progress indicator every 10 conversations
+            if idx % 10 == 0:
+                print(f"Progress: {idx}/{len(conversations)} sent, {sent_count} successful, {failed_count} failed")
+
+            # Rate limiting delay
+            time.sleep(delay_between_requests)
+
+        print(f"Successfully sent {sent_count}/{len(conversations)} conversations to Workato")
     
     # Save last run timestamp
     save_last_run_timestamp()
