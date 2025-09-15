@@ -1,6 +1,46 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-09-16",
+      "company": "Vci Global Limited",
+      "ticker": "VCIG",
+      "action_type": "Consolidation",
+      "ratio": "1 for 30",
+      "action_details": "Vci Global Limited (VCIG) performed a 1 for 30 consolidation. Holders will now hold 1 share of Vci Global Limited (VCIG) for every 30 share previously held."
+    },
+    {
+      "date": "2025-09-16",
+      "company": "Elemental Altus Royalties Corp",
+      "ticker": "ELE",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Elemental Altus Royalties Corp (ELE) performed a 1 for 10 consolidation. Holders will now hold 1 share of Elemental Altus Royalties Corp (ELE) for every 10 share previously held."
+    },
+    {
+      "date": "2025-09-16",
+      "company": "Next Technology Holding Inc",
+      "ticker": "NXTT",
+      "action_type": "Consolidation",
+      "ratio": "1 for 200",
+      "action_details": "Next Technology Holding Inc. (NXTT) performed a 1 for 200 consolidation. Holders will now hold 1 share of Next Technology Holding Inc. (NXTT) for every 200 share previously held."
+    },
+    {
+      "date": "2025-09-16",
+      "company": "REX American Resources",
+      "ticker": "REX",
+      "action_type": "Stock Split",
+      "ratio": "2 for 1",
+      "action_details": "REX American Resources (REX) performed a 2 for 1 stock split. Holders will now hold 2 shares of REX American Resources (REX) per 1 share previously held."
+    },
+    {
+      "date": "2025-09-16",
+      "company": "Allegiant Gold Limited",
+      "ticker": "AUAU",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Allegiant Gold Limited (AUAU) performed a 1 for 1 name and CUSIP change to A2 Gold Corp. (AUAU)."
+    },
+    {
       "date": "2025-09-15",
       "company": "Clearside Biomedical Inc",
       "ticker": "CLSD",
@@ -86,7 +126,7 @@
       "ticker": "SKX",
       "action_type": "Merger",
       "ratio": "",
-      "action_details": "SKECHERS USA Inc. (SKX) performed a merger. Details of the event are still to be determined."
+      "action_details": "SKECHERS USA Inc. (SKX) performed a merger. Holders will receive 63 USD per share held."
     },
     {
       "date": "2025-09-12",
@@ -94,7 +134,7 @@
       "ticker": "OLO",
       "action_type": "Merger",
       "ratio": "",
-      "action_details": "Olo Inc (Class A) (OLO) performed a merger. Details of the event are still to be determined."
+      "action_details": "Olo Inc (Class A) (OLO) performed a merger. Holders will receive 10.25 USD per share held."
     },
     {
       "date": "2025-09-12",
@@ -142,7 +182,7 @@
       "ticker": "RUBY.U",
       "action_type": "Redemption",
       "ratio": "",
-      "action_details": "RBC U.S. Banks Yield Index ETF (RUBY.U) performed a mandatory redemption. Holders will receive 19.39760 CAD per share held."
+      "action_details": "RBC U.S. Banks Yield Index ETF (RUBY.U) performed a mandatory redemption. Holders will receive 19.39760 USD per share held."
     },
     {
       "date": "2025-09-11",
@@ -166,7 +206,7 @@
       "ticker": "RXD.U",
       "action_type": "Dividend",
       "ratio": "",
-      "action_details": "RBC Quant Emerging Markets Dividend Leaders ETF CAD (RXD.U) performed a mandatory redemption. Holders will receive 17.4338 CAD per share held."
+      "action_details": "RBC Quant Emerging Markets Dividend Leaders ETF CAD (RXD.U) performed a mandatory redemption. Holders will receive 17.4338 USD per share held."
     },
     {
       "date": "2025-09-11",
@@ -206,7 +246,7 @@
       "ticker": "RUQN.U",
       "action_type": "Redemption",
       "ratio": "",
-      "action_details": "RBC Target 2025 U.S. Corporate Bond ETF (RUQN.U) performed a mandatory redemption. Holders will receive 14.982500 CAD per share held."
+      "action_details": "RBC Target 2025 U.S. Corporate Bond ETF (RUQN.U) performed a mandatory redemption. Holders will receive 14.982500 USD per share held."
     },
     {
       "date": "2025-09-10",
@@ -15930,8 +15970,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1991,
-    "scraped_at": "2025-09-15T14:17:36.512968+00:00",
+    "total_actions": 1996,
+    "scraped_at": "2025-09-15T21:17:12.830727+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
