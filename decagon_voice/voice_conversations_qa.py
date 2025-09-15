@@ -76,7 +76,7 @@ def run_satori_query(query):
         return None
 
 def parse_psql_results(output):
-    """Parse the tabular output from psql"""
+    """Parse the tabular output from psql for QA query format"""
     lines = output.strip().split('\n')
     conversations = []
     
@@ -89,7 +89,7 @@ def parse_psql_results(output):
         if (line.strip() and 
             not line.strip().startswith('(') and 
             'rows)' not in line and 
-            'conversation_id' not in line and 
+            'decagon_conversation_link' not in line and 
             '---' not in line):
             data_lines.append(line)
     
@@ -99,17 +99,19 @@ def parse_psql_results(output):
         # Split by | and clean up
         parts = [part.strip() for part in line.split('|')]
         
-        if len(parts) >= 9:  # We expect 9 columns now
+        if len(parts) >= 9:  # We expect 9 columns for QA query
+            # QA query columns: decagon_conversation_link, five9_conversation_link, zendesk_ticket_link, 
+            # routing_department, skill, abandoned, created_at_est, created_at_utc, conversation_id
             conversation = {
-                'conversation_id': parts[0] if len(parts) > 0 else '',
-                'conversation_url': parts[1] if len(parts) > 1 else '',
-                'csat': parts[2] if len(parts) > 2 else '',
-                'deflected': parts[3] if len(parts) > 3 else '',
-                'summary': parts[4] if len(parts) > 4 else '',
-                'created_at_utc': parts[5] if len(parts) > 5 else '',
+                'decagon_conversation_link': parts[0] if len(parts) > 0 else '',
+                'five9_conversation_link': parts[1] if len(parts) > 1 else '',
+                'zendesk_ticket_link': parts[2] if len(parts) > 2 else '',
+                'routing_department': parts[3] if len(parts) > 3 else '',
+                'skill': parts[4] if len(parts) > 4 else '',
+                'abandoned': parts[5] if len(parts) > 5 else '',
                 'created_at_est': parts[6] if len(parts) > 6 else '',
-                'tags': parts[7] if len(parts) > 7 else '',
-                'metadata': parts[8] if len(parts) > 8 else ''
+                'created_at_utc': parts[7] if len(parts) > 7 else '',
+                'conversation_id': parts[8] if len(parts) > 8 else ''
             }
             conversations.append(conversation)
     
@@ -125,7 +127,7 @@ def get_voice_conversations_from_database():
 
     # Execute query using Satori CLI
     conversations = run_satori_query(query)
-    if not conversations:
+    if conversations is None:
         return []
     
     return conversations
@@ -133,25 +135,20 @@ def get_voice_conversations_from_database():
 def send_to_workato_webhook(conversation, webhook_url, max_retries=3):
     """Send conversation data to Workato webhook with retry logic"""
     payload = {
-        "conversation_id": conversation.get("conversation_id"),
-        "conversation_url": conversation.get("conversation_url"),
-        "csat": conversation.get("csat"),
-        "deflected": conversation.get("deflected"),
-        "summary": conversation.get("summary"),
-        "created_at_utc": conversation.get("created_at_utc"),
+        "decagon_conversation_link": conversation.get("decagon_conversation_link"),
+        "five9_conversation_link": conversation.get("five9_conversation_link"),
+        "zendesk_ticket_link": conversation.get("zendesk_ticket_link"),
+        "routing_department": conversation.get("routing_department"),
+        "skill": conversation.get("skill"),
+        "abandoned": conversation.get("abandoned"),
         "created_at_est": conversation.get("created_at_est"),
-        "tags": conversation.get("tags"),
-        "metadata": conversation.get("metadata")
+        "created_at_utc": conversation.get("created_at_utc"),
+        "conversation_id": conversation.get("conversation_id")
     }
     
     for attempt in range(max_retries):
         try:
-            print(f"DEBUG: Sending to {webhook_url}")
-            print(f"DEBUG: Payload keys: {list(payload.keys())}")
-            print(f"DEBUG: conversation_id: {payload.get('conversation_id')}")
             response = requests.post(webhook_url, json=payload, timeout=30)
-            print(f"DEBUG: Response status: {response.status_code}")
-            print(f"DEBUG: Response headers: {dict(response.headers)}")
             
             if response.status_code == 200:
                 return True
