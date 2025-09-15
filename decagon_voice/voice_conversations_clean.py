@@ -20,7 +20,7 @@ WORKATO_WEBHOOK_URL = os.getenv('WORKATO_WEBHOOK_URL', 'https://webhooks.workato
 
 # File paths
 SQL_QUERY_FILE = 'voice_conversations_query.sql'
-LAST_RUN_FILE = 'last_warehouse_run.json'
+LAST_RUN_FILE = 'last_run.json'
 
 def load_sql_query():
     """Load the SQL query from file"""
@@ -115,7 +115,7 @@ def parse_psql_results(output):
     
     return conversations
 
-def get_voice_conversations_from_warehouse():
+def get_voice_conversations_from_database():
     """Fetch voice conversations from the last 24 hours (defined in SQL)."""
     # Load SQL query (already constrained to last 24 hours)
     query = load_sql_query()
@@ -182,7 +182,7 @@ def send_to_workato_webhook(conversation, webhook_url, max_retries=3):
     return False
 
 
-def save_conversations_to_json(conversations, filename="voice_conversations_warehouse.json"):
+def save_conversations_to_json(conversations, filename="voice_conversations.json"):
     """Save conversations to a JSON file"""
     try:
         with open(filename, 'w', encoding='utf-8') as f:
@@ -194,11 +194,11 @@ def save_conversations_to_json(conversations, filename="voice_conversations_ware
 
 def main():
     """Main function to fetch voice conversations and send to Workato"""
-    print("=== Voice Conversations Data Warehouse Fetcher ===")
+    print("=== Voice Conversations Data Fetcher ===")
     print("Using Satori CLI to connect to Redshift - Prod database")
     
-    # Fetch conversations from data warehouse
-    conversations = get_voice_conversations_from_warehouse()
+    # Fetch conversations from database
+    conversations = get_voice_conversations_from_database()
     
     if not conversations:
         print("No voice conversations found")
@@ -208,7 +208,7 @@ def main():
     
     # Save to JSON file
     if save_conversations_to_json(conversations):
-        print(f"Successfully saved {len(conversations)} conversations to voice_conversations_warehouse.json")
+        print(f"Successfully saved {len(conversations)} conversations to voice_conversations.json")
     
     # Send to Workato with preflight and throttling
     if not WORKATO_WEBHOOK_URL or WORKATO_WEBHOOK_URL == 'your-workato-webhook-url-here':

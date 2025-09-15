@@ -1,5 +1,5 @@
 WITH dec_calls AS (
-  SELECT 
+  SELECT
   conversation_id
 , JSON_EXTRACT_PATH_TEXT(metadata, 'five9_session_id') AS "five9_session_id"
 , JSON_EXTRACT_PATH_TEXT(metadata, 'zendesk_ticket_id')::bigint AS "zendesk_ticket_id"
@@ -8,7 +8,7 @@ WITH dec_calls AS (
 , created_at
 , conversation_url
 , summary
-  FROM decagon_chat.conversation 
+  FROM decagon_chat.conversation
   WHERE flow_type = 'VOICE'
 )
 
@@ -27,11 +27,13 @@ SELECT
 ,   abandoned
 ,   TO_CHAR(convert_timezone('UTC'::varchar,'US/Eastern'::varchar, created_at::timestamp), 'YYYY-MM-DD FMHH12:MI pm') AS created_at_est
 ,   created_at AS created_at_utc
+
 ,   five9_session_id
+
 FROM dec_calls
-LEFT JOIN five9 
+LEFT JOIN five9
   ON dec_calls.five9_session_id = five9.call_id
-WHERE 
-  dec_calls.created_at >= DATEADD(hour, -96, GETDATE())
+WHERE
+  dec_calls.created_at >= DATEADD(minute, -10000, GETDATE())
   AND summary IS NOT NULL
   AND summary != ''
