@@ -41,6 +41,22 @@
       "action_details": "Dundee Precious Metals Inc. (DPM) performed a 1 for 1 name and CUSIP change to DPM Metals Inc (DPM)."
     },
     {
+      "date": "2025-09-15",
+      "company": "Asset Entities Inc",
+      "ticker": "ASST",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Asset Entities Inc. (ASST) performed a 1 for 1 name and CUSIP change to Strive Inc. (Class B) (ASST)."
+    },
+    {
+      "date": "2025-09-15",
+      "company": "Leafly Holdings Inc",
+      "ticker": "LFLY",
+      "action_type": "Consolidation",
+      "ratio": "1 for 500",
+      "action_details": "Leafly Holdings Inc (LFLY) performed a 1 for 500 consolidation. Holders will now hold 1 share of Leafly Holdings Inc (LFLY) for every 500 share previously held."
+    },
+    {
       "date": "2025-09-12",
       "company": "Versamet Royalties Corp",
       "ticker": "VMET",
@@ -15914,8 +15930,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1989,
-    "scraped_at": "2025-09-14T21:15:33.829660+00:00",
+    "total_actions": 1991,
+    "scraped_at": "2025-09-15T14:17:36.512968+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
