@@ -1,6 +1,46 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-09-17",
+      "company": "Sequans Communications S.A.",
+      "ticker": "SQNS",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Sequans Communications S.A. (SQNS) performed a 1 for 10 consolidation. Holders will now hold 1 ADR of Sequans Communications S.A. (SQNS) for every 10 ADR previously held."
+    },
+    {
+      "date": "2025-09-17",
+      "company": "Taurus Gold Corp",
+      "ticker": "TAUR",
+      "action_type": "Consolidation",
+      "ratio": "1 for 4",
+      "action_details": "Taurus Gold Corp. (TAUR) performed a 1 for 4 consolidation. Holders will now hold 1 share of Taurus Gold Corp. (TAUR) for every 4 share previously held."
+    },
+    {
+      "date": "2025-09-17",
+      "company": "01 Communique Laboratory Inc",
+      "ticker": "ONE",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "01 Communique Laboratory Inc (ONE) performed a 1 for 1 name and CUSIP change to 01 Quantum Inc. (ONE)."
+    },
+    {
+      "date": "2025-09-17",
+      "company": "Blue Sky Global Energy Corp",
+      "ticker": "BGE",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Blue Sky Global Energy Corp (BGE) performed a 1 for 1 name and CUSIP change to Saba Energy Ltd. (SABA)"
+    },
+    {
+      "date": "2025-09-17",
+      "company": "Palisades Goldcorp Limited",
+      "ticker": "PALI",
+      "action_type": "Other",
+      "ratio": "",
+      "action_details": "Palisades Goldcorp Limited (PALI) performed a reclassification. Holders will receive 1 new share of Palisades Goldcorp Limited (PALI) per old share held."
+    },
+    {
       "date": "2025-09-16",
       "company": "Vci Global Limited",
       "ticker": "VCIG",
@@ -15978,8 +16018,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1997,
-    "scraped_at": "2025-09-16T14:17:29.760626+00:00",
+    "total_actions": 2002,
+    "scraped_at": "2025-09-16T21:17:08.408312+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
