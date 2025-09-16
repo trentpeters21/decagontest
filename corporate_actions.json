@@ -41,6 +41,14 @@
       "action_details": "Allegiant Gold Limited (AUAU) performed a 1 for 1 name and CUSIP change to A2 Gold Corp. (AUAU)."
     },
     {
+      "date": "2025-09-16",
+      "company": "Stone Ridge Trust - Lifex 2051 Longevity Income ETF",
+      "ticker": "LFAJ",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Stone Ridge Trust - Lifex 2051 Longevity Income ETF (LFAJ) performed a merger. Details of the event are still to be determined."
+    },
+    {
       "date": "2025-09-15",
       "company": "Clearside Biomedical Inc",
       "ticker": "CLSD",
@@ -15970,8 +15978,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1996,
-    "scraped_at": "2025-09-15T21:17:12.830727+00:00",
+    "total_actions": 1997,
+    "scraped_at": "2025-09-16T14:17:29.760626+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
