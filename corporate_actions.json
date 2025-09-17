@@ -1,6 +1,30 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-09-18",
+      "company": "Athira Pharma Inc",
+      "ticker": "ATHA",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Athira Pharma Inc (ATHA) performed a 1 for 10 consolidation. Holders will now hold 1 share of Athira Pharma Inc (ATHA) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-09-18",
+      "company": "ECD Automotive Design Inc",
+      "ticker": "ECDA",
+      "action_type": "Consolidation",
+      "ratio": "1 for 40",
+      "action_details": "ECD Automotive Design Inc (ECDA) performed a 1 for 40 consolidation. Holders will now hold 1 share of ECD Automotive Design Inc (ECDA) for every 40 shares previously held."
+    },
+    {
+      "date": "2025-09-18",
+      "company": "Patriot Battery Metals Inc",
+      "ticker": "PMET",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Patriot Battery Metals Inc (PMET) performed a 1 for 1 name and CUSIP change to PMET Resources Inc. (PMET)."
+    },
+    {
       "date": "2025-09-17",
       "company": "Sequans Communications S.A.",
       "ticker": "SQNS",
@@ -39,6 +63,30 @@
       "action_type": "Other",
       "ratio": "",
       "action_details": "Palisades Goldcorp Limited (PALI) performed a reclassification. Holders will receive 1 new share of Palisades Goldcorp Limited (PALI) per old share held."
+    },
+    {
+      "date": "2025-09-17",
+      "company": "Nuclear Fuels Inc",
+      "ticker": "NF",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Nuclear Fuels Inc. (NF) performed a merger. Holders will receive 0.33 share of Premier American Uranium Inc (PUR) per share held."
+    },
+    {
+      "date": "2025-09-17",
+      "company": "Mount Logan Capital Inc",
+      "ticker": "MLC",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Mount Logan Capital Inc (MLC) performed a merger. Holders will receive 0.23685985 share of Mount Logan Capital Inc. (MLCI) per share held."
+    },
+    {
+      "date": "2025-09-17",
+      "company": "Y-Mabs Therapeutics Inc",
+      "ticker": "YMAB",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Y-Mabs Therapeutics Inc. (YMAB) performed a merger. Holders will receive 8.6 USD per share held."
     },
     {
       "date": "2025-09-16",
@@ -86,7 +134,7 @@
       "ticker": "LFAJ",
       "action_type": "Merger",
       "ratio": "",
-      "action_details": "Stone Ridge Trust - Lifex 2051 Longevity Income ETF (LFAJ) performed a merger. Details of the event are still to be determined."
+      "action_details": "Stone Ridge Trust - Lifex 2051 Longevity Income ETF (LFAJ) performed a merger. Holders will receive 0.88862593 share of LifeX 2055 Longevity Income ETF (LFAO) per share held."
     },
     {
       "date": "2025-09-15",
@@ -334,7 +382,7 @@
       "ticker": "QCON",
       "action_type": "Liquidation",
       "ratio": "",
-      "action_details": "American Century ETF Trust - Quality Convertible Securities ETF (QCON) performed a liquidation. Details of the event are still to be determined."
+      "action_details": "American Century ETF Trust - Quality Convertible Securities ETF (QCON) performed a liquidation. Holders will receive 48.032246 USD per share held."
     },
     {
       "date": "2025-09-09",
@@ -342,7 +390,7 @@
       "ticker": "QPFF",
       "action_type": "Liquidation",
       "ratio": "",
-      "action_details": "American Century ETF Trust - Quality ETF (QPFF) performed a liquidation. Details of the event are still to be determined."
+      "action_details": "American Century ETF Trust - Quality ETF (QPFF) performed a liquidation. Holders will receive 35.777064 USD per share held."
     },
     {
       "date": "2025-09-09",
@@ -16018,8 +16066,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 2002,
-    "scraped_at": "2025-09-17T14:16:35.963242+00:00",
+    "total_actions": 2008,
+    "scraped_at": "2025-09-17T21:16:19.917939+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
