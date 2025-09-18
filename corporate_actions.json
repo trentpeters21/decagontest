@@ -25,6 +25,14 @@
       "action_details": "Patriot Battery Metals Inc (PMET) performed a 1 for 1 name and CUSIP change to PMET Resources Inc. (PMET)."
     },
     {
+      "date": "2025-09-18",
+      "company": "HilleVax Inc",
+      "ticker": "HLVX",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "HilleVax Inc. (HLVX) performed a merger. Holders will receive 1 CVR of HilleVax Inc. plus 1.95 USD for each share previously held."
+    },
+    {
       "date": "2025-09-17",
       "company": "Sequans Communications S.A.",
       "ticker": "SQNS",
@@ -16066,8 +16074,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 2008,
-    "scraped_at": "2025-09-17T21:16:19.917939+00:00",
+    "total_actions": 2009,
+    "scraped_at": "2025-09-18T14:17:27.747426+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
