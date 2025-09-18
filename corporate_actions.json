@@ -1,6 +1,30 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-09-19",
+      "company": "Vor Biopharma Inc",
+      "ticker": "VOR",
+      "action_type": "Consolidation",
+      "ratio": "1 for 20",
+      "action_details": "Vor Biopharma Inc (VOR) performed a 1 for 20 consolidation. Holders will now hold 1 share of Vor Biopharma Inc (VOR) for every 20 shares previously held."
+    },
+    {
+      "date": "2025-09-19",
+      "company": "BioAffinity Technologies Inc",
+      "ticker": "BIAF",
+      "action_type": "Consolidation",
+      "ratio": "1 for 30",
+      "action_details": "BioAffinity Technologies Inc. (BIAF) performed a 1 for 30 consolidation. Holders will now hold 1 share of BioAffinity Technologies Inc. (BIAF) for every 30 shares previously held."
+    },
+    {
+      "date": "2025-09-19",
+      "company": "Hertz Energy Inc",
+      "ticker": "HZ",
+      "action_type": "Consolidation",
+      "ratio": "1 for 2.5",
+      "action_details": "Hertz Energy Inc. (HZ) performed a 1 for 2.5 consolidation. Holders will now hold 1 share of Hertz Energy Inc. (HZ) for every 2.5 shares previously held."
+    },
+    {
       "date": "2025-09-18",
       "company": "Athira Pharma Inc",
       "ticker": "ATHA",
@@ -31,6 +55,14 @@
       "action_type": "Merger",
       "ratio": "",
       "action_details": "HilleVax Inc. (HLVX) performed a merger. Holders will receive 1 CVR of HilleVax Inc. plus 1.95 USD for each share previously held."
+    },
+    {
+      "date": "2025-09-18",
+      "company": "Basin Uranium Corp",
+      "ticker": "NCLR",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Basin Uranium Corp. (NCLR) performed a merger. Holders will receive 1.098873768 shares of Nexus Uranium Corp (NEXU) plus 0.109887377 share of Blade Resources for each (NCLR) share previously held."
     },
     {
       "date": "2025-09-17",
@@ -855,6 +887,14 @@
       "action_type": "Dividend",
       "ratio": "",
       "action_details": "Global X Funds S&P 500 Quality Dividend Covered Call ETF (QDCC) performed a liquidation. Holders will receive 24.3881 USD per share held."
+    },
+    {
+      "date": "2025-08-29",
+      "company": "Walgreens Boots Alliance Inc",
+      "ticker": "WBA",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Walgreens Boots Alliance Inc. (WBA) performed a merger. Holders will receive 1 CVR of Walgreens Boots Alliance Inc. CVR plus 11.45 USD for each share previously held."
     },
     {
       "date": "2025-08-28",
@@ -16074,12 +16114,12 @@
     }
   ],
   "metadata": {
-    "total_actions": 2009,
-    "scraped_at": "2025-09-18T14:17:27.747426+00:00",
+    "total_actions": 2014,
+    "scraped_at": "2025-09-18T21:17:00.578463+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
-    "method_used": "selenium",
+    "method_used": "cloudscraper",
     "github_actions_compatible": true
   }
 }
