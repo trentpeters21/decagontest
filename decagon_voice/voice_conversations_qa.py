@@ -49,30 +49,52 @@ def run_satori_query(query):
     """Execute a SQL query using Satori CLI"""
     try:
         print("Executing query via Satori CLI...")
-        
-        # Use Satori CLI to execute the query
+
         cmd = [
-            'satori', 'run', 'psql', 
+            'satori', 'run', 'psql',
             '--no-launch-browser',
-            'Redshift - Prod', 
-            'pantheon', 
+            'Redshift - Prod',
+            'pantheon',
             '-c', query
         ]
-        
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
-        
-        if result.returncode != 0:
-            print(f"Satori CLI error: {result.stderr}")
-            return None
-            
-        print("Query executed successfully")
-        return parse_psql_results(result.stdout)
-        
-    except subprocess.TimeoutExpired:
-        print("Query timed out after 60 seconds")
+
+        # Up to 3 automatic retries (total 4 attempts including the first)
+        max_retries = 3
+        backoff_seconds = 2
+
+        for attempt_index in range(0, max_retries + 1):
+            try:
+                result = subprocess.run(cmd, capture_output=True, text=True, timeout=90)
+
+                # Non-zero return code -> retryable
+                if result.returncode != 0:
+                    print(f"Satori CLI error (attempt {attempt_index + 1}/{max_retries + 1}): {result.stderr.strip()}")
+                else:
+                    # Sometimes stdout can be empty on transient failures
+                    if result.stdout and result.stdout.strip():
+                        print("Query executed successfully")
+                        return parse_psql_results(result.stdout)
+                    else:
+                        print(f"Empty response from Satori (attempt {attempt_index + 1}/{max_retries + 1})")
+
+            except subprocess.TimeoutExpired:
+                print(f"Query timed out (attempt {attempt_index + 1}/{max_retries + 1})")
+            except Exception as e:
+                print(f"Error running Satori query (attempt {attempt_index + 1}/{max_retries + 1}): {e}")
+
+            # If we're here, we will retry unless we've exhausted attempts
+            if attempt_index < max_retries:
+                sleep_seconds = backoff_seconds * (2 ** attempt_index)
+                print(f"Retrying Satori query in {sleep_seconds} seconds...")
+                time.sleep(sleep_seconds)
+
+        # All attempts failed
+        print("Satori query failed after retries")
         return None
+
     except Exception as e:
-        print(f"Error running Satori query: {e}")
+        # Catch-all just in case
+        print(f"Unexpected error preparing Satori command: {e}")
         return None
 
 def parse_psql_results(output):
@@ -99,19 +121,24 @@ def parse_psql_results(output):
         # Split by | and clean up
         parts = [part.strip() for part in line.split('|')]
         
-        if len(parts) >= 9:  # We expect 9 columns for QA query
-            # QA query columns: decagon_conversation_link, five9_conversation_link, zendesk_ticket_link, 
-            # routing_department, skill, abandoned, created_at_est, created_at_utc, conversation_id
+        # Expected 12 columns now:
+        # decagon_link, zendesk_link, five9_call_id, decagon_routing,
+        # actual_skill, expected_skill, is_match, abandoned,
+        # chat_created_ts_est, chat_created_ts, is_deflected, conversation_id
+        if len(parts) >= 12:
             conversation = {
-                'decagon_conversation_link': parts[0] if len(parts) > 0 else '',
-                'five9_conversation_link': parts[1] if len(parts) > 1 else '',
-                'zendesk_ticket_link': parts[2] if len(parts) > 2 else '',
-                'routing_department': parts[3] if len(parts) > 3 else '',
-                'skill': parts[4] if len(parts) > 4 else '',
-                'abandoned': parts[5] if len(parts) > 5 else '',
-                'created_at_est': parts[6] if len(parts) > 6 else '',
-                'created_at_utc': parts[7] if len(parts) > 7 else '',
-                'conversation_id': parts[8] if len(parts) > 8 else ''
+                'decagon_link': parts[0] if len(parts) > 0 else '',
+                'zendesk_link': parts[1] if len(parts) > 1 else '',
+                'five9_call_id': parts[2] if len(parts) > 2 else '',
+                'decagon_routing': parts[3] if len(parts) > 3 else '',
+                'actual_skill': parts[4] if len(parts) > 4 else '',
+                'expected_skill': parts[5] if len(parts) > 5 else '',
+                'is_match': parts[6] if len(parts) > 6 else '',
+                'abandoned': parts[7] if len(parts) > 7 else '',
+                'chat_created_ts_est': parts[8] if len(parts) > 8 else '',
+                'chat_created_ts': parts[9] if len(parts) > 9 else '',
+                'is_deflected': parts[10] if len(parts) > 10 else '',
+                'conversation_id': parts[11] if len(parts) > 11 else ''
             }
             conversations.append(conversation)
     
@@ -135,14 +162,17 @@ def get_voice_conversations_from_database():
 def send_to_workato_webhook(conversation, webhook_url, max_retries=3):
     """Send conversation data to Workato webhook with retry logic"""
     payload = {
-        "decagon_conversation_link": conversation.get("decagon_conversation_link"),
-        "five9_conversation_link": conversation.get("five9_conversation_link"),
-        "zendesk_ticket_link": conversation.get("zendesk_ticket_link"),
-        "routing_department": conversation.get("routing_department"),
-        "skill": conversation.get("skill"),
+        "decagon_link": conversation.get("decagon_link"),
+        "zendesk_link": conversation.get("zendesk_link"),
+        "five9_call_id": conversation.get("five9_call_id"),
+        "decagon_routing": conversation.get("decagon_routing"),
+        "actual_skill": conversation.get("actual_skill"),
+        "expected_skill": conversation.get("expected_skill"),
+        "is_match": conversation.get("is_match"),
         "abandoned": conversation.get("abandoned"),
-        "created_at_est": conversation.get("created_at_est"),
-        "created_at_utc": conversation.get("created_at_utc"),
+        "chat_created_ts_est": conversation.get("chat_created_ts_est"),
+        "chat_created_ts": conversation.get("chat_created_ts"),
+        "is_deflected": conversation.get("is_deflected"),
         "conversation_id": conversation.get("conversation_id")
     }
     

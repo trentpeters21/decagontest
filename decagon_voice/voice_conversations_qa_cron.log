@@ -1,0 +1,9 @@
+[2025-09-16 08:29:27] Starting voice conversations QA fetch...
+=== Voice Conversations QA Data Fetcher ===
+Using Satori CLI to connect to Redshift - Prod database
+Fetching conversations from the last 12 hours (per SQL filter)
+Executing query via Satori CLI...
+Query executed successfully
+No voice conversations found
+[2025-09-16 08:29:28] QA fetch completed successfully
+[2025-09-16 08:29:28] Cron job finished
