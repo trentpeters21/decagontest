@@ -1,6 +1,38 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-09-22",
+      "company": "Oberon Uranium Corp",
+      "ticker": "OBRN",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Oberon Uranium Corp (OBRN) performed a name change and a 1 for 10 consolidation. Holders will now hold 1 share of New Earth Resources Corp. (EATH) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-09-22",
+      "company": "Bollinger Innovations Inc",
+      "ticker": "BINI",
+      "action_type": "Consolidation",
+      "ratio": "1 for 250",
+      "action_details": "Bollinger Innovations Inc. (BINI) performed a 1 for 250 consolidation. Holders will now hold 1 share of Bollinger Innovations Inc. (BINI) for every 250 shares previously held."
+    },
+    {
+      "date": "2025-09-22",
+      "company": "N2OFF Inc",
+      "ticker": "SVFD",
+      "action_type": "Consolidation",
+      "ratio": "1 for 35",
+      "action_details": "N2OFF Inc. (SVFD) performed a 1 for 35 consolidation. Holders will now hold 1 share of N2OFF Inc. (SVFD) for every 35 shares previously held."
+    },
+    {
+      "date": "2025-09-22",
+      "company": "Global Medical REIT Inc",
+      "ticker": "GMRE",
+      "action_type": "Consolidation",
+      "ratio": "1 for 5",
+      "action_details": "Global Medical REIT Inc. (GMRE) performed a 1 for 5 consolidation. Holders will now hold 1 share of Global Medical REIT Inc. (GMRE) for every 5 shares previously held."
+    },
+    {
       "date": "2025-09-19",
       "company": "Vor Biopharma Inc",
       "ticker": "VOR",
@@ -16138,8 +16170,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 2017,
-    "scraped_at": "2025-09-19T14:16:22.290056+00:00",
+    "total_actions": 2021,
+    "scraped_at": "2025-09-19T21:16:30.265485+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
