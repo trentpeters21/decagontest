@@ -18,16 +18,16 @@ python setup_google_credentials.py
 
 #### Option B: Manual setup
 1. Download the service account JSON key for `ai-experiences@decagon-461902.iam.gserviceaccount.com`
-2. Save it as `decagon-voice-service-account.json` in this directory
+2. Save it as `secrets.json` in this directory
 3. Set the environment variable:
    ```bash
-   export GOOGLE_APPLICATION_CREDENTIALS=/path/to/decagon-voice-service-account.json
+   export GOOGLE_APPLICATION_CREDENTIALS=/path/to/secrets.json
    ```
 
 ### 3. Verify Google Sheet Access
 Make sure the service account has edit access to:
 - **Sheet ID**: `1JHZ1eqoQBIHbNqRvx902x10wOgqhL_N4QLnEp834x1k`
-- **Tab**: `Old`
+- **Tab**: `AI_Voice_QA`
 
 ## Usage
 
@@ -77,6 +77,6 @@ pip install --upgrade -r requirements.txt
 
 The system uses these configuration values:
 - **Google Sheet ID**: `1JHZ1eqoQBIHbNqRvx902x10wOgqhL_N4QLnEp834x1k`
-- **Sheet Tab**: `Old`
+- **Sheet Tab**: `AI_Voice_QA`
 - **Service Account**: `ai-experiences@decagon-461902.iam.gserviceaccount.com`
-- **Tracking File**: `processed_conversations.json`
+- **Credentials File**: `secrets.json`

@@ -8,6 +8,9 @@ warehouse.env.local
 *.json
 !last_warehouse_run.json
 
+# Google credentials (contains sensitive information)
+secrets.json
+
 # Voice conversations data (contains sensitive information)
 voice_conversations_warehouse.json
 

@@ -188,15 +188,14 @@ def get_google_sheets_client():
         if creds_path and os.path.exists(creds_path):
             creds = Credentials.from_service_account_file(creds_path, scopes=scopes)
         else:
-            # Try to find service account JSON in current directory
-            service_account_files = [f for f in os.listdir('.') if f.endswith('.json') and 'service' in f.lower()]
-            if service_account_files:
-                creds = Credentials.from_service_account_file(service_account_files[0], scopes=scopes)
+            # Try to find secrets.json in current directory
+            if os.path.exists('secrets.json'):
+                creds = Credentials.from_service_account_file('secrets.json', scopes=scopes)
             else:
                 print("No Google service account credentials found.")
                 print("Please either:")
                 print("1. Set GOOGLE_APPLICATION_CREDENTIALS environment variable to your service account JSON file")
-                print("2. Place your service account JSON file in the project directory")
+                print("2. Place your service account JSON file as 'secrets.json' in the project directory")
                 return None
         
         # Create the client
