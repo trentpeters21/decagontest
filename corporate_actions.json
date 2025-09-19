@@ -1,6 +1,158 @@
 {
   "corporate_actions": [
     {
+      "date": "2025-09-19",
+      "company": "Vor Biopharma Inc",
+      "ticker": "VOR",
+      "action_type": "Consolidation",
+      "ratio": "1 for 20",
+      "action_details": "Vor Biopharma Inc (VOR) performed a 1 for 20 consolidation. Holders will now hold 1 share of Vor Biopharma Inc (VOR) for every 20 shares previously held."
+    },
+    {
+      "date": "2025-09-19",
+      "company": "BioAffinity Technologies Inc",
+      "ticker": "BIAF",
+      "action_type": "Consolidation",
+      "ratio": "1 for 30",
+      "action_details": "BioAffinity Technologies Inc. (BIAF) performed a 1 for 30 consolidation. Holders will now hold 1 share of BioAffinity Technologies Inc. (BIAF) for every 30 shares previously held."
+    },
+    {
+      "date": "2025-09-19",
+      "company": "Hertz Energy Inc",
+      "ticker": "HZ",
+      "action_type": "Consolidation",
+      "ratio": "1 for 2.5",
+      "action_details": "Hertz Energy Inc. (HZ) performed a 1 for 2.5 consolidation. Holders will now hold 1 share of Hertz Energy Inc. (HZ) for every 2.5 shares previously held."
+    },
+    {
+      "date": "2025-09-19",
+      "company": "Investment Managers Series Trust II - Axs Real Estate Income ETF",
+      "ticker": "RINC",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "Investment Managers Series Trust II - Axs Real Estate Income ETF (RINC) performed a liquidation. Details of the event are still to be determined."
+    },
+    {
+      "date": "2025-09-19",
+      "company": "BNY Mellon ETF Trust - Innovators ETF",
+      "ticker": "BKIV",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "BNY Mellon ETF Trust - Innovators ETF (BKIV) performed a liquidation. Details of the event are still to be determined."
+    },
+    {
+      "date": "2025-09-19",
+      "company": "Sun Residential Real Estate Investment Trust",
+      "ticker": "SRES",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "Sun Residential Real Estate Investment Trust (SRES) performed a liquidation. Holders will receive 0.00445 CAD per share held."
+    },
+    {
+      "date": "2025-09-18",
+      "company": "Athira Pharma Inc",
+      "ticker": "ATHA",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Athira Pharma Inc (ATHA) performed a 1 for 10 consolidation. Holders will now hold 1 share of Athira Pharma Inc (ATHA) for every 10 shares previously held."
+    },
+    {
+      "date": "2025-09-18",
+      "company": "ECD Automotive Design Inc",
+      "ticker": "ECDA",
+      "action_type": "Consolidation",
+      "ratio": "1 for 40",
+      "action_details": "ECD Automotive Design Inc (ECDA) performed a 1 for 40 consolidation. Holders will now hold 1 share of ECD Automotive Design Inc (ECDA) for every 40 shares previously held."
+    },
+    {
+      "date": "2025-09-18",
+      "company": "Patriot Battery Metals Inc",
+      "ticker": "PMET",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Patriot Battery Metals Inc (PMET) performed a 1 for 1 name and CUSIP change to PMET Resources Inc. (PMET)."
+    },
+    {
+      "date": "2025-09-18",
+      "company": "HilleVax Inc",
+      "ticker": "HLVX",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "HilleVax Inc. (HLVX) performed a merger. Holders will receive 1 CVR of HilleVax Inc. plus 1.95 USD for each share previously held."
+    },
+    {
+      "date": "2025-09-18",
+      "company": "Basin Uranium Corp",
+      "ticker": "NCLR",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Basin Uranium Corp. (NCLR) performed a merger. Holders will receive 1.098873768 shares of Nexus Uranium Corp (NEXU) plus 0.109887377 share of Blade Resources for each (NCLR) share previously held."
+    },
+    {
+      "date": "2025-09-17",
+      "company": "Sequans Communications S.A.",
+      "ticker": "SQNS",
+      "action_type": "Consolidation",
+      "ratio": "1 for 10",
+      "action_details": "Sequans Communications S.A. (SQNS) performed a 1 for 10 consolidation. Holders will now hold 1 ADR of Sequans Communications S.A. (SQNS) for every 10 ADR previously held."
+    },
+    {
+      "date": "2025-09-17",
+      "company": "Taurus Gold Corp",
+      "ticker": "TAUR",
+      "action_type": "Consolidation",
+      "ratio": "1 for 4",
+      "action_details": "Taurus Gold Corp. (TAUR) performed a 1 for 4 consolidation. Holders will now hold 1 share of Taurus Gold Corp. (TAUR) for every 4 share previously held."
+    },
+    {
+      "date": "2025-09-17",
+      "company": "01 Communique Laboratory Inc",
+      "ticker": "ONE",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "01 Communique Laboratory Inc (ONE) performed a 1 for 1 name and CUSIP change to 01 Quantum Inc. (ONE)."
+    },
+    {
+      "date": "2025-09-17",
+      "company": "Blue Sky Global Energy Corp",
+      "ticker": "BGE",
+      "action_type": "Other",
+      "ratio": "1 for 1",
+      "action_details": "Blue Sky Global Energy Corp (BGE) performed a 1 for 1 name and CUSIP change to Saba Energy Ltd. (SABA)"
+    },
+    {
+      "date": "2025-09-17",
+      "company": "Palisades Goldcorp Limited",
+      "ticker": "PALI",
+      "action_type": "Other",
+      "ratio": "",
+      "action_details": "Palisades Goldcorp Limited (PALI) performed a reclassification. Holders will receive 1 new share of Palisades Goldcorp Limited (PALI) per old share held."
+    },
+    {
+      "date": "2025-09-17",
+      "company": "Nuclear Fuels Inc",
+      "ticker": "NF",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Nuclear Fuels Inc. (NF) performed a merger. Holders will receive 0.33 share of Premier American Uranium Inc (PUR) per share held."
+    },
+    {
+      "date": "2025-09-17",
+      "company": "Mount Logan Capital Inc",
+      "ticker": "MLC",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Mount Logan Capital Inc (MLC) performed a merger. Holders will receive 0.23685985 share of Mount Logan Capital Inc. (MLCI) per share held."
+    },
+    {
+      "date": "2025-09-17",
+      "company": "Y-Mabs Therapeutics Inc",
+      "ticker": "YMAB",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Y-Mabs Therapeutics Inc. (YMAB) performed a merger. Holders will receive 8.6 USD per share held."
+    },
+    {
       "date": "2025-09-16",
       "company": "Vci Global Limited",
       "ticker": "VCIG",
@@ -39,6 +191,14 @@
       "action_type": "Other",
       "ratio": "1 for 1",
       "action_details": "Allegiant Gold Limited (AUAU) performed a 1 for 1 name and CUSIP change to A2 Gold Corp. (AUAU)."
+    },
+    {
+      "date": "2025-09-16",
+      "company": "Stone Ridge Trust - Lifex 2051 Longevity Income ETF",
+      "ticker": "LFAJ",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Stone Ridge Trust - Lifex 2051 Longevity Income ETF (LFAJ) performed a merger. Holders will receive 0.88862593 share of LifeX 2055 Longevity Income ETF (LFAO) per share held."
     },
     {
       "date": "2025-09-15",
@@ -286,7 +446,7 @@
       "ticker": "QCON",
       "action_type": "Liquidation",
       "ratio": "",
-      "action_details": "American Century ETF Trust - Quality Convertible Securities ETF (QCON) performed a liquidation. Details of the event are still to be determined."
+      "action_details": "American Century ETF Trust - Quality Convertible Securities ETF (QCON) performed a liquidation. Holders will receive 48.032246 USD per share held."
     },
     {
       "date": "2025-09-09",
@@ -294,7 +454,7 @@
       "ticker": "QPFF",
       "action_type": "Liquidation",
       "ratio": "",
-      "action_details": "American Century ETF Trust - Quality ETF (QPFF) performed a liquidation. Details of the event are still to be determined."
+      "action_details": "American Century ETF Trust - Quality ETF (QPFF) performed a liquidation. Holders will receive 35.777064 USD per share held."
     },
     {
       "date": "2025-09-09",
@@ -751,6 +911,14 @@
       "action_type": "Dividend",
       "ratio": "",
       "action_details": "Global X Funds S&P 500 Quality Dividend Covered Call ETF (QDCC) performed a liquidation. Holders will receive 24.3881 USD per share held."
+    },
+    {
+      "date": "2025-08-29",
+      "company": "Walgreens Boots Alliance Inc",
+      "ticker": "WBA",
+      "action_type": "Merger",
+      "ratio": "",
+      "action_details": "Walgreens Boots Alliance Inc. (WBA) performed a merger. Holders will receive 1 CVR of Walgreens Boots Alliance Inc. CVR plus 11.45 USD for each share previously held."
     },
     {
       "date": "2025-08-28",
@@ -15970,8 +16138,8 @@
     }
   ],
   "metadata": {
-    "total_actions": 1996,
-    "scraped_at": "2025-09-15T21:17:12.830727+00:00",
+    "total_actions": 2017,
+    "scraped_at": "2025-09-19T14:16:22.290056+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
