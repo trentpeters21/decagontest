@@ -25,6 +25,30 @@
       "action_details": "Hertz Energy Inc. (HZ) performed a 1 for 2.5 consolidation. Holders will now hold 1 share of Hertz Energy Inc. (HZ) for every 2.5 shares previously held."
     },
     {
+      "date": "2025-09-19",
+      "company": "Investment Managers Series Trust II - Axs Real Estate Income ETF",
+      "ticker": "RINC",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "Investment Managers Series Trust II - Axs Real Estate Income ETF (RINC) performed a liquidation. Details of the event are still to be determined."
+    },
+    {
+      "date": "2025-09-19",
+      "company": "BNY Mellon ETF Trust - Innovators ETF",
+      "ticker": "BKIV",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "BNY Mellon ETF Trust - Innovators ETF (BKIV) performed a liquidation. Details of the event are still to be determined."
+    },
+    {
+      "date": "2025-09-19",
+      "company": "Sun Residential Real Estate Investment Trust",
+      "ticker": "SRES",
+      "action_type": "Liquidation",
+      "ratio": "",
+      "action_details": "Sun Residential Real Estate Investment Trust (SRES) performed a liquidation. Holders will receive 0.00445 CAD per share held."
+    },
+    {
       "date": "2025-09-18",
       "company": "Athira Pharma Inc",
       "ticker": "ATHA",
@@ -16114,12 +16138,12 @@
     }
   ],
   "metadata": {
-    "total_actions": 2014,
-    "scraped_at": "2025-09-18T21:17:00.578463+00:00",
+    "total_actions": 2017,
+    "scraped_at": "2025-09-19T14:16:22.290056+00:00",
     "source_url": "https://help.wealthsimple.com/hc/en-ca/articles/4415455710363-Corporate-actions-tracker",
     "scraper_version": "1.4",
     "status": "success",
-    "method_used": "cloudscraper",
+    "method_used": "selenium",
     "github_actions_compatible": true
   }
 }
